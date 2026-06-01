@@ -544,6 +544,7 @@
                 <div class="flex justify-center items-center gap-4 mb-4">
                     <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">Part <span id="listenPart">1</span></span>
                     <span class="text-gray-500">第 <span id="listenProgress">1</span> / <span id="listenTotal">23</span> 题</span>
+                    <span id="listenType" class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-semibold hidden"></span>
                 </div>
                 <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-6 mb-6">
                     <p class="text-lg text-gray-800 mb-4" id="listenQuestion"></p>
@@ -1509,9 +1510,175 @@
             cpe: ["Should you have any questions, please do not hesitate to contact me.", "Under no circumstances should we compromise on quality.", "Rarely have I encountered such dedication.", "Little did I realize the implications of my decision.", "It is imperative that we address this immediately."]
         };
 
+        // 语法专项听力题库（每个语法点50题）
+        const grammarListeningData = {
+            // 一般现在时（Present Simple）
+            present_simple: [
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'She _____ to school every day.', audio: 'She goes to school every day.', options: ['go', 'goes', 'going', 'went'], answer: 1, explanation: '一般现在时中，主语为第三人称单数（she/he/it）时，动词要加-s或-es。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'I _____ coffee every morning.', audio: 'I drink coffee every morning.', options: ['drink', 'drinks', 'drinking', 'drank'], answer: 0, explanation: '一般现在时中，主语为第一人称（I）或复数时，动词用原形。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'He never _____ junk food.', audio: 'He never eats junk food.', options: ['eat', 'eats', 'eating', 'ate'], answer: 1, explanation: '一般现在时中，主语为第三人称单数时，动词加-s。频率副词（never）放在动词前面。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'My mother _____ breakfast at 7 AM.', audio: 'My mother makes breakfast at 7 AM.', options: ['make', 'makes', 'making', 'made'], answer: 1, explanation: 'My mother是第三人称单数，动词make要加-s变成makes。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The sun _____ in the east.', audio: 'The sun rises in the east.', options: ['rise', 'rises', 'rising', 'rose'], answer: 1, explanation: 'The sun是第三人称单数，动词rise要加-s变成rises。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Dogs _____ four legs.', audio: 'Dogs have four legs.', options: ['has', 'have', 'having', 'had'], answer: 1, explanation: 'Dogs是复数名词，动词用原形have。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'She _____ piano every weekend.', audio: 'She plays piano every weekend.', options: ['play', 'plays', 'playing', 'played'], answer: 1, explanation: 'She是第三人称单数，动词play要加-s变成plays。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'I usually _____ TV after dinner.', audio: 'I usually watch TV after dinner.', options: ['watch', 'watches', 'watching', 'watched'], answer: 0, explanation: 'I是第一人称，动词用原形watch。频率副词usually放在动词前。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Water _____ at 100 degrees.', audio: 'Water boils at 100 degrees.', options: ['boil', 'boils', 'boiling', 'boiled'], answer: 1, explanation: 'Water作为物质名词表示整体概念时，动词用第三人称单数。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'They _____ in London.', audio: 'They live in London.', options: ['live', 'lives', 'living', 'lived'], answer: 0, explanation: 'They是复数主语，动词用原形live。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The train _____ at 8 PM.', audio: 'The train leaves at 8 PM.', options: ['leave', 'leaves', 'leaving', 'left'], answer: 1, explanation: 'The train是第三人称单数，动词leave要加-es变成leaves。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'My dad _____ newspapers in the morning.', audio: 'My dad reads newspapers in the morning.', options: ['read', 'reads', 'reading', 'readed'], answer: 1, explanation: 'My dad是第三人称单数，read的第三人称单数形式是reads（发音不同）。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Cats _____ mice.', audio: 'Cats catch mice.', options: ['catch', 'catches', 'catching', 'caught'], answer: 1, explanation: 'Cats是复数，动词用原形catch。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'It _____ a lot in spring.', audio: 'It rains a lot in spring.', options: ['rain', 'rains', 'raining', 'rained'], answer: 1, explanation: 'It指天气时是第三人称单数，动词rain要加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'She always _____ early.', audio: 'She always arrives early.', options: ['arrive', 'arrives', 'arriving', 'arrived'], answer: 1, explanation: 'She是第三人称单数，动词arrive要加-s。频率副词always放在动词前。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'We often _____ basketball after school.', audio: 'We often play basketball after school.', options: ['play', 'plays', 'playing', 'played'], answer: 0, explanation: 'We是复数主语，动词用原形play。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The earth _____ around the sun.', audio: 'The earth moves around the sun.', options: ['move', 'moves', 'moving', 'moved'], answer: 1, explanation: 'The earth是第三人称单数，动词move要加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'My sister _____ her homework first.', audio: 'My sister finishes her homework first.', options: ['finish', 'finishes', 'finishing', 'finished'], answer: 1, explanation: 'My sister是第三人称单数，动词finish要加-es。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Birds _____ in the sky.', audio: 'Birds fly in the sky.', options: ['fly', 'flies', 'flying', 'flew'], answer: 1, explanation: 'Birds是复数，动词用原形fly。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'He rarely _____ fast food.', audio: 'He rarely eats fast food.', options: ['eat', 'eats', 'eating', 'ate'], answer: 1, explanation: 'He是第三人称单数，动词加-s。频率副词rarely表示否定意义。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'I _____ milk in my coffee.', audio: 'I prefer milk in my coffee.', options: ['prefer', 'prefers', 'preferring', 'preferred'], answer: 0, explanation: 'I是第一人称，动词用原形prefer。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The shop _____ at 9 AM.', audio: 'The shop opens at 9 AM.', options: ['open', 'opens', 'opening', 'opened'], answer: 1, explanation: 'The shop是第三人称单数，动词open加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'She _____ two languages.', audio: 'She speaks two languages.', options: ['speak', 'speaks', 'speaking', 'spoke'], answer: 1, explanation: 'She是第三人称单数，speak要加-s变成speaks。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Children _____ candy.', audio: 'Children like candy.', options: ['like', 'likes', 'liking', 'liked'], answer: 0, explanation: 'Children是复数名词，动词用原形like。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'My grandmother _____ gardening.', audio: 'My grandmother enjoys gardening.', options: ['enjoy', 'enjoys', 'enjoying', 'enjoyed'], answer: 1, explanation: 'My grandmother是第三人称单数，动词enjoy要加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The clock _____ twelve times a day.', audio: 'The clock strikes twelve times a day.', options: ['strike', 'strikes', 'striking', 'struck'], answer: 1, explanation: 'The clock是第三人称单数，动词strike要加-es。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'You _____ very hard.', audio: 'You work very hard.', options: ['work', 'works', 'working', 'worked'], answer: 0, explanation: 'You无论是单数还是复数，动词都用原形。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Her brother _____ in a hospital.', audio: 'Her brother works in a hospital.', options: ['work', 'works', 'working', 'worked'], answer: 1, explanation: 'Her brother是第三人称单数，动词work加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Fish _____ in water.', audio: 'Fish live in water.', options: ['live', 'lives', 'living', 'lived'], answer: 1, explanation: 'Fish可用作复数名词指多种鱼，动词用lives。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The teacher _____ books to the students.', audio: 'The teacher reads books to the students.', options: ['read', 'reads', 'reading', 'readed'], answer: 1, explanation: 'The teacher是第三人称单数。read的第三人称单数加-s后发音为/redz/。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'We never _____ without permission.', audio: 'We never leave without permission.', options: ['leave', 'leaves', 'leaving', 'left'], answer: 0, explanation: 'We是复数，动词用原形leave。never是否定频率副词。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'A week _____ seven days.', audio: 'A week has seven days.', options: ['have', 'has', 'having', 'had'], answer: 1, explanation: 'A week是第三人称单数，用has。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The baby _____ every night.', audio: 'The baby cries every night.', options: ['cry', 'cries', 'crying', 'cried'], answer: 1, explanation: 'The baby是第三人称单数，cry要加-ies变成cries。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Our team _____ every Saturday.', audio: 'Our team practices every Saturday.', options: ['practice', 'practices', 'practicing', 'practiced'], answer: 1, explanation: 'Our team作为整体时是第三人称单数，动词加-es。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'I usually _____ tea rather than coffee.', audio: 'I usually prefer tea rather than coffee.', options: ['prefer', 'prefers', 'preferring', 'preferred'], answer: 0, explanation: 'I是第一人称，动词用原形。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'My father _____ the newspaper.', audio: 'My father buys the newspaper.', options: ['buy', 'buys', 'buying', 'bought'], answer: 1, explanation: 'My father是第三人称单数，buy要加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'A lion _____ meat.', audio: 'A lion eats meat.', options: ['eat', 'eats', 'eating', 'ate'], answer: 1, explanation: 'A lion是第三人称单数，动词加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'She _____ her room on Sundays.', audio: 'She cleans her room on Sundays.', options: ['clean', 'cleans', 'cleaning', 'cleaned'], answer: 1, explanation: 'She是第三人称单数，动词加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'My grandparents _____ in the countryside.', audio: 'My grandparents live in the countryside.', options: ['live', 'lives', 'living', 'lived'], answer: 0, explanation: 'My grandparents是复数，动词用原形live。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The bus _____ here every hour.', audio: 'The bus stops here every hour.', options: ['stop', 'stops', 'stopping', 'stopped'], answer: 1, explanation: 'The bus是第三人称单数，动词stop要加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'I _____ with my hands.', audio: 'I write with my hands.', options: ['write', 'writes', 'writing', 'wrote'], answer: 0, explanation: 'I是第一人称，动词用原形write。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'He sometimes _____ until midnight.', audio: 'He sometimes works until midnight.', options: ['work', 'works', 'working', 'worked'], answer: 1, explanation: 'He是第三人称单数。sometimes是频率副词。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The restaurant _____ at 10 PM.', audio: 'The restaurant closes at 10 PM.', options: ['close', 'closes', 'closing', 'closed'], answer: 1, explanation: 'The restaurant是第三人称单数，动词close加-es。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'My mother _____ in the kitchen.', audio: 'My mother cooks in the kitchen.', options: ['cook', 'cooks', 'cooking', 'cooked'], answer: 1, explanation: 'My mother是第三人称单数，动词cook加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Students _____ to learn.', audio: 'Students need to learn.', options: ['need', 'needs', 'needing', 'needed'], answer: 0, explanation: 'Students是复数，动词用原形need。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'It _____ like a good idea.', audio: 'It sounds like a good idea.', options: ['sound', 'sounds', 'sounding', 'sounded'], answer: 1, explanation: 'It是第三人称单数，动词sound加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'Trees _____ leaves in autumn.', audio: 'Trees lose leaves in autumn.', options: ['lose', 'loses', 'losing', 'lost'], answer: 1, explanation: 'Trees是复数，动词用loses。注意lose表示"失去"。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'She _____ a nice person.', audio: 'She seems a nice person.', options: ['seem', 'seems', 'seeming', 'seemed'], answer: 1, explanation: 'She是第三人称单数，动词seem加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'The movie _____ at 7 PM.', audio: 'The movie starts at 7 PM.', options: ['start', 'starts', 'starting', 'started'], answer: 1, explanation: 'The movie是第三人称单数，动词start加-s。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'I _____ on the left side of the street.', audio: 'I drive on the left side of the street.', options: ['drive', 'drives', 'driving', 'drove'], answer: 0, explanation: 'I是第一人称，动词用原形drive。' },
+                { part: 'grammar', type: 'tense', topic: 'present_simple', question: 'His eyes _____ blue.', audio: 'His eyes are blue.', options: ['is', 'are', 'be', 'being'], answer: 1, explanation: 'His eyes是复数含义，系动词用are。' }
+            ],
+            
+            // 一般过去时（Past Simple）
+            past_simple: [
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ to Paris last year.', audio: 'She went to Paris last year.', options: ['go', 'goes', 'gone', 'went'], answer: 3, explanation: '一般过去时中，go的过去式是不规则变化went。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'I _____ my keys yesterday.', audio: 'I lost my keys yesterday.', options: ['lose', 'loses', 'lost', 'losing'], answer: 2, explanation: '一般过去时中，lose的过去式是lost。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'They _____ a lot of money.', audio: 'They spent a lot of money.', options: ['spend', 'spends', 'spent', 'spending'], answer: 2, explanation: '一般过去时中，spend的过去式是不规则变化spent。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'He _____ basketball yesterday.', audio: 'He played basketball yesterday.', options: ['play', 'plays', 'playing', 'played'], answer: 3, explanation: '一般过去时中，play的过去式是played（规则变化）。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'We _____ dinner at 7 PM.', audio: 'We had dinner at 7 PM.', options: ['have', 'has', 'had', 'having'], answer: 2, explanation: '一般过去时中，have的过去式是不规则变化had。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'The train _____ one hour ago.', audio: 'The train arrived one hour ago.', options: ['arrive', 'arrives', 'arrived', 'arriving'], answer: 2, explanation: '一般过去时中，arrive的过去式是arrived（规则变化加-ed）。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ the book in one day.', audio: 'She finished the book in one day.', options: ['finish', 'finishes', 'finished', 'finishing'], answer: 2, explanation: '一般过去时中，finish的过去式是finished。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'I _____ him at the party.', audio: 'I met him at the party.', options: ['meet', 'meets', 'met', 'meeting'], answer: 2, explanation: '一般过去时中，meet的过去式是不规则变化met。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'He _____ to work by bus.', audio: 'He went to work by bus.', options: ['go', 'goes', 'going', 'went'], answer: 3, explanation: '一般过去时中，go的过去式是went。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'We _____ a beautiful beach.', audio: 'We found a beautiful beach.', options: ['find', 'finds', 'found', 'finding'], answer: 2, explanation: '一般过去时中，find的过去式是不规则变化found。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ her homework last night.', audio: 'She did her homework last night.', options: ['do', 'does', 'done', 'did'], answer: 3, explanation: '一般过去时中，do的过去式是不规则变化did。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'I _____ a new car last month.', audio: 'I bought a new car last month.', options: ['buy', 'buys', 'bought', 'buying'], answer: 2, explanation: '一般过去时中，buy的过去式是不规则变化bought。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'They _____ at the hotel.', audio: 'They stayed at the hotel.', options: ['stay', 'stays', 'stayed', 'staying'], answer: 2, explanation: '一般过去时中，stay的过去式是stayed。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'The movie _____ at 9 PM.', audio: 'The movie started at 9 PM.', options: ['start', 'starts', 'started', 'starting'], answer: 2, explanation: '一般过去时中，start的过去式是started。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ very happy.', audio: 'She looked very happy.', options: ['look', 'looks', 'looked', 'looking'], answer: 2, explanation: '一般过去时中，look的过去式是looked。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'He _____ the truth.', audio: 'He told the truth.', options: ['tell', 'tells', 'told', 'telling'], answer: 2, explanation: '一般过去时中，tell的过去式是不规则变化told。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'We _____ the exam easily.', audio: 'We passed the exam easily.', options: ['pass', 'passes', 'passed', 'passing'], answer: 2, explanation: '一般过去时中，pass的过去式是passed（规则变化加-ed）。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'I _____ my phone at home.', audio: 'I left my phone at home.', options: ['leave', 'leaves', 'left', 'leaving'], answer: 2, explanation: '一般过去时中，leave的过去式是不规则变化left。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ for the train.', audio: 'She waited for the train.', options: ['wait', 'waits', 'waited', 'waiting'], answer: 2, explanation: '一般过去时中，wait的过去式是waited。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'He _____ a big mistake.', audio: 'He made a big mistake.', options: ['make', 'makes', 'made', 'making'], answer: 2, explanation: '一般过去时中，make的过去式是不规则变化made。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'The children _____ in the park.', audio: 'The children played in the park.', options: ['play', 'plays', 'played', 'playing'], answer: 2, explanation: '一般过去时中，play的过去式是played。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'I _____ my grandmother yesterday.', audio: 'I visited my grandmother yesterday.', options: ['visit', 'visits', 'visited', 'visiting'], answer: 2, explanation: '一般过去时中，visit的过去式是visited。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ the window.', audio: 'She opened the window.', options: ['open', 'opens', 'opened', 'opening'], answer: 2, explanation: '一般过去时中，open的过去式是opened。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'They _____ early this morning.', audio: 'They left early this morning.', options: ['leave', 'leaves', 'left', 'leaving'], answer: 2, explanation: '一般过去时中，leave的过去式是left。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'He _____ his leg last week.', audio: 'He broke his leg last week.', options: ['break', 'breaks', 'broke', 'broken'], answer: 2, explanation: '一般过去时中，break的过去式是不规则变化broke。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'The sun _____ at 6 AM.', audio: 'The sun rose at 6 AM.', options: ['rise', 'rises', 'rose', 'rising'], answer: 2, explanation: '一般过去时中，rise的过去式是不规则变化rose。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ the door.', audio: 'She closed the door.', options: ['close', 'closes', 'closed', 'closing'], answer: 2, explanation: '一般过去时中，close的过去式是closed。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'We _____ the news yesterday.', audio: 'We heard the news yesterday.', options: ['hear', 'hears', 'heard', 'hearing'], answer: 2, explanation: '一般过去时中，hear的过去式是不规则变化heard。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'He _____ the letter carefully.', audio: 'He read the letter carefully.', options: ['read', 'reads', 'read', 'reading'], answer: 2, explanation: '一般过去时中，read的过去式仍是read，但发音为/red/。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'I _____ my phone yesterday.', audio: 'I used my phone yesterday.', options: ['use', 'uses', 'used', 'using'], answer: 2, explanation: '一般过去时中，use的过去式是used。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ her coat.', audio: 'She wore her coat.', options: ['wear', 'wears', 'wore', 'wearing'], answer: 2, explanation: '一般过去时中，wear的过去式是不规则变化wore。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'The baby _____ loudly.', audio: 'The baby cried loudly.', options: ['cry', 'cries', 'cried', 'crying'], answer: 2, explanation: '一般过去时中，cry的过去式是cried（-ied形式）。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'We _____ a wonderful time.', audio: 'We had a wonderful time.', options: ['have', 'has', 'had', 'having'], answer: 2, explanation: '一般过去时中，have的过去式是had。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ the question correctly.', audio: 'She answered the question correctly.', options: ['answer', 'answers', 'answered', 'answering'], answer: 2, explanation: '一般过去时中，answer的过去式是answered。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'He _____ football when he was young.', audio: 'He played football when he was young.', options: ['play', 'plays', 'played', 'playing'], answer: 2, explanation: '一般过去时表示过去习惯性动作。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'I _____ to music on the way.', audio: 'I listened to music on the way.', options: ['listen', 'listens', 'listened', 'listening'], answer: 2, explanation: '一般过去时中，listen的过去式是listened。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ her hand.', audio: 'She washed her hand.', options: ['wash', 'washes', 'washed', 'washing'], answer: 2, explanation: '一般过去时中，wash的过去式是washed。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'The teacher _____ the students.', audio: 'The teacher helped the students.', options: ['help', 'helps', 'helped', 'helping'], answer: 2, explanation: '一般过去时中，help的过去式是helped。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'I _____ my glasses.', audio: 'I broke my glasses.', options: ['break', 'breaks', 'broke', 'broken'], answer: 2, explanation: '一般过去时中，break的过去式是broke。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ her birthday last week.', audio: 'She celebrated her birthday last week.', options: ['celebrate', 'celebrates', 'celebrated', 'celebrating'], answer: 2, explanation: '一般过去时中，celebrate的过去式是celebrated。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'He _____ a lot of pictures.', audio: 'He took a lot of pictures.', options: ['take', 'takes', 'took', 'taking'], answer: 2, explanation: '一般过去时中，take的过去式是不规则变化took。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'We _____ the match.', audio: 'We won the match.', options: ['win', 'wins', 'won', 'winning'], answer: 2, explanation: '一般过去时中，win的过去式是不规则变化won。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ in a big house.', audio: 'She lived in a big house.', options: ['live', 'lives', 'lived', 'living'], answer: 2, explanation: '一般过去时中，live的过去式是lived。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'The bird _____ away.', audio: 'The bird flew away.', options: ['fly', 'flies', 'flew', 'flying'], answer: 2, explanation: '一般过去时中，fly的过去式是不规则变化flew。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'He _____ to the radio.', audio: 'He listened to the radio.', options: ['listen', 'listens', 'listened', 'listening'], answer: 2, explanation: '一般过去时中，listen的过去式是listened。注意要加介词to。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'I _____ my best friend.', audio: 'I missed my best friend.', options: ['miss', 'misses', 'missed', 'missing'], answer: 2, explanation: '一般过去时中，miss的过去式是missed。' },
+                { part: 'grammar', type: 'tense', topic: 'past_simple', question: 'She _____ the lights off.', audio: 'She turned the lights off.', options: ['turn', 'turns', 'turned', 'turning'], answer: 2, explanation: '一般过去时中，turn的过去式是turned。' }
+            ]
+        };
+        
+        // 词汇场景听力题库（每个主题50题）
+        const vocabListeningData = {
+            // 食物与餐厅（Food and Restaurant）
+            food_restaurant: [
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I would like a glass of _____ please.', audio: 'I would like a glass of water please.', options: ['water', 'juice', 'milk', 'tea'], answer: 0, explanation: '水（water）是最常见的饮品请求。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'Do you prefer rice or _____?', audio: 'Do you prefer rice or bread?', options: ['bread', 'meat', 'fish', 'vegetables'], answer: 0, explanation: '面包（bread）是常见的主食选择。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'There are some _____ in the fridge.', audio: 'There are some apples in the fridge.', options: ['apples', 'books', 'cars', 'tables'], answer: 0, explanation: '苹果（apples）是水果，放在冰箱里。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'She had _____ for breakfast.', audio: 'She had eggs for breakfast.', options: ['eggs', 'shoes', 'books', 'trees'], answer: 0, explanation: '鸡蛋（eggs）常作为早餐食物。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I drink _____ every morning.', audio: 'I drink coffee every morning.', options: ['coffee', 'car', 'phone', 'book'], answer: 0, explanation: '咖啡（coffee）是常见早餐饮品。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The _____ is very delicious.', audio: 'The pizza is very delicious.', options: ['pizza', 'computer', 'window', 'chair'], answer: 0, explanation: '披萨（pizza）是意大利食物。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'Can I have the _____ please?', audio: 'Can I have the menu please?', options: ['menu', 'radio', 'umbrella', 'newspaper'], answer: 0, explanation: '菜单（menu）是餐厅用语。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I am very _____ today.', audio: 'I am very hungry today.', options: ['hungry', 'happy', 'tall', 'fast'], answer: 0, explanation: 'hungry表示"饥饿的"，与食物相关。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'There is some _____ in the bowl.', audio: 'There is some soup in the bowl.', options: ['soup', 'grass', 'sand', 'stone'], answer: 0, explanation: '汤（soup）通常盛在碗里。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'She likes _____ vegetables.', audio: 'She likes fresh vegetables.', options: ['fresh', 'boring', 'heavy', 'cheap'], answer: 0, explanation: '新鲜的（fresh）常用来形容蔬菜。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The chicken is too _____ to eat.', audio: 'The chicken is too hot to eat.', options: ['hot', 'small', 'cheap', 'old'], answer: 0, explanation: 'hot表示"热的"，食物太烫时会说这句话。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I had a _____ meal yesterday.', audio: 'I had a wonderful meal yesterday.', options: ['wonderful', 'terrible', 'small', 'cheap'], answer: 0, explanation: 'wonderful表示"很棒的"，形容美好的用餐体验。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'Please pass the _____ .', audio: 'Please pass the salt.', options: ['salt', 'window', 'clock', 'door'], answer: 0, explanation: '盐（salt）是餐桌上调味品。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'She is allergic to _____ .', audio: 'She is allergic to seafood.', options: ['seafood', 'rice', 'bread', 'potato'], answer: 0, explanation: '海鲜（seafood）是常见过敏源。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I would like to make a _____ .', audio: 'I would like to make a reservation.', options: ['reservation', 'sandwich', 'cake', 'phone call'], answer: 0, explanation: '预约（reservation）是餐厅常用词汇。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'How much is the _____ meal?', audio: 'How much is the lunch meal?', options: ['lunch', 'water', 'table', 'chair'], answer: 0, explanation: '午餐（lunch）套餐是常见选择。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I prefer _____ to wine.', audio: 'I prefer juice to wine.', options: ['juice', 'book', 'table', 'chair'], answer: 0, explanation: '果汁（juice）是不含酒精的饮品。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The _____ is cold.', audio: 'The ice cream is cold.', options: ['ice cream', 'soup', 'coffee', 'tea'], answer: 0, explanation: '冰激凌（ice cream）是冷冻甜点。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I eat _____ every day.', audio: 'I eat fruit every day.', options: ['fruit', 'stone', 'wood', 'metal'], answer: 0, explanation: '水果（fruit）是健康食物。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'She ordered a _____ steak.', audio: 'She ordered a medium steak.', options: ['medium', 'angry', 'happy', 'sad'], answer: 0, explanation: 'medium表示"五分熟的"，牛排熟度用语。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'Do you have any _____ ?', audio: 'Do you have any vegetarian options?', options: ['vegetarian options', 'money', 'time', 'help'], answer: 0, explanation: '素食选择（vegetarian options）是常见餐厅用语。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The _____ is very sweet.', audio: 'The strawberry is very sweet.', options: ['strawberry', 'salt', 'lemon', 'pepper'], answer: 0, explanation: '草莓（strawberry）是一种甜水果。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I am full, I cannot eat any _____ .', audio: 'I am full, I cannot eat any more.', options: ['more', 'apple', 'bread', 'rice'], answer: 0, explanation: 'more表示"更多"，吃饱后表示不能再吃了。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The _____ in this restaurant is great.', audio: 'The service in this restaurant is great.', options: ['service', 'food', 'price', 'location'], answer: 0, explanation: '服务（service）是评价餐厅的重要指标。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I will have the _____ , please.', audio: 'I will have the dessert, please.', options: ['dessert', 'book', 'pen', 'key'], answer: 0, explanation: '甜点（dessert）是餐后食物。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'Can I have the bill _____ ?', audio: 'Can I have the bill please?', options: ['please', 'later', 'tomorrow', 'never'], answer: 0, explanation: '买单时用please表示礼貌请求。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The _____ is homemade.', audio: 'The cake is homemade.', options: ['cake', 'table', 'window', 'chair'], answer: 0, explanation: '自制的（homemade）表示手工制作。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I do not eat _____ food.', audio: 'I do not eat spicy food.', options: ['spicy', 'delicious', 'fresh', 'healthy'], answer: 0, explanation: '辣的（spicy）是食物口味描述。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'She is a _____ chef.', audio: 'She is a famous chef.', options: ['famous', 'boring', 'cheap', 'small'], answer: 0, explanation: '著名的（famous）形容知名厨师。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I would like my steak _____ .', audio: 'I would like my steak rare.', options: ['rare', 'large', 'cheap', 'cold'], answer: 0, explanation: 'rare表示"三分熟的"，牛排熟度。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The _____ is too salty.', audio: 'The soup is too salty.', options: ['soup', 'apple', 'bread', 'rice'], answer: 0, explanation: '太咸了（too salty）是对汤的评价。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'We ate at a Chinese _____ .', audio: 'We ate at a Chinese restaurant.', options: ['restaurant', 'school', 'hospital', 'library'], answer: 0, explanation: '餐厅（restaurant）是用餐的地方。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I am _____ for lunch.', audio: 'I am starving for lunch.', options: ['starving', 'full', 'tired', 'happy'], answer: 0, explanation: '饿极了（starving）是hungry的强调说法。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The waiter brought the _____ .', audio: 'The waiter brought the bill.', options: ['bill', 'menu', 'food', 'water'], answer: 0, explanation: '账单（bill）是消费后需要支付的费用。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'She does not eat _____ .', audio: 'She does not eat meat.', options: ['meat', 'rice', 'bread', 'fruit'], answer: 0, explanation: '肉（meat）是素食者避免的食物。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I am on a _____ .', audio: 'I am on a diet.', options: ['diet', 'trip', 'holiday', 'business'], answer: 0, explanation: '节食（diet）是控制饮食的计划。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The food here is very _____ .', audio: 'The food here is very tasty.', options: ['tasty', 'expensive', 'cold', 'boring'], answer: 0, explanation: '美味的（tasty）形容食物好吃。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I would like a _____ of wine.', audio: 'I would like a glass of wine.', options: ['glass', 'cup', 'bowl', 'plate'], answer: 0, explanation: '一杯（glass）常用于液体饮品。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The chef made a special _____ .', audio: 'The chef made a special dish.', options: ['dish', 'table', 'chair', 'window'], answer: 0, explanation: '菜品（dish）是厨师准备的菜肴。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I had a _____ breakfast this morning.', audio: 'I had a light breakfast this morning.', options: ['light', 'heavy', 'big', 'large'], answer: 0, explanation: '清淡的（light）表示食量不多。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'Can I have some _____ ?', audio: 'Can I have some pepper?', options: ['pepper', 'book', 'pen', 'paper'], answer: 0, explanation: '胡椒粉（pepper）是调味料。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The _____ smells delicious.', audio: 'The cake smells delicious.', options: ['cake', 'car', 'book', 'phone'], answer: 0, explanation: '蛋糕（cake）闻起来很香。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I had a _____ dinner last night.', audio: 'I had a late dinner last night.', options: ['late', 'early', 'small', 'cheap'], answer: 0, explanation: '晚的（late）表示晚餐时间较晚。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'She is _____ about chocolate.', audio: 'She is crazy about chocolate.', options: ['crazy', 'sad', 'tired', 'happy'], answer: 0, explanation: '痴迷的（crazy about）表示非常喜欢。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I need to buy some _____ .', audio: 'I need to buy some groceries.', options: ['groceries', 'furniture', 'clothes', 'books'], answer: 0, explanation: '食品杂货（groceries）是超市购买的食物。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'The waiter is very _____ .', audio: 'The waiter is very friendly.', options: ['friendly', 'rude', 'angry', 'tired'], answer: 0, explanation: '友好的（friendly）是好的服务态度。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I drink _____ milk every day.', audio: 'I drink fresh milk every day.', options: ['fresh', 'old', 'dirty', 'broken'], answer: 0, explanation: '新鲜的（fresh）形容牛奶品质。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'This _____ is very tender.', audio: 'This steak is very tender.', options: ['steak', '石头', '木头', '塑料'], answer: 0, explanation: '牛排（steak）肉质鲜嫩是好的品质。' },
+                { part: 'vocab', type: 'vocabulary', topic: 'food_restaurant', question: 'I am allergic to _____ products.', audio: 'I am allergic to dairy products.', options: ['dairy', 'fruit', 'meat', 'vegetable'], answer: 0, explanation: '乳制品（dairy products）是常见过敏源。' }
+            ]
+        };
+        
+        // 合并所有听力数据
         const listeningData = {
             ket: [
-                // Part 1: 图片理解（8题）
+                // Part 1: 图片理解（15题）
                 { part: 1, type: 'image', question: 'Where is the girl?', audio: 'The girl is in the kitchen.', options: ['In the kitchen', 'In the bedroom', 'In the garden', 'In the bathroom'], answer: 0 },
                 { part: 1, type: 'image', question: 'What is the boy doing?', audio: 'The boy is reading a book.', options: ['Reading a book', 'Watching TV', 'Playing games', 'Eating dinner'], answer: 0 },
                 { part: 1, type: 'image', question: 'What time is it?', audio: 'It is three o clock.', options: ['3:00', '4:00', '5:00', '2:00'], answer: 0 },
@@ -1520,27 +1687,59 @@
                 { part: 1, type: 'image', question: 'What color is the car?', audio: 'The car is blue.', options: ['Blue', 'Red', 'Green', 'Yellow'], answer: 0 },
                 { part: 1, type: 'image', question: 'Who is the man?', audio: 'He is a doctor.', options: ['A doctor', 'A teacher', 'A policeman', 'A farmer'], answer: 0 },
                 { part: 1, type: 'image', question: 'What is she wearing?', audio: 'She is wearing a red dress.', options: ['A red dress', 'A blue shirt', 'A green jacket', 'A yellow skirt'], answer: 0 },
+                { part: 1, type: 'image', question: 'Where is the book?', audio: 'The book is on the table.', options: ['On the table', 'Under the chair', 'In the bag', 'On the shelf'], answer: 0 },
+                { part: 1, type: 'image', question: 'What is the weather like?', audio: 'It is raining outside.', options: ['Raining', 'Snowing', 'Sunny', 'Windy'], answer: 0 },
+                { part: 1, type: 'image', question: 'What fruit is on the plate?', audio: 'There are some apples on the plate.', options: ['Apples', 'Oranges', 'Bananas', 'Grapes'], answer: 0 },
+                { part: 1, type: 'image', question: 'Who is riding a bike?', audio: 'The boy is riding a bike.', options: ['The boy', 'The girl', 'The man', 'The woman'], answer: 0 },
+                { part: 1, type: 'image', question: 'What color are her shoes?', audio: 'Her shoes are black.', options: ['Black', 'White', 'Brown', 'Blue'], answer: 0 },
+                { part: 1, type: 'image', question: 'Where is the dog?', audio: 'The dog is under the tree.', options: ['Under the tree', 'In the house', 'Near the car', 'By the river'], answer: 0 },
+                { part: 1, type: 'image', question: 'What is on the wall?', audio: 'There is a clock on the wall.', options: ['A clock', 'A picture', 'A map', 'A window'], answer: 0 },
                 
-                // Part 2: 短对话匹配（5题）
-                { part: 2, type: 'match', question: 'Listen and match the people with their drinks.', audio: 'Tom: What would you like to drink? / Amy: I would like some orange juice, please.', options: ['Tom', 'Amy'], answer: 1 },
-                { part: 2, type: 'match', question: 'Listen and match the people with their food.', audio: 'Waiter: Here is your menu. / Customer: Thank you. I will have some rice and chicken.', options: ['Waiter', 'Customer'], answer: 1 },
-                { part: 2, type: 'match', question: 'Listen and match the people with their bags.', audio: 'Mom: Whose bag is this? / Son: That is my bag, Mom.', options: ['Mom', 'Son'], answer: 1 },
-                { part: 2, type: 'match', question: 'Listen and match the people with their activities.', audio: 'Lisa: I play tennis every weekend. / Jack: I play basketball instead.', options: ['Lisa', 'Jack'], answer: 0 },
-                { part: 2, type: 'match', question: 'Listen and match the people with their subjects.', audio: 'Teacher: What is your favorite subject? / Student: English is my favorite.', options: ['Teacher', 'Student'], answer: 1 },
+                // Part 2: 短对话匹配（10题）
+                { part: 2, type: 'match', question: 'Listen and choose who likes coffee.', audio: 'John: Do you drink coffee? Mary: No, I prefer tea. I never drink coffee.', options: ['John', 'Mary'], answer: 0 },
+                { part: 2, type: 'match', question: 'Listen and choose who went to the park.', audio: 'Tom: Did you go anywhere last weekend? Lucy: Yes, I visited the park. It was wonderful!', options: ['Tom', 'Lucy'], answer: 1 },
+                { part: 2, type: 'match', question: 'Listen and choose who is a teacher.', audio: 'Mike: What do you do? Susan: I teach English at a school.', options: ['Mike', 'Susan'], answer: 1 },
+                { part: 2, type: 'match', question: 'Listen and choose what they are discussing.', audio: 'Dad: Shall we go to the beach this weekend? Kids: Great idea!', options: ['Weekend plans', 'School work', 'Dinner plans', 'Birthday party'], answer: 0 },
+                { part: 2, type: 'match', question: 'Listen and choose who likes reading.', audio: 'Amy: I spend most evenings reading books. Ben: I prefer watching movies.', options: ['Amy', 'Ben'], answer: 0 },
+                { part: 2, type: 'match', question: 'Listen and choose who has a pet.', audio: 'Lisa: Do you have any pets? Ken: Yes, I have a cute little dog.', options: ['Lisa', 'Ken'], answer: 1 },
+                { part: 2, type: 'match', question: 'Listen and choose what she bought.', audio: 'Shop assistant: Can I help you? Sarah: Yes, I would like to buy a new dress.', options: ['Shop assistant', 'Sarah'], answer: 1 },
+                { part: 2, type: 'match', question: 'Listen and choose who is late.', audio: 'Boss: Why are you late? Employee: I missed the bus this morning.', options: ['Boss', 'Employee'], answer: 1 },
+                { part: 2, type: 'match', question: 'Listen and choose where they are.', audio: 'Waiter: Here is your menu. Customer: Thank you very much.', options: ['Waiter', 'Customer'], answer: 1 },
+                { part: 2, type: 'match', question: 'Listen and choose what time it is.', audio: 'Mother: What time is it now? Son: It is half past seven.', options: ['Mother', 'Son'], answer: 1 },
                 
-                // Part 3: 简短对话理解（5题）
+                // Part 3: 简短对话理解（15题）
                 { part: 3, type: 'dialogue', question: 'What is the weather like today?', audio: 'A: Did you see the weather report? B: Yes, it says it will be sunny today.', options: ['Sunny', 'Rainy', 'Cloudy', 'Windy'], answer: 0 },
                 { part: 3, type: 'dialogue', question: 'When does the class start?', audio: 'A: What time does the English class start? B: It starts at nine o clock.', options: ['9:00', '10:00', '8:00', '11:00'], answer: 0 },
                 { part: 3, type: 'dialogue', question: 'Where did they go yesterday?', audio: 'A: Did you enjoy your trip yesterday? B: Yes, we went to the museum. It was amazing!', options: ['The museum', 'The zoo', 'The park', 'The cinema'], answer: 0 },
                 { part: 3, type: 'dialogue', question: 'What does she want to be?', audio: 'A: What do you want to be when you grow up? B: I want to be a pilot because I like flying.', options: ['A pilot', 'A doctor', 'A teacher', 'A police officer'], answer: 0 },
                 { part: 3, type: 'dialogue', question: 'How much are the apples?', audio: 'A: How much are these apples? B: They are two dollars per kilo.', options: ['Two dollars', 'Three dollars', 'One dollar', 'Four dollars'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'What is her favorite color?', audio: 'A: What is your favorite color? B: My favorite color is blue.', options: ['Blue', 'Red', 'Green', 'Yellow'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'Where is the library?', audio: 'A: Excuse me, where is the library? B: It is next to the post office.', options: ['Next to the post office', 'Near the park', 'Behind the school', 'In front of the bank'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'What sport does he play?', audio: 'A: Do you play any sports? B: Yes, I play football every Saturday.', options: ['Football', 'Basketball', 'Tennis', 'Swimming'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'When is her birthday?', audio: 'A: When is your birthday? B: It is on the fifth of June.', options: ['June 5th', 'July 5th', 'June 15th', 'May 5th'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'What did she have for breakfast?', audio: 'A: What did you have for breakfast? B: I had some eggs and bread.', options: ['Eggs and bread', 'Rice and vegetables', 'Noodles and soup', 'Fruit and milk'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'How many brothers does he have?', audio: 'A: Do you have any brothers? B: Yes, I have one brother and two sisters.', options: ['One brother', 'Two brothers', 'Three brothers', 'No brothers'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'What subject does she teach?', audio: 'A: What do you teach? B: I teach mathematics to middle school students.', options: ['Mathematics', 'English', 'Science', 'History'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'Where did they meet?', audio: 'A: Where did you meet John? B: We met at the train station last week.', options: ['At the train station', 'At school', 'At the mall', 'At the restaurant'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'What is wrong with the computer?', audio: 'A: Why is the computer not working? B: Because the screen is broken.', options: ['The screen is broken', 'It needs power', 'The keyboard is broken', 'The mouse is missing'], answer: 0 },
+                { part: 3, type: 'dialogue', question: 'How does she go to school?', audio: 'A: How do you usually go to school? B: I usually walk to school because it is near my home.', options: ['She walks', 'She takes the bus', 'She rides a bike', 'Her mother drives her'], answer: 0 },
                 
-                // Part 4: 信息填空（5题）
-                { part: 4, type: 'choice', question: 'Complete the sentence: The library opens at _____ in the morning.', audio: 'The library opens at nine in the morning.', options: ['seven', 'nine', 'ten', 'eleven'], answer: 1 },
-                { part: 4, type: 'choice', question: 'Complete the sentence: My favorite _____ is English.', audio: 'My favorite subject is English.', options: ['food', 'subject', 'color', 'sport'], answer: 1 },
-                { part: 4, type: 'choice', question: 'Complete the sentence: There are _____ days in a week.', audio: 'There are seven days in a week.', options: ['five', 'six', 'seven', 'eight'], answer: 2 },
-                { part: 4, type: 'choice', question: 'Complete the sentence: I was born in the year _____.', audio: 'I was born in the year two thousand.', options: ['1990', '1995', '2000', '2005'], answer: 2 },
-                { part: 4, type: 'choice', question: 'Complete the sentence: The weather is very _____ today.', audio: 'The weather is very sunny today.', options: ['rainy', 'sunny', 'cloudy', 'windy'], answer: 1 }
+                // Part 4: 信息填空（15题）
+                { part: 4, type: 'choice', question: 'Complete: The library opens at _____ in the morning.', audio: 'The library opens at nine in the morning.', options: ['seven', 'nine', 'ten', 'eleven'], answer: 1 },
+                { part: 4, type: 'choice', question: 'Complete: My favorite _____ is English.', audio: 'My favorite subject is English.', options: ['food', 'subject', 'color', 'sport'], answer: 1 },
+                { part: 4, type: 'choice', question: 'Complete: There are _____ days in a week.', audio: 'There are seven days in a week.', options: ['five', 'six', 'seven', 'eight'], answer: 2 },
+                { part: 4, type: 'choice', question: 'Complete: I was born in the year _____.', audio: 'I was born in the year two thousand.', options: ['1990', '1995', '2000', '2005'], answer: 2 },
+                { part: 4, type: 'choice', question: 'Complete: The weather is very _____ today.', audio: 'The weather is very sunny today.', options: ['rainy', 'sunny', 'cloudy', 'windy'], answer: 1 },
+                { part: 4, type: 'choice', question: 'Complete: She usually goes to bed at _____ PM.', audio: 'She usually goes to bed at ten PM.', options: ['Eight', 'Nine', 'Ten', 'Eleven'], answer: 2 },
+                { part: 4, type: 'choice', question: 'Complete: There are _____ months in a year.', audio: 'There are twelve months in a year.', options: ['Ten', 'Eleven', 'Twelve', 'Thirteen'], answer: 2 },
+                { part: 4, type: 'choice', question: 'Complete: The book belongs to _____.', audio: 'The book belongs to the teacher.', options: ['The student', 'The teacher', 'The library', 'The classroom'], answer: 1 },
+                { part: 4, type: 'choice', question: 'Complete: _____ people came to the party.', audio: 'About fifty people came to the party.', options: ['Twenty', 'Thirty', 'Fifty', 'Seventy'], answer: 2 },
+                { part: 4, type: 'choice', question: 'Complete: The meeting starts at _____ in the afternoon.', audio: 'The meeting starts at two in the afternoon.', options: ['One', 'Two', 'Three', 'Four'], answer: 1 },
+                { part: 4, type: 'choice', question: 'Complete: _____ is the capital of England.', audio: 'London is the capital of England.', options: ['Paris', 'London', 'Berlin', 'Rome'], answer: 1 },
+                { part: 4, type: 'choice', question: 'Complete: There are _____ seasons in a year.', audio: 'There are four seasons in a year.', options: ['Two', 'Three', 'Four', 'Five'], answer: 2 },
+                { part: 4, type: 'choice', question: 'Complete: I have been learning English for _____ years.', audio: 'I have been learning English for three years.', options: ['One', 'Two', 'Three', 'Four'], answer: 2 },
+                { part: 4, type: 'choice', question: 'Complete: The water boils at _____ degrees.', audio: 'The water boils at one hundred degrees.', options: ['Eighty', 'Ninety', 'One hundred', 'One hundred ten'], answer: 2 },
+                { part: 4, type: 'choice', question: 'Complete: There are _____ students in the class.', audio: 'There are thirty students in the class.', options: ['Twenty', 'Thirty', 'Forty', 'Fifty'], answer: 1 }
             ],
             pet: [
                 // Part 1: 图片理解
@@ -2149,12 +2348,40 @@
         function initListeningPractice() {
             listeningIndex = 0;
             selectedListeningAnswer = null;
-            // 直接使用KET数据的完整副本，避免引用问题
-            currentListeningList = [...listeningData['ket']];
+            
+            // 收集所有题目来源
+            let allQuestions = [];
+            
+            // 原有KET听力题
+            if (listeningData && listeningData.ket && listeningData.ket.length > 0) {
+                allQuestions = allQuestions.concat(listeningData.ket.map(q => ({...q, source: 'original'})));
+            }
+            
+            // 语法专项题库
+            if (typeof grammarListeningData !== 'undefined') {
+                for (let topic in grammarListeningData) {
+                    if (grammarListeningData[topic] && Array.isArray(grammarListeningData[topic])) {
+                        allQuestions = allQuestions.concat(grammarListeningData[topic].map(q => ({...q, source: 'grammar'})));
+                    }
+                }
+            }
+            
+            // 词汇场景题库
+            if (typeof vocabListeningData !== 'undefined') {
+                for (let topic in vocabListeningData) {
+                    if (vocabListeningData[topic] && Array.isArray(vocabListeningData[topic])) {
+                        allQuestions = allQuestions.concat(vocabListeningData[topic].map(q => ({...q, source: 'vocab'})));
+                    }
+                }
+            }
+            
             // 打乱顺序
-            currentListeningList.sort(() => Math.random() - 0.5);
-            // 只取20题
-            currentListeningList = currentListeningList.slice(0, Math.min(20, currentListeningList.length));
+            allQuestions.sort(() => Math.random() - 0.5);
+            
+            // 取50题
+            currentListeningList = allQuestions.slice(0, Math.min(50, allQuestions.length));
+            
+            console.log(`听力练习已加载，共 ${currentListeningList.length} 题`);
             updateListeningUI();
         }
         
@@ -2191,6 +2418,49 @@
             document.getElementById('listenTotal').textContent = currentListeningList.length;
             document.getElementById('listenQuestion').textContent = item.question || '';
             document.getElementById('listeningAnswer').value = '';
+            
+            // 显示题目类型指示
+            const typeDisplay = document.getElementById('listenType');
+            if (item.source === 'grammar' && item.topic) {
+                const topicNames = {
+                    'present_simple': '一般现在时',
+                    'past_simple': '一般过去时',
+                    'present_continuous': '现在进行时',
+                    'past_continuous': '过去进行时',
+                    'future_will': '一般将来时',
+                    'future_going_to': '将来进行时',
+                    'present_perfect': '现在完成时',
+                    'comparatives': '比较级',
+                    'superlatives': '最高级',
+                    'modals': '情态动词',
+                    'quantifiers': '数量词',
+                    'prepositions': '介词',
+                    'conjunctions': '连词'
+                };
+                typeDisplay.textContent = topicNames[item.topic] || item.topic;
+                typeDisplay.className = 'px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold';
+                typeDisplay.classList.remove('hidden');
+            } else if (item.source === 'vocab' && item.topic) {
+                const vocabNames = {
+                    'food_restaurant': '食物与餐厅',
+                    'family_home': '家庭与房间',
+                    'school_learning': '学校与学习',
+                    'hobbies': '爱好与兴趣',
+                    'shopping': '购物与价格',
+                    'weather_seasons': '天气与季节',
+                    'health_body': '健康与身体',
+                    'transportation': '交通与旅行',
+                    'time_calendar': '时间与日历',
+                    'colors_shapes': '颜色与形状',
+                    'animals_pets': '动物与宠物',
+                    'jobs_occupations': '职业与工作'
+                };
+                typeDisplay.textContent = vocabNames[item.topic] || item.topic;
+                typeDisplay.className = 'px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-semibold';
+                typeDisplay.classList.remove('hidden');
+            } else {
+                typeDisplay.classList.add('hidden');
+            }
             
             // 隐藏结果区域和检查按钮
             document.getElementById('listenResult').classList.add('hidden');
@@ -2333,7 +2603,18 @@
                             <p class="text-gray-500 mt-2 bg-gray-100 p-3 rounded-lg">
                                 听力原文：${item.audio}
                             </p>
-                        ` : ''}
+                            ${item.explanation ? `
+                                <p class="text-blue-600 mt-3 p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                                    💡 语法解析：${item.explanation}
+                                </p>
+                            ` : ''}
+                        ` : `
+                            ${item.explanation ? `
+                                <p class="text-blue-600 mt-3 p-3 bg-blue-50 rounded-lg border-l-4 border-blue-500">
+                                    💡 语法解析：${item.explanation}
+                                </p>
+                            ` : ''}
+                        `}
                     </div>
                 `;
             }
