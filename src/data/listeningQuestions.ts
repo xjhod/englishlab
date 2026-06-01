@@ -3,7 +3,6 @@ export interface ListeningQuestion {
   options?: string[];
   correct: string;
   explanation: string;
-  image?: string;
 }
 
 export interface ListeningTopic {
@@ -86,7 +85,7 @@ export const listeningTopics: ListeningTopic[] = [
       { audio: 'He is painting the wall.', options: ['他在刷墙', '他在拆墙', '他在装饰墙'], correct: '他在刷墙', explanation: '句中"painting the wall"表示在刷墙/涂墙。' },
       { audio: 'The snow is melting.', options: ['雪在融化', '雪在下', '雪在堆积'], correct: '雪在融化', explanation: '句中"snow is melting"表示雪在融化。' },
       { audio: 'She is brushing her teeth.', options: ['她在刷牙', '她在洗脸', '她在梳头'], correct: '她在刷牙', explanation: '句中"brushing her teeth"表示在刷牙。' },
-      { audio: 'There is a kites in the sky.', options: ['天上有风筝', '天上有鸟', '天上有云'], correct: '天上有风筝', explanation: '句中"kites in the sky"表示天上有风筝。' },
+      { audio: 'There is a kite in the sky.', options: ['天上有风筝', '天上有鸟', '天上有云'], correct: '天上有风筝', explanation: '句中"kite in the sky"表示天上有风筝。' },
       { audio: 'The horse is eating grass.', options: ['马在吃草', '牛在吃草', '羊在吃草'], correct: '马在吃草', explanation: '句中"horse is eating grass"表示马在吃草。' },
       { audio: 'He is looking at the picture.', options: ['他在看图片', '他在画图片', '他在撕图片'], correct: '他在看图片', explanation: '句中"looking at the picture"表示在看图片。' },
       { audio: 'The bee is flying to the flower.', options: ['蜜蜂飞向花朵', '蝴蝶飞向树叶', '鸟儿飞向鸟巢'], correct: '蜜蜂飞向花朵', explanation: '句中"bee is flying to the flower"表示蜜蜂飞向花朵。' },
@@ -104,16 +103,6 @@ export const listeningTopics: ListeningTopic[] = [
       { audio: 'There is a ladybug on the leaf.', options: ['瓢虫在叶子上', '蚂蚁在地上', '蜗牛在墙上'], correct: '瓢虫在叶子上', explanation: '句中"ladybug on the leaf"表示瓢虫在叶子上。' },
       { audio: 'The rainbow has seven colors.', options: ['彩虹有七种颜色', '彩虹有五种颜色', '彩虹有三种颜色'], correct: '彩虹有七种颜色', explanation: '句中"seven colors"表示彩虹有七种颜色。' },
       { audio: 'He is eating rice with chopsticks.', options: ['他在用筷子吃饭', '他在用勺子喝汤', '他在用叉子吃面'], correct: '他在用筷子吃饭', explanation: '句中"eating rice with chopsticks"表示用筷子吃饭。' },
-      { audio: 'The chick is coming out of the egg.', options: ['小鸡从蛋里出来', '小鸟在窝里', '小鸭在水里'], correct: '小鸡从蛋里出来', explanation: '句中"coming out of the egg"表示从蛋里出来。' },
-      { audio: 'She is feeding the baby.', options: ['她在喂宝宝', '她在逗宝宝', '她在哄宝宝睡觉'], correct: '她在喂宝宝', explanation: '句中"feeding the baby"表示在喂宝宝。' },
-      { audio: 'There is a turtle in the water.', options: ['水里有乌龟', '水里有鱼', '水里有青蛙'], correct: '水里有乌龟', explanation: '句中"turtle in the water"表示水里有乌龟。' },
-      { audio: 'The fire is burning brightly.', options: ['火烧得很旺', '火在慢慢熄灭', '火已经灭了'], correct: '火烧得很旺', explanation: '句中"fire is burning brightly"表示火烧得很旺。' },
-      { audio: 'He is watching television.', options: ['他在看电视', '他在听广播', '他在打电话'], correct: '他在看电视', explanation: '句中"watching television"表示在看电视。' },
-      { audio: 'The grasshopper is jumping in the field.', options: ['蚱蜢在田野里跳', '蝴蝶在花丛中飞', '蜜蜂在采蜜'], correct: '蚱蜢在田野里跳', explanation: '句中"grasshopper is jumping in the field"表示蚱蜢在田野里跳。' },
-      { audio: 'She is wiping the table.', options: ['她在擦桌子', '她在摆盘子', '她在洗碗'], correct: '她在擦桌子', explanation: '句中"wiping the table"表示在擦桌子。' },
-      { audio: 'There is a dragonfly above the pond.', options: ['蜻蜓在池塘上方', '青蛙在池塘里', '鱼在池塘底'], correct: '蜻蜓在池塘上方', explanation: '句中"dragonfly above the pond"表示蜻蜓在池塘上方。' },
-      { audio: 'The rain has stopped.', options: ['雨停了', '雨在下', '雨要来了'], correct: '雨停了', explanation: '句中"rain has stopped"表示雨停了。' },
-      { audio: 'He is singing a song.', options: ['他在唱歌', '他在跳舞', '他在演奏'], correct: '他在唱歌', explanation: '句中"singing a song"表示在唱歌。' },
     ]
   },
   {
