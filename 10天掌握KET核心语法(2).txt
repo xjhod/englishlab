@@ -1,0 +1,5473 @@
+版
+权信
+息
+书名
+：10天掌握KET核心语法
+作者
+：北京新东方学校青少考试研究中心
+出
+版
+社
+：浙
+江
+教育
+出
+版
+社
+出
+版
+日
+期：2019-09-01
+I SB N ：97 8 7 553 6 7 7 6 13
+目录
+CO N TEN TS
+前言
+Day 1
+考点1 名
+词
+考点2 代
+词
+Day 2
+考点3  形容词
+考点4 介
+词
+Day 3
+考点5 连
+词
+考点6  程度副
+词 eno u gh 和t o o
+Day 4
+考点7  一般
+现在时
+考点8  一般
+过去
+时
+Day 5
+考点9 现在进行时
+考点10 过去
+进行时
+Day 6
+考点11 一般
+将来时
+考点12 现在完
+成时
+Day 7
+时态的总
+复习
+Day 8
+考点13  情
+态动词
+考点14 被
+动语态
+考点15 定语从句
+Day 9
+考点16  if  引
+导的真实条
+件
+状
+语从句
+考点17  t o  do 和do ing
+Day 10
+考点18  简
+单句结构
+考点19 一般
+疑
+问
+句和特
+殊
+疑
+问
+句
+参考答案
+前言
+一 剑桥通用英语五级考试简介
+剑桥通用英语五级考试（MSE）是剑桥大学英语考评部设立的广受
+考生和家长青睐的考试品牌之一。该考试共分为五个级别，由初级到
+高级依次为：KET、PET、FCE、CAE、CPE，其中KET和PET参与人数最
+多。剑桥通用英语五级考试以欧洲语言共同参考框架（CEFR）作为成
+绩衡量标准，考试成绩可以对应雅思等考试，更是直接对标英语语言
+能力等级。当然，备考过程也会让考生收获颇丰：
+测试结果全面反映考生英语听、说、读、写的能力
+剑桥通用英语五级考试从语言本身入手，考查考生在真实生活场
+景中运用英语的能力。如KET考试成绩会以听、说、读、写四个部分进
+行公布，能够真实反映考生英语的运用能力，也能反映听、说、读、
+写各个部分的真实水平。
+备考过程能够切实提高考生的英语能力
+KET考试的词汇量要求为1500个左右，语法涵盖时态、句型、句法
+等。考生在备考过程中，需要记忆大量单词，梳理语法结构，锻炼
+听、说、读、写的能力等，备考的过程也是学习的过程。考生的英语
+水平也能切实地得到提高，如单词量扩充、口语表达流利、阅读速度
+提升等。备考KET考试不仅仅是为了取得证书，更是使自己英语语言能
+力得到提升的过程。
+证书认可度高
+剑桥通用英语五级考试的证书是全世界通用的语言能力证书，全
+球20,000所高等院校、大部分用人单位和政府部门均认可剑桥通用英
+语五级考试证书。
+考试公平
+剑桥通用英语五级考试在设计时无年龄、性别、国籍、母语、文
+化或民族背景之分，所有考试中心均严格遵守品质和安全规定，并需
+要接受定期考察。每次考试的试卷和答题卡都要寄回英国，由剑桥专
+业考官进行阅卷，以保证考试公平公正，成绩真实反映考生水平。
+剑桥通用英语五级考试是继剑桥少儿英语后又一适用于不同英语
+学习阶段考生的国际权威的英语考试。通过剑桥通用英语五级考试获
+得的技能可终身受用，并在学业竞争中突显绝对优势，所以剑桥通用
+英语五级考试近几年在中国热度一直不减。
+二 KET考试最新改革要求及应试技巧
+2020年起，KET、PET考试开始全面改革。以KET为例，阅读部分的
+阅读量大大增加，对写作和口语部分的考查也更加灵活。概括来说，
+改革后的考试对于考生的阅读和写作能力要求进一步提升，考生不能
+仅依靠“做题技巧”通过考试，更重要的是要具有相应的语言运用能
+力。这就要求考生在平时的学习和备考过程中，夯实词汇和语法基
+础，有了词汇和语法的基石才能更好地、更有效地提升英语能力。
+三 语法对于KET考试的重要性
+在KET考试中，看似没有太多直接考查语法知识的“选择题”，实
+则语法蕴藏在考试的各个题目之中。无论是选择题中的动词形式（-
+ed、-ing、-s）判断、主格宾格的选择还是写作中的时态的判断和书
+写等，都需要语法知识的积累。而大部分考生在备考过程中，没有太
+多精力自己进行语法梳理，这就是北京新东方学校青少考试研究中心
+编写本书的目的之一：希望通过书中对语法知识的梳理，帮助考生在
+备考过程中复习巩固语法知识。
+四 本书特色
+北京新东方学校青少考试研究中心在KET备考和指导方面有着多年
+的教学经验，且成果喜人。强大的教研团队包含有着多年教学经验的
+一线教师，其中不乏担任KET/PET口语考试工作的考官。
+本书编写组通过研究历年真题，结合时新考试要求，为考生科学
+规划了10天学习内容，梳理了19个KET考试的核心语法考点，并逐个精
+析。“考点预测”帮助考生预先了解本考点需掌握的知识点；“自我
+小测”帮助考生在学习前自测一下，做到心中有数；“考点梳理”将
+每个考点细化为1~4个知识点；“考点巩固”设置多样仿真模拟练习，
+实现即学即练。
+我们希望通过《10天掌握KET核心语法》和同系列的《10天掌握
+KET核心词汇》，帮助考生更好地夯实语法和词汇基础，以期更顺利地
+通过考试。也预祝使用本系列图书的考生在KET考试中取得优异的成
+绩！
+北
+京
+新
+东
+方
+学
+校
+青
+少
+考
+试
+研
+究
+中心
+D a y  1
+考点1 名词
+关于名词，你需要掌握：
+ 可数名
+词变
+复数的规则及
+不规则变
+化
+ 不可数名
+词的复数形式
+ 名
+词前h o w  m u c h 和 h o w  m a ny  的用法
+ 名
+词前 a  和 a n 的用法
+ 名
+词前l it t l e 和 f ew  的用法
+ 名
+词前so m e 和 a ny  的用法
+自我小测
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  Th er e a r e m a ny  _ _ _ _ _ _ _ _ _ _ _ _ _ _  in t h e f r idge.
+A.  eggs
+B .  f r u it
+C.  w a t er
+D .  f o o d
+2.  W e h a v en' t  go t  m u c h  _ _ _ _ _ _ _ _ _ _ _ _ _ _ , so  w e need t o  b u y
+so m e.
+A.  m il k
+B .  a p p l es
+C.  gr a p es
+D .  t o m a t o es
+3 .  L o o k  a t  t h e _ _ _ _ _ _ _ _ _ _ _ _ _ _ :  t h ey  a r e so  l a r ge a nd
+st r o ng.
+A.  el ep h a nt
+B .  el ep h a nt s
+C.  a nt
+D .  a nt s
+4.  Th er e a r e t h r ee _ _ _ _ _ _ _ _ _ _ _ _ _ _  a nd sev en
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  in t h e p ic t u r e.
+A.  du c k s;  sh eep s
+B .  du c k ;  sh eep
+C.  du c k s;  sh eep
+D .  du c k ;  sh eep s
+5.  To m  b o u gh t  _ _ _ _ _ _ _ _ _ _ _ _ _ _ .
+A.  t w o  p a ir s o f  sh o es
+B .  t w o  p a ir  o f  sh o es
+C.  t w o  p a ir s o f  sh o e
+D .  t w o  p a ir  o f  sh o e
+二
+、改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+6 .  Th is is a n u sef u l  dic t io na r y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  I  sp ent  a  h o u r  w r it ing t h is l et t er .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+8 .  Th e gir l s o v er  t h er e a r e b ea u t if u l ;  t h ey  a r e a c t r ess.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  H o w  m u c h  a p p l es do  y o u  w a nt ?
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  Th er e is a  f ew  b r ea d l ef t  in t h e p l a t e.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 可数名词变复数的规则及不规则变化
+1.  可数名
+词变
+复数的规则变
+化
+ 大多数可数名词变复数时直接在词尾加s；
+ 以s、sh、ch、x 结尾的名词变复数时在词尾加es；
+ 多数以f或者fe结尾的名词变复数时，变f或者fe为ves；
+ 也有些
+以f 结尾
+的名
+词变
+复数时加s：
+b el ief -b el ief s
+r o o f -r o o f s
+c h ief -c h ief s
+gu l f -gu l f s
+ 也有些
+以f 结尾
+的名
+词变
+复数时既
+可以在词尾
+加s，也可以
+变
+f  为v 加es：
+h a ndk er c h ief -h a ndk er c h ief s / h a ndk er c h iev es
+sc a r f -sc a r f s / sc a r v es
+ 以辅音字母加y 结尾的名词变复数时变y为i加es；
+ 以元
+音
+字
+母加y  结尾
+的名
+词变
+复数时直接在词尾
+加s：
+m o nk ey -m o nk ey s
+da y -da y s
+t o y -t o y s
+r a y -r a y s
+ 多数以o结尾的名词变复数时在词尾加es：
+ 以o 结尾
+的名
+词中，有些
+外
+来词语变
+复数时直接在词尾
+加
+s：
+p ia no -p ia no s
+t o b a c c o -t o b a c c o s
+p h o t o -p h o t o s
+k il o -k il o s
+ 以o 结尾
+的名
+词，如果结尾
+有两
+个元
+音
+字
+母，变
+复数时直接
+在词尾
+加s：
+z o o -z o o s
+r a dio -r a dio s
+b a m b o o -b a m b o o s
+st u dio -st u dio s
+2.  可数名
+词变
+复数的不规则变
+化
+ a变e：
+m a n-m en
+w o m a n-w o m en
+p o l ic em a n-p o l ic em en
+Engl ish m a n-Engl ish m en
+ oo变ee：
+f o o t -f eet
+go o se-geese
+t o o t h -t eet h
+ 单复数同形：
+f ish -f ish
+sh eep -sh eep
+deer -deer
+ ouse变ice：
+m o u se-m ic e
+ 表示“某国人”的名词变复数时通常直接在词尾加s：
+G er m a n-G er m a ns
+Am er ic a n-Am er ic a ns
+Ru ssia n-Ru ssia ns
+ Ch inese、J a p a nese、Sw iss单复数同形：
+Ch inese-Ch inese
+J a p a nese-J a p a nese
+Sw iss-Sw iss
+ Engl ish m a n、Fr enc h m a n、D u t c h m a n变
+复数时a 变
+e：
+Engl ish m a n-Engl ish m en
+Fr enc h m a n-Fr enc h m en
+D u t c h m a n-D u t c h m en
+ 其他不规则变化：
+c h il d-c h il dr en
+o x -o x en
+p enny -p enc e
+考点巩固
+一、根
+据
+图片
+从下列三
+个选项
+中选择正确
+的单词。
+A.  c h er r y
+B .  c h er r ies
+B .  c h er r ies
+A.  l o a v es
+B .  l o a f s
+C.  l o a f es
+A.  t o y es
+B .  t o y s
+C.  t o ies
+B .  c h er r ies
+B .  b r u sh es
+C.  b r u sh s
+A.  c o u nt r ies
+B .  c o u nt r y
+C.  c o u nt r y s
+A.  f o x
+B .  f o x es
+C.  f o x s
+A.  w it c h
+B .  w it c h s
+C.  w it c h es
+A.  b o x es
+B .  b o x s
+C.  b o x
+A.  k ey s
+B .  k ey es
+C.  k eies
+A.  w o l v es
+B .  w o l f
+C.  w o l f s
+A.  p o t a t o
+B .  p o t a t o s
+C.  p o t a t o es
+A.  b a m b o o s
+B .  b a m b o o es
+C.  b a m b o o
+A.  st r a w b er r y
+B .  st r a w b er r ies
+C.  st r a w b er r y s
+A.  l o r r ies
+B .  l o r r y
+C.  l o r r y s
+A.  el f
+B .  el v es
+C.  el f s
+A.  dic t io na r ies
+B .  dic t io na r y
+C.  dic t io na r y s
+二
+、将方框中的名
+词按
+照
+示
+例分类
+填
+空
+。
+c h il dr en t o o t h  o x  go o se p eo p l e c h il d m o u se
+p er so n o x en m ic e w o m en t eet h  deer  sh eep
+geese deer  sh eep  f o o t  w o m a n f eet
+考点梳理2 不可数名词的复数形式
+1.  不可数名
+词数量的表示
+。
+a  c u p  o f  t ea
+t w o  c u p s o f  t ea
+a  l o a f  o f  b r ea d
+t w o  l o a v es o f  b r ea d
+a  p iec e o f  c a k e
+t h r ee p iec es o f  c a k e
+2.  不可数名
+词表示
+不同类
+别时，可以用复数形式。
+f ish -f ish es dr ink -dr ink s
+f o o d-f o o ds f r u it -f r u it s
+3 .  一些
+不可数的物
+质名
+词单复数形式表示
+不同的意
+义
+。
+sno w （雪
+）-sno w s（积雪
+）
+w a t er （水）-w a t er s[ （某
+一江
+、河
+、湖
+、海
+的）水域
+]
+gr een（绿
+色
+）-gr eens（蔬
+菜
+）
+4.  一些
+物
+质名
+词有时作可数名
+词，有时作不可数名
+词。
+l igh t （光
+）-l igh t s（灯
+）
+考点巩固
+根
+据
+图片
+提示
+用下列单词填
+空
+。
+p iec es b o t t l e sl ic e j a r s b a r  l o a f  b a g c u p  t ins
+1.  W e need t o  b u y  a  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  f l o u r .
+2.  W o u l d y o u  l ik e a  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  t ea ?
+3 .  Pa ss m e a  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  b r ea d.
+4.  Sh e p u t  a  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  c h o c o l a t e int o  h er  p o c k et .
+5.  Pl ea se b r ing a  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  w a t er .
+6 .  Cu t  a  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  h a m  f ir st .
+7 .  D o  y o u  need t w o  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  h o ney ?
+8 .  Th er e a r e t w o  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  p a p er  o n t h e desk .
+9.  Sh e u sed t o  dr ink  t w o  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  b eer  in t h e
+ev ening.
+考点梳理3 名词前how much和how many的用法
+1.  h o w  m a ny  对数量进行提问
+时，后面跟
+可数名
+词复数。
+例：H o w  m a ny  st u dent s a r e t h er e in t h e c l a ssr o o m ? 教室
+里
+有
+多少学生？
+2.  h o w  m u c h  后面跟
+不可数名
+词时，可以对数量进行提问
+，也可
+以对价
+格进行提问
+。
+例：H o w  m u c h  m il k  do  w e h a v e?  我们有多少牛
+奶
+？
+H o w  m u c h  is t h e c o m p u t er ?  这台
+电
+脑
+多少钱
+？
+考点巩固
+用h o w  m a ny  和 h o w  m u c h  填
+空
+。
+1.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  gir l s a r e t h er e?
+2.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  c h eese is t h er e?
+3 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  w a t er  is t h er e?
+4.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  sl ic es o f  b r ea d a r e t h er e?
+5.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  a p p l es a r e t h er e?
+6 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  m il k  is t h er e?
+7 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  b r ea d is t h er e?
+8 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o r a nges a r e t h er e?
+9.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  b a r s o f  c h o c o l a t e a r e t h er e?
+考点梳理4 名词前a 和 an 的用法
+1.  可数名
+词第
+1个发
+音
+音
+素
+为辅
+音
+时，其单数前面用a 。
+a  u sef u l  b o o k  ( u sef u l 第
+1个发
+音
+音
+素
+为半
+元
+音
+/j /)
+a  b o o k
+a  h o u se
+a  gir l
+2.  可数名
+词第
+1个发
+音
+音
+素
+为元
+音
+时，其单数前面用a n。
+a n h o u r
+a n egg
+a n el ep h a nt  a n o r a nge
+考点巩固
+请将下列表格中的词或者词组按照示例分类。
+考点梳理5 名词前little和few的用法
+1.  l it t l e 修
+饰
+不可数名
+词，表否
+定，指“几乎
+没有”。
+Th er e is l it t l e m il k .  W e h a v e t o  b u y  so m e t o da y .  没有牛
+奶
+了，我们今
+天得买
+一些
+。
+2.  a  l it t l e 修
+饰
+不可数名
+词，表示
+“有一点儿，但
+是不多
+了”。
+Th er e is a  l it t l e m il k  in t h e gl a ss.  Pl ea se dr ink  it .  杯
+子
+里
+有一点儿牛
+奶
+，请
+喝
+掉
+。
+3 .  f ew  修
+饰
+可数名
+词，表否
+定，指“几乎
+没有”。
+Th er e a r e f ew  st u dent s in t h e c l a ssr o o m .  Al m o st  a l l  o f
+t h em  a r e o n t h e p l a y gr o u nd. 教室
+里
+几乎
+没有学生，他
+们几乎
+都在操
+场上
+。
+4.  a  f ew  修
+饰
+可数名
+词，表示
+“有一些
+，但
+是不多”。
+Th er e a r e a  f ew  st u dent s in t h e c l a ssr o o m .  Y o u  c a n t a l k
+w it h  t h em .  教室
+里
+有几个学生，你
+可以和他
+们聊
+聊
+。
+考点巩固
+有位同学在整
+理( a )  l it t l e 和( a )  f ew 相关
+知识点的时候
+将4个单
+词放
+错
+了位置，你
+能找
+到并改正吗
+？
+考点梳理6 名词前some和any的用法
+1.  在肯
+定句里
+用so m e。
+Y o u  c a n t r y  so m e l o c a l  f o o d h er e.  你
+可以在这里
+尝
+试一些
+当
+地的食
+物
+。
+2.  在否
+定句和疑
+问
+句里
+用a ny 。
+Th er e isn' t  a ny  eggs in t h e f r idge.  冰
+箱
+里
+没有鸡
+蛋
+。
+D o  y o u  h a v e a ny  c a ndies?  你
+有糖
+果吗
+？
+3 .  提出
+建
+议
+或请
+求的时候
+，用so m e。
+Ca n y o u  l end m e so m e m o ney ?  你
+能借
+我一些
+钱
+吗
+？
+考点1 综合练习
+一、请
+写出
+下列单词的复数形式。
+1.  f o o t  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+2.  t o m a t o  _ _ _ _ _ _ _ _ _ _ _ _
+3 .  sh eep  _ _ _ _ _ _ _ _ _ _ _ _ _
+4.  dish  _ _ _ _ _ _ _ _ _ _ _ _ _
+5.  t o y  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+6 .  sh el f  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+7 .  c h il d _ _ _ _ _ _ _ _ _ _ _ _ _
+8 .  f a m il y  _ _ _ _ _ _ _ _ _ _ _ _ _
+9.  h er o  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+10.  m o u se _ _ _ _ _ _ _ _ _ _
+11.  c o u nt r y  _ _ _ _ _ _ _ _ _ _ _
+12.  c l a ss _ _ _ _ _ _ _ _ _ _ _ _ _
+13 .  f ish  _ _ _ _ _ _ _ _ _ _ _ _
+14.  sa ndw ic h  _ _ _ _ _ _ _ _ _
+15.  w o m a n _ _ _ _ _ _ _ _ _ _ _
+16 .  k nif e _ _ _ _ _ _ _ _ _ _ _ _
+17 .  b o x  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+18 .  l ea f  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+19.  b o y  _ _ _ _ _ _ _ _ _ _ _ _
+20.  J a p a nese _ _ _ _ _ _ _ _ _
+21.  t o o t h  _ _ _ _ _ _ _ _ _ _ _ _ _
+22.  f l y  _ _ _ _ _ _ _ _ _ _ _ _ _
+23 .  w a t c h _ _ _ _ _ _ _ _ _ _ _ _
+24.  p h o t o  _ _ _ _ _ _ _ _ _ _ _ _
+二
+、请
+用a 或a n 填
+空
+。
+1.  _ _ _ _ _ _ _ _ _  b ik e
+2.  _ _ _ _ _ _ _ _ _  b ig a p p l e
+3 .  _ _ _ _ _ _ _ _ _  u m b r el l a
+4.  _ _ _ _ _ _ _ _ _  u niv er sit y
+5.  _ _ _ _ _ _ _ _ _  o l d b o o k
+6 .  _ _ _ _ _ _ _ _ _  I D  c a r d
+7 .  _ _ _ _ _ _ _ _ _  isl a nd
+8 .  _ _ _ _ _ _ _ _ _  egg
+9.  _ _ _ _ _ _ _ _ _  Engl ish  t ea c h er
+10.  _ _ _ _ _ _ _ _ _  el ep h a nt
+11.  _ _ _ _ _ _ _ _ _  u gl y  do g
+12.  _ _ _ _ _ _ _ _ _  u nu su a l  ex p er ienc e
+13 .  _ _ _ _ _ _ _ _ _  insec t
+14.  _ _ _ _ _ _ _ _ _  h o nest  b o y
+15.  _ _ _ _ _ _ _ _ _  Eu r o p ea n c o u nt r y
+三
+、请
+用so m e或a ny 填
+空
+。
+1.  Th er e isn' t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  o r a nge j u ic e in t h e b o t t l e.
+2.  I  c a n' t  f ind _ _ _ _ _ _ _ _ _ _ _ _ _ _  sk ir t s I  l ik e.
+3 .  W h y  do n' t  w e b u y  _ _ _ _ _ _ _ _ _ _ _ _ _ _  b o o k s?
+4.  I  u su a l l y  b u y  _ _ _ _ _ _ _ _ _ _ _ _ _ _  b r ea d f o r  b r ea k f a st  in
+t h e m o r ning.
+5.  Ar e t h er e _ _ _ _ _ _ _ _ _ _ _ _ _ _  b o o k s o n t h e t a b l e?
+6 .  Y o u  c a n t a k e _ _ _ _ _ _ _ _ _ _ _ _ _ _  p h o t o s in t h e p a r k .
+7 .  H er e a r e _ _ _ _ _ _ _ _ _ _ _ _ _ _  go o d new s f o r  y o u .
+8 .  Ca n I  a sk  y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  q u est io ns?
+9.  W il l  y o u  giv e m e _ _ _ _ _ _ _ _ _ _ _ _ _ _  p a p er ?
+10.  Th er e a r e _ _ _ _ _ _ _ _ _ _ _ _ _ _  int er est ing p l a c es in t h is
+c it y .
+考点2 代词
+关于代词，你需要掌握：
+ 人称
+代
+词（主格/宾格）、形容词性物
+主代
+词、名
+词性物
+主
+代
+词、反身代
+词
+ b o t h 和a l l 的用法
+ eit h er  和neit h er 的用法
+ ea c h  和ev er y 的用法
+ no  和no ne的用法
+ 合成代
+词
+自我小测
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  —
+W h ic h  o ne w o u l d y o u  l ik e, c o f f ee o r  o r a nge j u ic e?
+—
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ .  I  j u st  w a nt  so m et h ing t o  ea t .
+A.  Co f f ee
+B .  B o t h
+C.  O r a nge j u ic e
+D .  N eit h er
+2.  Th is is m y  b r o t h er .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  na m e is To m .
+A.  H is
+B .  H e
+C.  H im
+D .  I t s
+3 .  My  b est  f r iend is Al ic e.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  is a  da nc er .
+A.  Sh e
+B .  H er
+C.  H er s
+D .  I t
+4.  Th e p enc il  is _ _ _ _ _ _ _ _ _ _ _ _ _ _ .  To m  l ef t  it  h er e
+y est er da y .
+A.  h is
+B .  h im
+C.  h e
+D .  it
+5.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  f a t h er  is a  p il o t .  I  a dm ir e h im  v er y
+m u c h .
+A.  My
+B .  H e
+C.  H im
+D .  I
+二
+、改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+6 .  B o t h  o f  u s is st u dent s.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  Th er e isn' t  so m e a p p l es in t h e b o x .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+8 .  Co u l d y o u  giv e m e a ny  f o o d?
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  B o t h  o f  t h em  l ik es p l a y ing b a sk et b a l l .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  Al l  o f  u s is k een o n j a z z .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 人称代词( 主格/ 宾格）、形容词性物主代词、名
+词性物主代词、反身代词
+1.  人称
+代
+词作主语时用主格。
+H e is a n Engl ish  t ea c h er . 他
+是一位英语老
+师。
+2.  人称
+代
+词作宾语时用宾格，作表语时也多用宾格，尤
+其是在口
+语中。
+Th e do g is r u nning a f t er  h im . 那
+条
+狗
+正在追
+着他
+跑
+。
+Th a t ' s h im , t h e f a m o u s f il m  st a r . 那
+就是他
+，那
+个有名
+的电
+影
+明
+星
+。
+3 .  形容词性物
+主代
+词可以作定语。
+Th eir  p a r t ies a r e a l w a y s f u n. 他
+们的聚
+会总
+是很
+有趣
+。
+4.  名
+词性物
+主代
+词可以作主语、宾语、表语。
+Th e r ed b o o k  o n t h e sh el f  is m ine. 书架上
+那
+本红
+色
+的书是我
+的。
+5.  反身代
+词可以作宾语、表语。
+Sh e c a n c o o k  b y  h er sel f . 她
+可以自己做饭
+。
+6 .  代
+词的形式要牢
+记。
+续
+表
+考点巩固
+请
+从方框中选择正确
+的代
+词替
+代
+句子
+中的画
+线部分。
+t h eir  t h em  w e h er  h is h im
+1.  My  b r o t h er  a nd I  w ent  t o  t h e m u seu m  y est er da y .
+2.  My  m o t h er  m a de a  c a k e f o r  m y  b r o t h er .
+3 .  To m ' s t ie is r ed.
+4.  J essie' s sist er  is a n a c t r ess.
+5.  I  u sed t o  t ea c h  J er r y  a nd To m  Engl ish .
+6 .  Andy  a nd J a so n' s r o o m  is no t  v er y  b ig.
+考点梳理2 both和all的用法
+1.  b o t h  指“两
+者
+都”，谓
+语动词用复数，用在肯
+定句中。
+B o t h  o f  m y  p a r ent s a r e do c t o r s. 我的父
+母都是医
+生。
+2.  a l l 指“三
+者
+及
+以上
+”，谓
+语动词用复数。
+Tim  is t h e t a l l est  o f  a l l  t h e st u dent s in o u r  c l a ss.  蒂
+姆
+是我们班
+最高的学生。
+考点梳理2 either和neither的用法
+1.  eit h er  指“两
+者
+当中的任意
+一个”。
+Eit h er  o f  u s w il l  w in t h e ga m e. 我们两
+个都有可能赢
+得比
+赛
+。
+2.  neit h er 指“两
+者
+都不”。
+N eit h er  o f  u s is a  t ea c h er . 我们两
+个都不是老
+师。
+考点梳理3 each和every的用法
+1.  ea c h  强调
+个体
+，作主语时，谓
+语动词用单数。
+Ea c h  o f  u s r ec eiv es a  l et t er .  我们每个人都收到了一封
+信
+。
+2.  ev er y 强调
+整
+体
+当中的每一个，一般
+修
+饰
+可数名
+词单数。
+Y o u  c a n see ev er y  w o r d c l ea r l y  f r o m  h er e. 从这儿，你
+能清
+楚
+地看到每个单词。
+考点梳理4 every修饰可数名词复数时，表示发生的频率，即
+“每，每逢，每隔”。
+ev er y  f o u r  da y s 每四天，每隔
+三
+天
+考点梳理5 no和none的用法
+1.  no 可以修
+饰
+可数名
+词，也可以修
+饰
+不可数名
+词，no = no t  a ny 。
+Th er e is no  w a t er  in t h e b o t t l e.  =  Th er e isn' t  a ny  w a t er
+in t h e b o t t l e. 瓶
+子
+里
+没有水。
+2.  no ne常
+和o f  连
+用，也可以作主语、宾语、表语。指代
+不可数
+名
+词时，谓
+语动词用单数；指代
+可数名
+词时，谓
+语动词可以用单数或
+者
+复数。
+N o ne o f  u s is/a r e st u dent /st u dent s. 我们都不是学生。
+考点梳理6 合成代词
+1.  so m eo ne、so m eb o dy 、so m et h ing和so m ew h er e 多用在肯
+定句
+中，在疑
+问
+句当中表建
+议
+。
+Ar e y o u  go ing t o  get  so m et h ing t o  dr ink ?  你
+要喝
+点东西
+吗
+？
+2.  a ny o ne、a ny b o dy 、a ny t h ing、a ny w h er e多用在否
+定句和疑
+问
+句中。
+I  c o u l dn' t  f ind m y  w a t c h  a ny w h er e.  我哪
+儿都找
+不到我的手
+表。
+考点2 综合练习
+一、请
+用括号
+中代
+词的正确
+形式填
+空
+。
+1.  Th is is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( I )  m o t h er .
+2.  L o o k  a t  t h ese f l o w er s.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( t h em )  a r e
+b ea u t if u l .
+3 .  Pl ea se p a ss _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h e)  a  b o o k  t o  r ea d.
+4.  Th is c a t  isn' t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( m e) ;  it ' s L u c y ' s.
+5.  Y o u  c a n' t  l ea v e h im  a l o ne;  h e is t o o  y o u ng t o  st a y
+w it h  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h e) .
+6 .  Miss W h it e is m y  Engl ish  t ea c h er ;  I  a m  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+( sh e)  st u dent .
+7 .  Ar e t h ese _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( t h ey )  b a gs?
+8 .  H u r r y  u p , t h ey  a r e w a it ing f o r  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w e) .
+9.  Th e l it t l e b a b y  a t e f o o d b y  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h e) .
+10.  Y o u r  c l a ssr o o m  is b igger  t h a n _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( o u r ) .
+二
+、请
+从下面表格中选择正确
+的词填
+空
+。
+no t h ing a ny w h er e ev er y t h ing so m eo ne ev er y o ne a ny o ne
+a ny b o dy
+1.  Th er e isn' t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  in t h e c l a ssr o o m , b ec a u se
+st u dent s a r e h a v ing PE c l a ss.
+2.  I  h a v e _ _ _ _ _ _ _ _ _ _ _ _ _ _  t o  do ;  m y  m o t h er  h a s do ne
+ev er y t h ing f o r  m e.
+3 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  c a l l ed y o u  t h is a f t er no o n;  I  c a n' t
+r em em b er  h is na m e.
+4.  I  c a n' t  f ind m y  do g _ _ _ _ _ _ _ _ _ _ _ _ _ _ .
+5.  Th e l it t l e gir l  is r u nning o n t h e p l a y gr o u nd b y
+h er sel f ;  sh e do esn' t  r u n w it h _ _ _ _ _ _ _ _ _ _ _ _ _ _ .
+6 .  J u st  r el a x , y o u  c a n' t  f inish  _ _ _ _ _ _ _ _ _ _ _ _ _ _  a t  t h e
+sa m e t im e.
+7 .  Al l  t h e st u dent s a r e h a v ing c l a ss;  _ _ _ _ _ _ _ _ _ _ _ _ _ _  is
+h er e.
+D a y  2
+考点3 形容词
+关于形容词，你需要掌握：
+ 形容词原
+级、比
+较
+级和最高级的结构
+ 形容词的比
+较
+级和最高级的规则变
+化
+ 形容词的比
+较
+级和最高级的不规则变
+化
+自我小测
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  To m  is o ne o f  _ _ _ _ _ _ _ _ _ _ _ _ _ _  in m y  f a m il y .
+A.  t a l l
+B .  t a l l er
+C.  t a l l est
+D .  t h e t a l l est
+2.  Th is is _ _ _ _ _ _ _ _ _ _ _ _ _ _  f il m  I  h a v e ev er  seen.
+A.  t h e b est
+B .  b et t er
+C.  go o d
+D .  w el l
+3 .  Th e c it y  is m u c h  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h a n b ef o r e.
+A.  go o d
+B .  w el l
+C.  b et t er
+D .  b est
+4.  Th e sc h o o l  is no t  a s _ _ _ _ _ _ _ _ _ _ _ _ _ _  a s t h e su p er m a r k et
+f r o m  h er e.
+A.  f a r
+B .  f a r t h er
+C.  f u r t h er
+D .  f a r t h est
+5.  —
+W h ic h  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  sea so n in B eij ing?
+—
+I  t h ink  it ' s a u t u m n.
+A.  t h e b est
+B .  b est
+C.  b et t er
+D .  go o d
+二
+、改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+6 .  I  st u dy  a s h a r der  a s m y  sist er .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  Th e Y el l o w  Riv er  is o ne o f  t h e l o ng r iv er s in Ch ina .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+8 .  To m  is t h e y o u nger  t h a n h is sist er .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  To r o nt o  is l a r ger  c it y  in Ca na da .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  My  r o o m  is a s l a r ge t h a n y o u r s.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 形容词的原级、比较级和最高级的结构
+考点巩固
+看图，用括号
+里
+的形容词的比
+较
+级或最高级填
+空
+。
+1.  Th e t iger  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h a n t h e l iz a r d.  ( h ea v y )
+2.  Th e el ep h a nt  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h a n t h e t iger .  ( h ea v y )
+3 .  Th e el ep h a nt  is t h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  t h em .  ( h ea v y )
+4.  Th e l iz a r d is _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h a n t h e t iger .  ( sm a l l )
+5.  Th e t iger  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h a n t h e el ep h a nt .  ( sm a l l )
+6 .  Th e l iz a r d is t h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  o f  t h em .  ( sm a l l )
+考点梳理2 形容词比较级和最高级的规则变化
+考点梳理3 形容词比较级和最高级的不规则变化
+考点3 综合练习
+一、按
+照
+比
+较
+级和最高级的变
+化规则将下列形容词分类
+，已
+给
+出
+示
+例。
+u gl y  b ea u t if u l  t h in c h eer f u l  sm a r t  st r a nge su nny  st r o ng
+p r et t y
+f u nny  h o t  l a r ge l it t l e w et  go o d l a t e o l d c o l o u r f u l  b a d
+f a st  f a t
+nic e enj o y a b l e w ide
+二
+、写出
+下列形容词的比
+较
+级和最高级。
+1.  ea sy  _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _
+2.  l it t l e _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _
+3 .  o l d _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _
+4.  w el l  _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _
+5.  c h ea p  _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _
+6 .  m u c h  _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _
+7 .  h a p p y  _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _
+8 .  t h in _ _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _
+9.  b a d _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _
+10.  ex p ensiv e _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _
+三
+、用括号
+里
+形容词的正确
+形式填
+空
+。
+1.  Th e T-sh ir t  is m u c h  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c h ea p )  t h a n t h e
+c o a t .
+2.  Th e b o o k  is t h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( int er est ing)  I  h a v e
+ev er  seen.
+3 .  Th e su p er m a r k et  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b u sy )  o n Su nda y
+t h a n o n Mo nda y .
+4.  H e is o ne o f  t h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( t a l l )  st u dent s in m y
+c l a ss.
+5.  To m  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( r ic h )  t h a n m e.
+6 .  Y o u  w ent  t o  see t h e do c t o r .  Ar e y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+( go o d)  no w ?
+7 .  I  h a v e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( m u c h )  m o ney  t h a n y o u .
+8 .  W h ic h  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h ea v y ) , t h e b o t t l e o r  t h e
+a p p l e?
+9.  Th e N il e is t h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( l o ng)  r iv er  in t h e
+w o r l d.
+10.  Th is b o o k  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( dif f ic u l t )  t h a n a ny
+o t h er  o ne h er e.
+四、同义
+句转
+换
+。
+1.  Th is h o u se is b igger  t h a n t h a t  o ne.
+Th a t  h o u se is no t  a s _ _ _ _ _ _ _ _ _ _ _ _ _ _  a s t h is o ne.
+2.  I ' m  t a l l er  t h a n m y  l it t l e b r o t h er .
+My  l it t l e b r o t h er  isn' t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  m e.
+考点4 介词
+关于介词，你需要掌握：
+ 方位介
+词的用法
+ 时间
+介
+词的用法
+自我小测
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  Ca n y o u  see t h e w o r d _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e w a l l ?
+A.  o n
+B .  in
+C.  u nder
+D .  o v er
+2.  W h en w il l  y o u  a r r iv e _ _ _ _ _ _ _ _ _ _ _ _ _ _  B eij ing?
+A.  a t
+B .  in
+C.  f r o m
+D .  f o r
+3 .  W h y  do n' t  w e m eet  _ _ _ _ _ _ _ _ _ _ _ _ _ _  b u s st a t io n?
+A.  a t
+B .  o n
+C.  in
+D .  u nder
+4.  Th e p l a ne is f l y ing _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e c it y .
+A.  o n
+B .  o v er
+C.  in
+D .  a t
+5.  Th e b o a t  is p a ssing _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e b r idge.
+A.  u nder
+B .  o n
+C.  o v er
+D .  b enea t h
+二
+、改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+6 .  W e u su a l l y  sw im  o n w int er .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  Th e b r idge w a s b u il t  a t  1990.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+8 .  W e u su a l l y  do  ex er c ise o n t h e m o r ning.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  L et ' s m eet  in f iv e o ' c l o c k .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  My  b ir t h da y  is in Feb .  10t h .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 方位介词的用法
+1.  o n 表示
+在物
+体
+正上
+方且与物
+体
+接触
+。
+Pa ss m e t h e b o o k  w h ic h  is o n t h e t a b l e. 把
+桌
+子
+上
+的那
+本书递
+给
+我。
+2.  o v er 表示
+在物
+体
+正上
+方但
+不与物
+体
+接触
+；到另
+一边
+，翻
+越
+。
+Th e p l a ne is f l y ing o v er  t h e r iv er . 那
+架飞
+机
+正在河
+的上
+空
+飞
+。
+3 .  a b o v e表示
+在物
+体
+上
+方（不一定是正上
+方）但
+不与物
+体
+接触
+。
+Th e b ir ds a r e f l y ing a b o v e t h e t r ees. 那
+些
+鸟
+在树
+上
+面飞
+。
+4.  b enea t h  表示
+在物
+体
+正下方且与物
+体
+接触
+。
+Th e b o x  is b enea t h  t h e t a b l e. 那
+个盒
+子
+在桌
+子
+的正下方。
+5.  u nder  表示
+在物
+体
+的正下方但
+不与物
+体
+接触
+。
+Th e b o y s a r e p l a y ing ga m es u nder  t h e t r ee. 那
+些
+男
+孩
+正在树
+下玩
+游
+戏
+。
+6 .  b el o w  表示
+在物
+体
+下方（不一定是正下方）但
+不与物
+体
+接触
+。
+H e p u t  h is b ik e in t h e c el l a r  w h ic h  is b el o w  t h e gr o u nd.
+他
+把
+自行车
+存
+放
+在地窖
+里
+。
+7 .  in 表示
+“在…
+…
+里
+”，后面通常
+跟
+国家、城
+市
+等大地点。
+My  sist er  a r r iv ed in B eij ing l a st  Su nda y . 我妹
+妹
+上
+周
+日
+到的
+北京。
+8 .  a t  后面通常
+跟
+比
+较
+小的地点或者
+具体
+的地点。
+I  u su a l l y  st a y  a t  h o m e du r ing m y  f r ee t im e. 我空
+闲
+的时间
+通
+常
+待
+在家里
+。
+常见
+方
+位
+介
+词图
+示
+考点巩固
+请
+从括号
+里
+选择一个正确
+的单词/短
+语填
+空
+。
+1.  Th is is t h e o nl y  b r idge w h ic h  is _ _ _ _ _ _ _ _ _ _ _ _ _ _
+( o v er /o n)  t h e r iv er .
+2.  L o o k , t h e sh ip  is go ing _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( u nder /o n)  t h e
+b r idge.
+3 .  I  w il l  a r r iv e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( in/a t )  L o ndo n nex t
+Mo nda y .
+4.  Th e p l a y gr o u nd is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( in f r o nt  o f /in t h e
+f r o nt  o f )  t h e t ea c h ing b u il ding.
+5.  Th e m a n is r u nning _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( a c r o ss/t h r o u gh )  t h e
+p a r k .
+6 .  H o w  m a ny  a p p l es a r e t h er e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( in/o n)  t h e
+b a sk et ?
+7 .  Th e b o y s a r e r ea ding _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( u nder /b enea t h )
+t h e t r ee.
+8 .  Th e gir l  sa t  do w n _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b et w een/a m o ng)  h er
+m o t h er  a nd f a t h er .
+考点梳理2 时间介词的用法
+1.  in 后通常
+跟
+时间
+段。
+in 21st  c ent u r y
+in 2019
+in w int er
+in J a nu a r y
+in t h e m o r ning
+2.  a t  后通常
+跟
+具体
+时间
+点。
+a t  no o n
+a t  six  o ' c l o c k
+a t  t h e w eek end
+3 .  o n后通常
+跟
+具体
+的日
+期或者
+某
+一天。
+o n Ma y  1st
+o n Mo nda y
+4.  f r o m . . . t o . . .  表示
+从一个时间
+点到另
+一个时间
+点。
+f r o m  9 a m  t o  5 p m
+5.  sinc e 后面通常
+跟
+具体
+的时间
+点或者
+表示
+时间
+点的句子
+。
+I  h a v e l ea r nt  Engl ish  sinc e I  w a s f iv e y ea r s o l d. 我从五岁
+就开始学习英语了。
+6 .  f o r 后面通常
+跟
+时间
+段。
+H e h a s b een a  t ea c h er  f o r  2 y ea r s. 他
+已
+经当了两
+年老
+师了。
+考点4 综合练习
+一、请
+用a t 、in或o n 填
+空
+。
+1.  I ' l l  a r r iv e _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e a ir p o r t  t o m o r r o w .
+2.  My  b est  f r iend is l iv ing _ _ _ _ _ _ _ _ _ _ _ _ _ _  Sh a ngh a i.
+3 .  L et ' s m eet  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e ga t e o f  t h e sc h o o l .
+4.  D o n' t  p u t  t h e v a se_ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e c h a ir ;  p u t  it  o n
+t h e t a b l e.
+5.  Y o u  w il l  f ind a  b a nk  _ _ _ _ _ _ _ _ _ _ _ _ _ _  D a niel  st r eet .
+6 .  D o  y o u  l iv e _ _ _ _ _ _ _ _ _ _ _ _ _ _ 12 D a niel  st r eet ?
+二
+、请
+用a t 、in或o n 填
+空
+。
+1.  Th e Sp r ing Fest iv a l  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  J a nu a r y  1st  in
+Ch inese l u na r  c a l enda r .
+2.  W e sel do m  see sno w  _ _ _ _ _ _ _ _ _ _ _ _ _ _  w int er  in t h is
+so u t h er n c it y  o f  Ch ina .
+3 .  I  c a n see y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t en o ' c l o c k  t h is m o r ning.
+4.  I ' m  go ing t o  h a v e dinner  w it h  m y  f a m il y  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Ch r ist m a s D a y .
+5.  Th e p ic t u r e w a s p a int ed _ _ _ _ _ _ _ _ _ _ _ _ _ _  1900.
+6 .  I  u su a l l y  p l a y  b a sk et b a l l  w it h  m y  f r iend
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  Su nda y s.
+7 .  W h a t  su b j ec t s do  y o u  o f t en h a v e _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e
+m o r ning?
+8 .  L et ' s h a v e l u nc h  t o get h er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  no o n.
+D a y  3
+考点5 连词
+关于连词，你需要掌握：
+ 表示
+并列的连
+词
+ 表示
+转
+折
+的连
+词
+ 表示
+原
+因
+和结果的连
+词
+ 表示
+选择的连
+词
+自我小测
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  I  h a v e seen t h is f il m , _ _ _ _ _ _ _ _ _ _ _ _ _ _  I  do n' t  w a nt  t o
+see it  a ga in.
+A.  so
+B .  a s
+C.  o r
+D .  b ec a u se
+2.  H e c a n sp ea k  _ _ _ _ _ _ _ _ _ _ _ _ _ _  Engl ish  no r  Ch inese.
+A.  eit h er
+B .  neit h er
+C.  b o t h
+D .  no t  o nl y
+3 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  l o o k  p a l e, y o u  sh o u l d go  t o  see t h e
+do c t o r .
+A.  Fo r
+B .  So
+C.  U nt il
+D .  Sinc e
+4.  Y o u  sh o u l d t r y  y o u r  b est  t o  p r ep a r e f o r  t h e ex a m ,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  w il l  no t  p a ss.
+A.  a nd
+B .  o r
+C.  so
+D .  b ec a u se
+5.  I  didn' t  sl eep  _ _ _ _ _ _ _ _ _ _ _ _ _ _  nine o ' c l o c k  l a st  nigh t .
+A.  a nd
+B .  so
+C.  b u t
+D .  u nt il
+二
+、改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+6 .  N o t  o nl y  t h e t ea c h er  b u t  a l so  h is st u dent s w a s a sk ed
+t o  r ea d t h e b o o k .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  Eit h er  To m  o r  L il y  a r e t h e w inner  o f  t h e c o m p et it io n.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+8 .  W o r k  h a r d, o r  y o u  w il l  su c c eed.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  I  h a v e p r ep a r ed f o r  t h e t est  f o r  a  l o ng t im e, a nd I
+didn' t  p a ss it .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  B o t h  y o u  a nd y o u r  sist er  is t h e t o p  st u dent s.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 考点梳理
+1.  a nd 表示
+“和”。
+I  w ent  t o  t h e su p er m a r k et  a nd b o u gh t  so m e b r ea d.  我去
+了超
+市
+，买
+了一些
+面包。
+2.  b o t h . . . a nd. . . 表示
+“两
+者
+都”。
+B o t h  To m  a nd B o b  a r e t ea c h er s.  汤
+姆
+和鲍
+勃
+都是老
+师。
+3 .  neit h er . . . no r . . .  表示
+“…
+…
+和…
+…
+都不”。
+N eit h er  To m  no r  B o b  is a  do c t o r .  汤
+姆
+和鲍
+勃
+都不是医
+生。
+4.  no t  o nl y . . . b u t  a l so /no t  o nl y . . . b u t . . . a s w el l 表示
+“不
+仅…
+…
+而且…
+…
+”。
+H e c a n sp ea k  no t  o nl y  Engl ish  b u t  a l so  Fr enc h . 他
+不仅会说
+英语而且会说法语。
+考点梳理2 表示转折的连词
+1.  b u t  表示
+“但
+是；然而”。
+I  go t  u p  ea r l y  t h is m o r ning, b u t  I  m issed t h e b u s.  我今
+天
+起得早
+，但
+是没赶
+上
+公交
+车
+。
+2.  o r  表示
+“否
+则”。
+G et  u p , o r  y o u  w il l  b e l a t e. 起床
+，否
+则你
+会迟
+到的。
+考点梳理3 表示原因和结果的连词
+1.  b ec a u se 表示
+“因
+为”。
+I  w a s l a t e b ec a u se I  c o u l dn' t  c a t c h  t h e b u s. 我迟
+到了，因
+为我没有赶
+上
+那
+趟
+公交
+车
+。
+2.  f o r  表示
+原
+因
+。
+Sh e o p ened t h e do o r  f o r  so m eo ne k no c k ed a t  t h e do o r . 她
+打
+开了门，因
+为有人敲
+门。
+3 .  so  表示
+结果。
+H e w o r k ed h a r d, so  h e p a ssed t h e ex a m . 他
+努
+力学习，所以通
+过了考试。
+考点梳理4 表示选择的连词
+1.  eit h er . . . o r . . . 表示
+两
+者
+当中的一个，“或者
+…
+…
+或
+者
+…
+…
+”。
+Eit h er  h e o r  I  w il l  w in t h e ga m e. 不是他
+就是我会赢
+得这场比
+赛
+。
+2.  o r  表示
+“或者
+”。
+W h ic h  o ne w o u l d y o u  l ik e t o  dr ink , c o f f ee o r  t ea ?  咖
+啡
+和
+茶
+，你
+想
+喝
+哪
+个？
+考点5 综合练习
+一、请
+将左右两
+栏
+连
+线，组成正确
+的句子
+。
+1.  I  w ent  t o  t h e su p er m a r k et , 　
+　
+　
+a .  o r  c o f f ee?
+2.  I  go t  u p  l a t e t h is m o r ning, 　
+　
+　
+b .  a nd dr a w  w el l .
+3 .  I  w a nt  t o  go  t o  b ed no w , 　
+　
+　
+　
+c .  b ec a u se I ' m  t ir ed.
+4.  I  c a n sing　
+　
+　
+　
+　
+　
+　
+　
+　
+　
+　
+d.  so  I  didn' t  c a t c h
+t h e sc h o o l  b u s.
+5.  W o u l d y o u  l ik e a  c u p  o f  t ea  　
+　
+e.  b u t  I  b o u gh t
+no t h ing.
+二
+、请
+从括号
+里
+选择一个正确
+的单词填
+空
+。
+1.  H u r r y  u p , _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( o r /so )  w e' l l  b e l a t e f o r
+sc h o o l .
+2.  B o b  h a s w o r k ed f o r  18  h o u r s, _ _ _ _ _ _ _ _ _ _ _ _ _ _
+( b ec a u se/so )  h e is t ir ed.
+3 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( B ec a u se/So )  I  h a v e l it t l e m o ney , I
+c a n' t  ea t  in a  r est a u r a nt .
+4.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( B o t h /N eit h er )  m y  sist er  a nd I  l o v e
+p l a y ing t h e p ia no .
+5.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( B o t h /N eit h er )  m y  f a t h er  no r  m y  m o t h er
+w o r k s a t  u niv er sit y .
+6 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( Eit h er /N eit h er )  p iz z a  o r  b u r ger  is O K.
+7 .  W e t o o k  a  l o t  o f  p ic t u r es _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( a nd/so )
+b o u gh t  m a ny  so u v enir s.
+考点6 程度副词 enough和too
+关于程度副词enough和too，你需要掌握：
+ 形容词+ eno u gh 的用法
+ t o o + 形容词的用法
+ no t . . . eno u gh  和t o o . . . t o 之间
+的转
+换
+自我小测
+请
+用t o o 或eno u gh 和括号
+里
+的形容词填
+空
+。
+1.  Sh e is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( y o u ng)  t o  go  t o  sc h o o l .
+2.  Sh e is no t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( o l d)  t o  go  t o  sc h o o l .
+3 .  Th is b a g is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b ig)  t o  p u t  t h ese b o o k s
+in.
+4.  I t  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c o l d)  in t h e r o o m .  Ma y  I  c l o se
+t h e w indo w ?
+5.  H e is _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( p o o r )  t o  a f f o r d t h e b il l .
+考点梳理
+考点梳理1 形容词+ enough 的用法
+形容词和eno u gh  连
+用时，eno u gh  要放
+在形容词的后面。
+I  c a n' t  p u t  o n t h e w h it e sw ea t er ;  it ' s no t  b ig eno u gh .  那
+件
+白
+毛
+衣
+我穿
+不上
+了，不够大。
+考点梳理2 too + 形容词的用法
+形容词和t o o 连
+用时，t o o 要放
+在形容词的前面。
+I  w a nt  t o  ea t  so m e ic e c r ea m ;  it ' s t o o  h o t  in h er e.  我想
+吃
+点冰
+激
+凌
+，这里
+太热了。
+考点梳理3 not...enough 和too...to 之间的转换
+t o o . . . t o  表示
+“太…
+…
+而不能…
+…
+”。
+no t . . . eno u gh 表示
+“远
+不够”。
+I t ' s t o o  da nger o u s t o  st a y  a t  h o m e w h en t h er e' s a n
+ea r t h q u a k e.  地震
+发
+生时不能待
+在家里
+，太危
+险
+了。
+I t ' s no t  sa f e eno u gh  t o  st a y  a t  h o m e w h en t h er e' s a n
+ea r t h q u a k e.  地震
+发
+生时不能待
+在家里
+，不够安全。
+考点6 综合练习
+同义
+句转
+换
+。
+1.  Th e y o u ng gir l  is t o o  sh o r t  t o  see t h e st a ge.
+Th e y o u ng gir l  is _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _
+t o  see t h e st a ge.
+2.  W e c a n' t  sw im  in t h e p o o l , f o r  t h e w a t er  is no t  w a r m
+eno u gh .
+W e c a n' t  sw im  in t h e p o o l , f o r  t h e w a t er  is
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ .
+3 .  Th e q u est io n is no t  ea sy  eno u gh  t o  a nsw er .
+Th e q u est io n is _ _ _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t o  a nsw er .
+4.  Th e c o m p u t er  is t o o  ex p ensiv e f o r  m e t o  b u y .
+Th e c o m p u t er  is _ _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ _ _
+f o r  m e t o  b u y .
+5.  I t  is t o o  h a r d t o  see t h e r o a d b ec a u se o f  t h e t h ic k
+f o g.
+Th e f o g is _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h ic k  _ _ _ _ _ _ _ _ _ _ _ _ _ _  see t h e
+r o a d.
+D a y  4
+考点7 一般现在时
+关于一般现在时，你需要掌握：
+ 一般
+现在时的含义
+ 一般
+现在时的结构
+ 常
+与一般
+现在时连
+用的频
+率
+副
+词
+ 一般
+现在时中动词第
+三
+人称
+单数的变
+化规则
+自我小测
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  W e o f t en _ _ _ _ _ _ _ _ _ _ _ _ _ _  ga m es in t h e p a r k .
+A.  p l a y
+B .  p l a y s
+C.  p l a y ed
+D .  p l a y ing
+2.  H e u su a l l y  _ _ _ _ _ _ _ _ _ _ _ _ _ _  u p  ea r l y  in t h e m o r ning.
+A.  get s
+B .  go t
+C.  get
+D .  t o  get
+3 .  B o b  _ _ _ _ _ _ _ _ _ _ _ _ _ _  m a ny  su b j ec t s a t  sc h o o l  ev er y  da y ,
+su c h  a s Engl ish , Ch inese,
+Ar t  a nd so  o n.
+A.  st u dies
+B .  st u dy
+C.  st u died
+D .  h a s st u died
+4.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  h e o f t en r ea d b o o k s?
+A.  D o
+B .  D id
+C.  H a s
+D .  D o es
+5.  My  p a r ent s _ _ _ _ _ _ _ _ _ _ _ _ _ _  l ik e ea t ing o u t side.
+A.  do esn' t
+B .  do n' t
+C.  h a v en' t
+D .  h a sn' t
+二
+、改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+6 .  Sh e do n' t  go  t o  sc h o o l  o n w eek ends.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  My  gr a ndf a t h er  r ea d new sp a p er s ev er y  da y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+8 .  I t  o f t en t a k e m e 3 0 m inu t es t o  w a l k  t o  sc h o o l .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  I  w a nt s t o  b u y  so m et h ing t o  dr ink .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  Th e ea r t h  m o v e a r o u nd t h e su n.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 一般现在时的含义
+1.  一般
+现在时表示
+经常
+性、习惯
+性的动作或者
+现在的某
+种
+状
+态、
+特
+征
+或能力。
+I  o f t en w a l k  t o  sc h o o l . 我经常
+走
+路
+去
+学校。
+Th a t  is a  l a r ge h o u se. 那
+是一座
+大房
+子
+。
+2.  一般
+现在时表示
+客
+观
+真理。
+Th e su n r ises f r o m  t h e ea st . 太阳
+从东方升起。
+考点梳理2 一般现在时的结构
+考点梳理3 常与一般现在时连用的频率副词
+一般
+现在时常
+和表示
+频
+率
+的副
+词连
+用，按
+照
+表示
+频
+率
+的高低
+可以
+将下列单词排
+序
+：
+a l w a y s >  u su a l l y  >  o f t en >  so m et im es >  sel do m  >  r a r el y  >
+h a r dl y  >  nev er
+ 频
+率
+副
+词一般
+加在主语后面、动词前面，但
+so m et im es也可
+以放
+在句首
+或者
+句尾
+。
+考点梳理4 一般现在时中动词第三人称单数的变化规则
+在一般
+现在时中，如果主语是第
+三
+人称
+单数，那
+么
+相应地，谓
+语
+动词也要变
+成第
+三
+人称
+单数。
+动词第
+三
+人称
+单数的变
+化规则：
+1.  大多数动词直接在词尾
+加s。
+p l a y -p l a y s
+r ea d-r ea ds
+l ist en-l ist ens
+w a t er -w a t er s
+2.  以s、sh 、c h 、x 、o 结尾
+的动词在词尾
+加es。
+gu ess-gu esses
+w a t c h -w a t c h es
+go -go es
+f ix -f ix es
+3 .  以辅
+音
+加y 结尾
+的动词，变
+y 为i加es。
+f l y -f l ies
+st u dy -st u dies
+t r y -t r ies
+c a r r y -c a r r ies
+4.  不规则变
+化。
+h a v e-h a s
+考点7 综合练习
+一、请
+仿照
+例子
+将下列代
+词/短
+语填
+入相应的表格。
+二
+、请
+写出
+下列动词的第
+三
+人称
+单数形式。
+1.  dr ink _ _ _ _ _ _ _
+2.  h a v e_ _ _ _ _ _ _
+3 .  do _ _ _ _ _ _ _
+4.  w a sh _ _ _ _ _ _ _
+5.  st a y _ _ _ _ _ _ _
+6 .  f l y _ _ _ _ _ _ _
+7 .  c a r r y _ _ _ _ _ _ _
+8 .  p a ss_ _ _ _ _ _ _
+9.  st u dy _ _ _ _ _ _ _
+10.  w a t c h _ _ _ _ _ _ _
+11.  gu ess_ _ _ _ _ _ _
+12.  r ea d_ _ _ _ _ _ _
+13 .  st o p _ _ _ _ _ _ _
+14.  w o r r y _ _ _ _ _ _ _
+15.  go _ _ _ _ _ _ _
+16 .  sa y _ _ _ _ _ _ _
+17 .  f inish _ _ _ _ _ _ _
+18 .  r a in_ _ _ _ _ _ _
+19.  p l a y _ _ _ _ _ _ _
+20.  get _ _ _ _ _ _ _
+21.  st a nd_ _ _ _ _ _ _
+22.  k no w _ _ _ _ _ _ _
+23 .  l iv e_ _ _ _ _ _ _
+24.  t ea c h _ _ _ _ _ _ _
+三
+、请
+从括号
+里
+选择正确
+的单词填
+空
+。
+1.  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w a l k s/w a l k )  t o  sc h o o l  ev er y  da y .
+2.  W e a l l  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( l ik e/l ik es)  o u r  m a t h  t ea c h er
+v er y  m u c h .
+3 .  J im  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h a v e/h a s)  a  c u p  o f  c o f f ee ev er y
+m o r ning.
+4.  My  sist er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( l o v e/l o v es)  sh o p p ing v er y
+m u c h .
+5.  Th e m o o n _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( m o v e/m o v es)  a r o u nd t h e ea r t h .
+6 .  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b r u sh /b r u sh es)  m y  t eet h  ev er y  da y .
+7 .  ( D o es/D o )  _ _ _ _ _ _ _ _ _ _ _ _ _ _  h e o f t en go  t r a v el ing?
+8 .  W h a t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( do es/do )  y o u r  m o t h er  do ?
+9.  ( D o es/D o )  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  l ik e sw im m ing?
+10.  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( do esn' t /do n' t )  l ik e sw eet  f o o d.
+四、请
+写出
+下列句子
+的否
+定句和一般
+疑
+问
+句。
+1.  Sh e c o m es f r o m  Ch ina .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  I  enj o y  l ea r ning Engl ish .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  My  b est  f r iend c l ea ns h is r o o m  ev er y  da y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  Th e b o y s o f t en p l a y  f o o t b a l l  t o get h er .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  B o b  l iv es in a  sm a l l  c it y  nea r  t h e sea .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点8 一般过去时
+关于一般过去时，你需要掌握：
+ 一般
+过去
+时的含义
+ 一般
+过去
+时的结构
+ 常
+见
+的一般
+过去
+时的标志
+词
+ 动词过去
+式的变
+化规则
+自我小测
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  —
+D id y o u  enj o y  y o u r  h o l ida y ?
+—
+N o , I  _ _ _ _ _ _ _ _ _ _ _ _ _ _ .
+A.  didn' t
+B .  do n' t
+C.  h a v en' t
+D .  do esn' t
+2.  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ev er y  da y  w h en I  l iv ed in t h e
+c o u nt r y side l a st  y ea r .
+A.  h a d a  w a l k
+B .  h a v e a  w a l k
+C.  w a l k
+D .  h a s w a l k ed
+3 .  —
+W h a t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  do  l a st  Mo nda y ?
+—
+I  v isit ed m y  gr a ndp a r ent s.
+A.  do
+B .  did
+C.  do es
+D .  h a v e
+4.  —
+H o w  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u r  h o l ida y  l a st  m o nt h ?
+—
+G r ea t .
+A.  w a s
+B .  did
+C.  w er e
+D .  do es
+5.  W e _ _ _ _ _ _ _ _ _ _ _ _ _ _  t o  t h e c inem a  y est er da y .
+A.  w ent
+B .  go
+C.  go es
+D .  h a v e go ne
+二
+、改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+6 .  W e do n' t  h a v e Engl ish  c l a ss l a st  w eek .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  Sh e r ea ds l o t s o f  b o o k s w h en sh e w a s y o u ng.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+8 .  D o  y o u  m eet  h im  y est er da y ?
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  I  r ec eiv e a  l et t er  f r o m  m y  b r o t h er  t h is m o r ning.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  H e l ea v es t w o  h o u r s a go .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 一般过去时的含义
+1.  一般
+过去
+时表示
+过去
+某
+个时间
+点或者
+时间
+段发
+生的动作。
+I  w a l k ed t o  sc h o o l  y est er da y .  我昨
+天步行去
+学校了。
+2.  一般
+过去
+时表示
+过去
+某
+个时间
+点或者
+时间
+段存
+在的状
+态、特
+征
+或者
+能力。
+H e w a s a  do c t o r . 他
+曾
+经是一名
+医
+生。
+考点梳理2 一般过去时的结构
+考点梳理3 常见的一般过去时的标志词
+l a st
+a go
+y est er da y
+t h e da y  b ef o r e y est er da y
+j u st  no w
+o nc e u p o n a  t im e
+in 2000
+a t  t h e a ge o f
+考点巩固
+改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+1.  I  go  t o  t h e p a r k  y est er da y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  Sh e w a t c h es TV  f o r  a  l o ng t im e l a st  w eek end.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  I  h a v e j u st  h a d a  c u p  o f  c o f f ee j u st  no w .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  O nc e u p o n a  t im e, t h er e is a  gir l  c a l l ed J u l y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  Sh e c a n r ea d b o o k s a t  t h e a ge o f  t h r ee.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理4 动词过去式的变化规则
+1.  直：多数动词直接在词尾
+加ed。
+c l ea n-c l ea ned
+2.  去
+：当单词结尾
+有不发
+音
+的e时，去
+e加ed。
+t a st e-t a st ed
+3 .  双
+：当重读闭
+音
+节
+单词末
+尾
+只
+有一个元
+音
+字
+母和一个辅
+音
+字
+母
+时，双
+写结尾
+字
+母，加ed。
+st o p -st o p p ed
+4.  改：以辅
+音
+加y  结尾
+的单词，改y 为i加ed。
+st u dy -st u died
+考点8 综合练习
+一、请
+写出
+下列动词的过去
+式。
+1.  w o r k _ _ _ _ _ _ _ _ _ _ _ _ _ _
+2.  p l a y _ _ _ _ _ _ _ _ _ _ _ _ _ _
+3 .  t r y _ _ _ _ _ _ _ _ _ _ _ _ _ _
+4.  c o p y _ _ _ _ _ _ _ _ _ _ _ _ _ _
+5.  l iv e_ _ _ _ _ _ _ _ _ _ _ _ _ _
+6 .  st u dy _ _ _ _ _ _ _ _ _ _ _ _ _ _
+7 .  c a r r y _ _ _ _ _ _ _ _ _ _ _ _ _ _
+8 .  m o v e_ _ _ _ _ _ _ _ _ _ _ _ _ _
+9.  a sk _ _ _ _ _ _ _ _ _ _ _ _ _ _
+10.  l o v e_ _ _ _ _ _ _ _ _ _ _ _ _ _
+11.  da nc e_ _ _ _ _ _ _ _ _ _ _ _ _ _
+12.  h el p _ _ _ _ _ _ _ _ _ _ _ _ _ _
+二
+、请
+从括号
+里
+选择正确
+的动词形式填
+空
+。
+1.  Sh e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( l iv es/l iv ed)  in Engl a nd t w o  y ea r s
+a go .
+2.  W e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h a d/h a v e)  a  p a r t y  l a st  nigh t .
+3 .  B o b  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w o r k ed/w o r k )  in a  f a c t o r y  w h en h e
+w a s 17 .
+4.  Th e st u dent  l ist ened t o  t h e m u sic  a nd _ _ _ _ _ _ _ _ _ _ _ _ _ _
+( da nc ed/da nc e) .
+5.  W e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( didn' t /do n' t )  t a k e l o t s o f  p ic t u r es
+l a st  y ea r .
+6 .  Th er e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w a s/is)  a  f o o t b a l l  m a t c h  l a st
+nigh t .
+7 .  W h a t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( did/do )  h e ea t  f o r  b r ea k f a st  t h is
+m o r ning?
+8 .  Pet er  didn' t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( l iv e/l iv ed)  in J a p a n.
+9.  W e didn' t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b o u gh t /b u y )  a ny  b o o k s.
+10.  D id y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c l im b ed/c l im b )  m o u nt a in
+y est er da y ?
+三
+、请
+写出
+下列句子
+的否
+定句和一般
+疑
+问
+句。
+1.  Th ey  b u il t  t h e b r idge in 1990.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  Sa l l y  w o n a  p r iz e l a st  y ea r .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  My  sist er  r ea d a  l o t  o f  st o r y  b o o k s w h en sh e w a s t en.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  J o h n w a t c h ed TV  y est er da y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  W e p l a nt ed m a ny  t r ees l a st  y ea r .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+D a y  5
+考点9 现在进行时
+关于现在进行时，你需要掌握：
+ 现在进行时的含义
+ 现在进行时的结构
+ 常
+见
+的现在进行时的标志
+词
+ 动词现在分词的变
+化规则
+自我小测
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  My  m o t h er  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  no w .
+A.  c o o k
+B .  c o o k ed
+C.  c o o k s
+D .  c o o k ing
+2.  Th e k ids a r e _ _ _ _ _ _ _ _ _ _ _ _ _ _  TV  a t  t h e m o m ent .
+A.  w a t c h
+B .  w a t c h ing
+C.  w a t c h es
+D .  w a t c h ed
+3 .  L ist en, w h o  is _ _ _ _ _ _ _ _ _ _ _ _ _ _ ?
+A.  singing
+B .  sing
+C.  sings
+D .  sa ng
+4.  —
+Ar e y o u  b u sy  no w ?
+—
+Y es, I ' m  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e b o o k  sh el f .
+A.  p a int
+B .  p a int ed
+C.  p a int ing
+D .  p a int s
+5.  L o o k , t h e gir l  w h o  is _ _ _ _ _ _ _ _ _ _ _ _ _ _  a  r ed dr ess is m y
+sist er .
+A.  w ea r s
+B .  w ea r ing
+C.  w o r e
+D .  w ea r
+二
+、改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+6 .  Th e t ea c h er  is t ea c h  in t h e c l a ss.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  W h o  a r e y o u  w a it  f o r ?
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+8 .  Th e st u dent s h a v e c l a ss r igh t  no w .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  L o o k , t h ey  a r e w a t c h  TV  in t h e l iv ing r o o m .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  Th e c a t  is c l im b  t h e t r ee a t  t h e m o m ent .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 现在进行时的含义
+现在进行时表示
+此
+时此
+刻
+正在发
+生的动作。
+Th e p a nda  is c l im b ing t h e b ig t r ee. 那
+只
+熊
+猫
+正在爬
+那
+棵
+大
+树
+。
+考点梳理2 现在进行时的结构
+考点巩固
+请
+用a m 、is或a r e填
+空
+。
+1.  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  p a int ing t h e w a l l  no w .
+2.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  r ea ding y o u r  b o o k  a t  t h e m o m ent ?
+3 .  L o o k , sh e _ _ _ _ _ _ _ _ _ _ _ _ _ _  c l im b ing t h e t r ee.
+4.  L ist en, w h o  _ _ _ _ _ _ _ _ _ _ _ _ _ _  singing nex t  do o r ?
+5.  My  p a r ent s _ _ _ _ _ _ _ _ _ _ _ _ _ _  t a l k ing in t h e l iv ing r o o m .
+6 .  Th e gir l s _ _ _ _ _ _ _ _ _ _ _ _ _ _  h a v ing Engl ish  c l a ss.
+7 .  I t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  r a ining o u t side.
+8 .  Ka t e a nd Anna  _ _ _ _ _ _ _ _ _ _ _ _ _ _  no t  w a t c h ing TV .
+考点梳理3 常见的现在进行时的标志词
+no w
+l ist en
+l o o k
+a t  t h e m o m ent
+r igh t  no w
+考点梳理4 动词现在分词的变化规则
+续
+表
+考点9 综合练习
+一、请
+写出
+下列动词的现在分词。
+1.  c u t _ _ _ _ _ _ _ _ _ _ _ _ _ _
+2.  p u t _ _ _ _ _ _ _ _ _ _ _ _ _ _
+3 .  c h a t _ _ _ _ _ _ _ _ _ _ _ _ _ _
+4.  sk i_ _ _ _ _ _ _ _ _ _ _ _ _ _
+5.  t a k e_ _ _ _ _ _ _ _ _ _ _ _ _ _
+6 .  c o m e_ _ _ _ _ _ _ _ _ _ _ _ _ _
+7 .  r ide_ _ _ _ _ _ _ _ _ _ _ _ _ _
+8 .  da nc e_ _ _ _ _ _ _ _ _ _ _ _ _ _
+9.  f ish _ _ _ _ _ _ _ _ _ _ _ _ _ _
+10.  l o v e_ _ _ _ _ _ _ _ _ _ _ _ _ _
+11.  see_ _ _ _ _ _ _ _ _ _ _ _ _ _
+12.  st o p _ _ _ _ _ _ _ _ _ _ _ _ _ _
+13 .  sw im _ _ _ _ _ _ _ _ _ _ _ _ _ _
+14.  go _ _ _ _ _ _ _ _ _ _ _ _ _ _
+15.  sit _ _ _ _ _ _ _ _ _ _ _ _ _ _
+二
+、请
+用括号
+里
+单词的正确
+时态填
+空
+。
+1.  L ist en, t h e l it t l e gir l  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( sing)  a ga in.
+2.  L o o k , t h ey  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( dr ink )  t ea  in t h e ga r den.
+3 .  W h a t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( do )  no w ?
+4.  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( r ea d)  a t  t h e m o m ent .
+5.  I ' m  w a sh ing t h e dish es a nd m y  y o u ng b r o t h er
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c l ea n)  t h e t a b l e.
+6 .  O u r  t ea c h er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h a v e)  a  m eet ing r igh t  no w .
+7 .  B o b  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( no t  p l a y )  f o o t b a l l  no w .
+8 .  Th e b ir d _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( f l y )  o v er  t h e w o o ds.
+9.  W e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( no t  p l a y )  ga m es no w ;  w e a r e
+w o r k ing.
+10.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( p a int )  no w ?
+三
+、请
+写出
+下列句子
+的否
+定句和一般
+疑
+问
+句。
+1.  Th ey  a r e p l a y ing f o o t b a l l  no w .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  I t  is r a ining.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  Th e t ea c h er  is t el l ing a  st o r y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  L o o k , sh e is dr a w ing a  p ic t u r e.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  My  f r iend is dr iv ing a t  t h e m o m ent .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点10 过去进行时
+关于过去进行时，你需要掌握
+ 过去
+进行时的含义
+ 过去
+进行时的结构
+ 常
+见
+的过去
+进行时的标志
+词
+ w h en和w h il e引
+导的过去
+时间
+状
+语从句
+自我小测
+改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+1.  Th e st u dent s w er e t a l k  w h en t h e st r a nger  c a m e in.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  W h a t  w er e y o u  do  a t  t h is t im e y est er da y ?
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  L il y  w a s do ing h o m ew o r k  w h il e h er  m o t h er  w a s c o o k .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  W h en w e w er e h a v ing b r ea k f a st , so m eo ne k no c k s a t  t h e
+do o r .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  H e h el p s h is f a t h er  t h e w h o l e m o r ning y est er da y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 过去进行时的含义
+过去
+进行时表示
+在过去
+某
+个时间
+点或者
+时间
+段正在发
+生的动作。
+My  gr a ndp a  w a s r ea ding a  new sp a p er  a t  t h is t im e
+y est er da y .  我祖
+父
+昨
+天这个时候
+正在看报
+。
+考点梳理2 过去进行时的结构
+考点梳理3 常见的过去进行时的标志词
+a t  t h a t  t im e
+a t  t h a t  m o m ent
+w h en
+a t  t h is t im e y est er da y  ev ening
+w h il e
+考点巩固
+请
+用w a s、w er e、w a sn' t 或w er en' t 填
+空
+。
+1.  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  w o nder ing if  y o u  w o u l d c o m e.
+2.  Th ey  _ _ _ _ _ _ _ _ _ _ _ _ _ _  c o o k ing in t h e k it c h en a t  t h a t
+m o m ent .  Th ey  w er e in t h e l iv ing r o o m .
+3 .  W h a t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  h e do ing a t  t h is t im e y est er da y ?
+4.  My  p a r ent s _ _ _ _ _ _ _ _ _ _ _ _ _ _  r ea ding w h il e I  w a s w r it ing.
+5.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e b o y s p l a y ing f o o t b a l l  a t  t h a t  t im e?
+6 .  Anna  _ _ _ _ _ _ _ _ _ _ _ _ _ _  w ea r ing h er  gl a sses, so  sh e
+c o u l dn' t  see c l ea r l y .
+7 .  W h o  _ _ _ _ _ _ _ _ _ _ _ _ _ _  c r y ing in t h e l iv ing r o o m  a t  9
+o ' c l o c k  y est er da y ?
+8 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  sh e p l a y ing f o o t b a l l  w h en h er  m o t h er
+c a m e b a c k ?
+考点梳理4 when 和while 引导的过去时间状语从句
+1.  w h en引
+导的过去
+时间
+状
+语从句
+W h en t h e t ea c h er  c a m e in, w e w er e r ea ding b o o k s.  老
+师进来
+的时候
+，我们正在读书。
+W h en w e w er e r ea ding b o o k s, t h e t ea c h er  c a m e in.  我们正在
+读书的时候
+，老
+师进来了。
+2.  w h il e引
+导的过去
+时间
+状
+语从句
+W h il e m y  m o t h er  w a s c o o k ing, m y  f a t h er  w a s c l ea ning t h e
+r o o m .  我妈
+妈
+做饭
+的时候
+，爸
+爸
+正在打
+扫
+房
+间
+。
+考点10 综合练习
+一、请
+用括号
+里
+单词的正确
+时态填
+空
+。
+1.  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( t a l k )  w it h  a  f r iend w h en m y  t ea c h er
+c a m e in.
+2.  My  m o t h er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c o o k )  w h en so m eo ne k no c k ed
+a t  t h e do o r .
+3 .  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( r ea d)  w h en it  b ega n t o  r a in.
+4.  Th e l it t l e gir l  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( p l a y )  ga m es w h en h er
+m o t h er  l ef t .
+5.  I t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( r a in)  w h en y o u  w ent  t o  sc h o o l .
+6 .  I  w a s t a k ing a n ex a m  w h en t h e el ec t r ic it y
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  ( go )  o f f .
+7 .  W h en t h ey  w er e w a it ing f o r  t h e b u s, t h e l it t l e b o y
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  ( r u sh )  int o  t h e st r eet .
+8 .  W h en h e w a s m a k ing a  c a k e, I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( see)  h im .
+9.  W h il e m y  sist er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( see)  a  f il m , I  w a s
+r ea ding.
+10.  W h il e t h e t ea c h er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( sing) , t h e st u dent s
+w er e da nc ing.
+二
+、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  a  m ea l  w h en y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  m e.
+A.  w a s c o o k ing;  w er e r inging
+B .  w a s c o o k ing;  r a ng
+C.  c o o k ed;  r a ng
+D .  c o o k ed;  w a s r inging
+2.  W h a t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  a t  t h is t im e
+y est er da y ?
+A.  a r e;  do ing
+B .  w er e;  do ing
+C.  did;  do
+D .  do es;  do
+3 .  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _ TV  w h en I  v isit ed h im  t h is m o r ning.
+A.  w a sn' t  w a t c h ing
+B .  didn' t  w a t c h
+C.  do esn' t  w a t c h
+D .  h a sn' t  w a t c h ed
+4.  W h il e I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  w it h  m y  f a t h er , m y  m o t h er  w a s
+t idy ing t h e r o o m .
+A.  t a l k ed
+B .  t a l k ing
+C.  w a s t a l k ing
+D .  is t a l k ing
+5.  W h il e I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  do ing m y  h o m ew o r k , I
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  a  so u nd o u t side.
+A.  w a s;  h ea r d
+B .  a m ;  h ea r
+C.  w a s;  h ea r
+D .  a m ;  h ea r d
+D a y  6
+考点11 一般将来时
+关于一般将来时，你需要掌握：
+ 一般
+将来时的含义
+ 一般
+将来时的结构
+ 常
+见
+的一般
+将来时的标志
+词
+自我小测
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  W h a t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  do  t o m o r r o w ?
+A.  w il l
+B .  did
+C.  do
+D .  a r e
+2.  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _  go ing t o  h a v e a  h o l ida y  nex t  w eek .
+A.  is
+B .  w a s
+C.  w il l  b e
+D .  h a s
+3 .  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _  b a c k  in t h r ee da y s.
+A.  c a m e
+B .  h a s c a m e
+C.  h a d c a m e
+D .  w il l  b e
+4.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  b e f r ee t o m o r r o w ?
+A.  W il l
+B .  D o
+C.  Ar e
+D .  D id
+5.  W e _ _ _ _ _ _ _ _ _ _ _ _ _ _  go  sk a t ing nex t  w int er .
+A.  is go ing t o
+B .  w o u l d
+C.  w il l
+D .  a r e go ing
+二
+、改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+6 .  W e w il l  h a d a  p ic nic  t h is a f t er no o n.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  Su z y  is go ing v isit  h er  gr a ndp a r ent s.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+8 .  W e a r e go ing w a t c h  a  f il m  nex t  Su nda y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  W il l  y o u  a  do c t o r  in t h e f u t u r e?
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  My  b r o t h er  w il l  f l ies t o  Sh a ngh a i nex t  w eek .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 一般将来时的含义
+1.  一般
+将来时表示
+计划、打
+算
+做某
+事
+。
+I ' m  go ing t o  go  t r a v el ing w it h  m y  p a r ent s t h is su m m er
+h o l ida y .  我计划今
+年暑
+假
+和父
+母去
+旅
+行。
+2.  一般
+将来时表示
+将来某
+个时间
+点发
+生的动作或者
+状
+态。
+I  w il l  w o r k  in t h e h o sp it a l . 我将来会在医
+院里
+工作。
+考点梳理2 一般将来时的结构
+结构1
+结构2
+考点梳理3 常见的一般将来时的标志词
+t o m o r r o w
+in+ 一段时间
+nex t
+考点11 综合练习
+一、单项
+选择：请
+从下列两
+个选项
+中选出
+最佳
+选项
+。
+1.  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  m y  w o r k  nex t  Su nda y .
+A.  w il l  f inish
+B .  f inish
+2.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t o  v isit  t h e m u seu m
+t h is w eek end?
+A.  Ar e;  go ing t o
+B .  D o ;  go
+3 .  Th ey  didn' t  c o m e y est er da y , b u t  t h ey  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+c o m e t o m o r r o w .
+A.  w o u l d
+B .  w il l
+4.  I f  it  r a ins t o m o r r o w , w e _ _ _ _ _ _ _ _ _ _ _ _ _ _  p l a y  f o o t b a l l
+o u t side.
+A.  is go ing t o
+B .  w o n' t
+5.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h e m u seu m  nex t
+y ea r ?
+A.  D o ;  v isit
+B .  W il l ;  v isit
+6 .  H is m o t h er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  f o r  h is b ir t h da y  p a r t y  t h is
+a f t er no o n.
+A.  is go ing t o  p r ep a r e
+B .  h a s p r ep a r ed
+7 .  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _  p a ss t h e ex a m ina t io n if  h e w o r k s
+h a r d.
+A.  w o u l d
+B .  w il l
+8 .  Tim  _ _ _ _ _ _ _ _ _ _ _ _ _ _  st u dy  a b r o a d, b u t  h e is go ing t o
+st u dy  a t  o ne o f  t h e b est  u niv er sit ies in o u r  c o u nt r y .
+A.  w o n' t
+B .  is go ing t o
+9.  Andy  _ _ _ _ _ _ _ _ _ _ _ _ _ _  a n o p er a t io n so o n.
+A.  h a s
+B .  w il l  h a v e
+二
+、请
+从括号
+里
+选择合适的单词/短
+语填
+空
+。
+1.  L il y  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w il l  st a y /st a y )  h er e nex t  m o nt h .
+2.  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( is/w il l  b e)  a  sc ient ist  in t h e
+f u t u r e.
+3 .  Sh e w il l  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( go /go es)  t o  t h e c o nc er t  nex t
+m o nt h .
+4.  I t  is go ing t o  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( r a in/r a ins)  so o n.
+5.  My  f a t h er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w il l /w o u l d)  b e b a c k  in a  f ew
+da y s.
+6 .  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w o n' t /do n' t  )  c o m e t o m o r r o w .
+7 .  W e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( a r en' t  go ing t o /w a sn' t  go ing t o )
+h a v e a  p a r t y  t o m o r r o w .
+8 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( W il l /Ar e)  y o u  b e a b l e t o  f inish  y o u r
+h o m ew o r k  t o da y ?
+9.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( Ar e/W il l )  y o u  go ing t o  p a int  t h e w a l l ?
+10.  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( W il l /Ar e)  h is p a r ent s go  a b r o a d w it h
+h im  nex t  w eek ?
+三
+、请
+写出
+下列句子
+的否
+定句和一般
+疑
+问
+句。
+1.  I t  w il l  t a k e u s t w o  h o u r s t o  f inish  t h is w o r k .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  Sh e is go ing t o  go  t r a v el ing.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  I  w il l  b e a  t ea c h er .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  O u r  w o r l d w il l  b e b et t er .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  My  sist er  w il l  w r it e a  b o o k .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点12 现在完成时
+关于现在完成时，你需要掌握：
+ 现在完
+成时的含义
+ 现在完
+成时的结构
+ 常
+见
+的现在完
+成时的标志
+词
+ h a v e/h a s b een t o 和h a v e/h a s go ne t o
+ 动词过去
+式和过去
+分词的不规则变
+化
+自我小测
+改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+1.  Sh e h a s a l r ea dy  h a v e b r ea k f a st .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  H a v e h e f inish ed h is h o m ew o r k ?
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  I  h a v e l ea r nt  Engl ish  f o r  2018 .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  H e h a s l iv ed in B eij ing f o r  t w o  y ea r s a go .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  H e h a s go ne t o  Am er ic a  t w ic e.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 现在完成时的含义
+1.  现在完
+成时表示
+过去
+发
+生的动作对现在的影
+响
+。
+I  h a v e a l r ea dy  h a d l u nc h ;  I ' m  f u l l  no w . 我已
+经吃
+过午
+饭
+了，
+现在很
+饱
+。
+2.  现在完
+成时表示
+过去
+发
+生的动作一直持
+续
+到现在，未
+来有可能
+继续
+发
+生。
+I  h a v e l ea r nt  Engl ish  f o r  f iv e y ea r s. 我已
+经学了五年英语
+了。
+考点梳理2 现在完成时的结构
+考点梳理3 常见的现在完成时的标志词
+sinc e
+f o r
+a l r ea dy
+j u st
+ sinc e+ 时间
+点或者
+表示
+时间
+点的句子
+f o r + 时间
+段
+考点巩固
+根
+据
+下列句子
+的意
+思，用sinc e或f o r 填
+空
+。
+1.  Sh e h a s l iv ed in To k y o  _ _ _ _ _ _ _ _ _ _ _ _ _ _  2001.
+2.  Th ey  h a v e l ea r nt  J a p a nese _ _ _ _ _ _ _ _ _ _ _ _ _ _  t h ey  w er e
+t h r ee.
+3 .  I  h a v e w o r k ed in L o ndo n _ _ _ _ _ _ _ _ _ _ _ _ _ _  t w o  y ea r s.
+4.  Mr .  Sm it h  h a s h a d t h is f l a t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t en y ea r s
+a go .
+5.  W e h a v e w a it ed f o r  y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  a  l o ng t im e.
+考点梳理4 have/has been to 和have/has gone to
+1.  h a v e/h a s b een t o  表示
+“去
+了，而且已
+经回来了”。
+I  h a v e b een t o  Am er ic a  t w ic e.  我去
+过美
+国两
+次。
+2.  h a v e/h a s go ne t o  表示
+“去
+了，还没有回来”。
+H e is no t  w o r k ing;  h e h a s go ne t o  N ew  Y o r k .  他
+现在没在工
+作，他
+去
+纽
+约
+了。
+考点巩固
+根
+据
+下列句子
+的意
+思，用b een 或者
+go ne填
+空
+。
+1.  My  f a t h er  h a s j u st  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t o  b a nk ;  h e w il l
+c o m e b a c k  l a t er .
+2.  W h er e h a v e y o u _ _ _ _ _ _ _ _ _ _ _ _ _ _ ?  W e h a v e b een w a it ing f o r
+y o u  sinc e 9 o ' c l o c k .
+3 .  El l a  go t  a  new  j o b  in L o ndo n l a st  w eek ;  sh e h a s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  t h er e a t  o nc e.
+4.  Y o u r  sist er  is c o o k ing no w ;  sh e' s j u st  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+b a c k  f r o m  t h e gy m .
+5.  W e c a n' t  see h im  t h is w eek  b ec a u se h e h a s
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  a b r o a d.
+6 .  I  h a v e _ _ _ _ _ _ _ _ _ _ _ _ _ _  t o  t h e m a r k et  so  t h e f r idge is
+f u l l  no w .
+考点梳理5 动词过去式和过去分词的不规则变化
+续
+表
+续
+表
+考点12 综合练习
+一、请
+写出
+下列动词的过去
+式和过去
+分词。
+1.  ea t  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+2.  dr ink  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+3 .  c o m e _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+4.  m a k e _ _ _ _ _ _ _ _ _ _ _ _ _ _
+5.  sing _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+6 .  k eep  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+7 .  f l y  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+8 .  l et  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+9.  r u n _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+10.  sp end _ _ _ _ _ _ _ _ _ _ _ _ _
+11.  send _ _ _ _ _ _ _ _ _ _ _ _ _
+12.  b u il d _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+13 .  dr ea m  _ _ _ _ _ _ _ _ _ _ _ _ _
+14.  l ea r n _ _ _ _ _ _ _ _ _ _ _ _ _ _
+15.  h ea r  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+16 .  sw eep  _ _ _ _ _ _ _ _ _ _ _ _ _
+17 .  h u r t  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+18 .  k eep  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+19.  sl eep  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+20.  t ea c h  _ _ _ _ _ _ _ _ _ _ _ _ _
+21.  c a t c h  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+22.  t h ink  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+23 .  b u y  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+24.  b r ing _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+二
+、请
+从括号
+里
+选择正确
+的单词填
+空
+。
+1.  H e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h a v e/h a s)  h a d l u nc h .
+2.  W e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h a v en' t /h a sn' t )  f inish ed y et .
+3 .  I  h a v e nev er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b e/b een)  t h er e b ef o r e.
+4.  H e is no t  h er e;  h e h a s _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( go /go ne)  t o  t h e
+su p er m a r k et .
+5.  I  h a v e a l r ea dy  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( see/seen)  t h is f il m .
+6 .  H a v e y o u _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( l iv e/l iv ed)  h er e f o r  a  l o ng
+t im e?
+7 .  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( H a v e/H a s)  h e r ep a ir ed t h e h o u se?
+8 .  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h a v e l ea r nt /h a s l ea r nt )  Engl ish
+sinc e I  w a s t h r ee.
+9.  W h a t  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h a v e/h a s)  y o u  h a d f o r  b r ea k f a st ?
+10.  W h er e h a s h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( go /go ne) ?
+三
+、请
+写出
+下列句子
+的否
+定句和一般
+疑
+问
+句。
+1.  I  h a v e w o r k ed h er e f o r  t en y ea r s.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  Sh e h a s j u st  h a d b r ea k f a st .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  H e h a s b een t o  Sh a ngh a i.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  I  h a v e l o st  m y  k ey s.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  Su sa n h a s b een a  t ea c h er  f o r  m a ny  y ea r s.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+D a y  7
+时态的总复习
+时态梳理
+1.  一般
+现在时和一般
+过去
+时的对比
+2.  现在进行时和过去
+进行时的对比
+3 .  一般
+将来时
+续
+表
+4.  现在完
+成时
+时态综合练习
+一、单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  L o o k , t h e m a n _ _ _ _ _ _ _ _ _ _ _ _ _ _  in t h e b o a t .
+A.  f ish es
+B .  f ish ing
+C.  is f ish ing
+D .  f ish
+2.  My  a u nt  _ _ _ _ _ _ _ _ _ _ _ _ _ _  in L o ndo n f o r  t h r ee y ea r s.
+A.  h a s l iv ed
+B .  l iv es
+C.  l iv ed
+D .  is l iv ing
+3 .  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  a  t ea c h er  f iv e y ea r s a go .
+A.  b e
+B .  h a v e b een
+C.  a m
+D .  w a s
+4.  W h en w e _ _ _ _ _ _ _ _ _ _ _ _ _ _  o n t h e st r eet , h e w a v ed t o  u s.
+A.  w a l k ed
+B .  w a l k
+C.  w er e w a l k ing
+D .  a r e w a l k ing
+5.  My  gr a ndf a t h er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  u p  ea r l y  ev er y  m o r ning
+t o  c o o k  f o r  u s.
+A.  is get t ing
+B .  get
+C.  go t
+D .  get s
+6 .  My  sist er  o f t en _ _ _ _ _ _ _ _ _ _ _ _ _ _  t o  t h e p a r k  w it h  h er
+b est  f r iend.
+A.  go ing
+B .  go es
+C.  go
+D .  w ent
+7 .  U p  t o  no w , t h ey  _ _ _ _ _ _ _ _ _ _ _ _ _ _  m o r e t h a n 100 t r ees.
+A.  h a v e p l a nt ed
+B .  p l a nt
+C.  a r e p l a nt ing
+D .  h a s p l a nt ed
+8 .  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  b a c k  in a  f ew  da y s.
+A.  w il l  b e
+B .  a m
+C.  go
+D .  w il l
+9.  To m  _ _ _ _ _ _ _ _ _ _ _ _ _ _  c l ea n h is h o u se t o m o r r o w .
+A.  w il l  go ing t o
+B .  is go ing t o
+C.  w il l  b e
+D .  go
+10.  I f  it  _ _ _ _ _ _ _ _ _ _ _ _ _ _  t o m o r r o w , w e c a n go  sk iing.
+A.  sno w
+B .  sno w s
+C.  sno w ed
+D .  is sno w ing
+二
+、请
+用括号
+里
+的单词/短
+语的正确
+形式填
+空
+。
+1.  Th is is Miss W h it e;  sh e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( t ea c h )  u s
+Engl ish  t h is t er m .
+2.  Fiv e y ea r s a go , I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( no t  go )  t o  sc h o o l .
+3 .  My  f a t h er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b e)  t o  D a l ia n t w ic e.
+4.  I f  I  a m  f r ee, I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c a l l )  y o u  t o m o r r o w .
+5.  W h il e m y  sist er  w a s p l a y ing t h e p ia no  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _
+( sing) .
+6 .  Th e do g _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( r u n)  a f t er  it s o w ner .
+7 .  My  b o ss _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b e go ing t o )  f l y  t o  L o ndo n.
+8 .  Th a t  gir l  c a n' t  b e L isa ;  sh e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( go )  t o
+J a p a n.
+9.  D id y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( ea t )  du m p l ings l a st  nigh t ?
+10.  W h er e did y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( go )  l a st  su m m er
+h o l ida y ?
+三
+、请
+按
+照
+括号
+里
+的要求进行句型转
+换
+。
+1.  Sh e h a s b een a  do c t o r  f o r  f iv e y ea r s. （改成否
+定句）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  O u r  f a t h er  h a s t w o  c a r s. （改成一般
+疑
+问
+句）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  I  r ea d a n int er est ing b o o k  y est er da y . （对画
+线部分提
+问
+）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  Th e l it t l e b o y  is p a int ing o n t h e w a l l . （对画
+线部分提
+问
+）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  W e w er e c l ea ning t h e r o o m  a t  t h is t im e y est er da y . （改
+成否
+定句）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+6 .  I ' m  go ing t o  go  sh o p p ing.  （改成一般
+疑
+问
+句）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+7 .  W il l  y o u  c o m e nex t  Su nda y ?  （做肯
+定回答）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+8 .  My  b r o t h er  p l a y s b a sk et b a l l  o n Sa t u r da y s.  （改成否
+定
+句）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+9.  H a v e y o u  l o c k ed t h e do o r ?  （做否
+定回答）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+10.  Th ey  f inish ed t h eir  h o m ew o r k  l a st  nigh t .  （对画
+线部分
+提问
+）
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+D a y  8
+考点13 情态动词
+关于情态动词，你需要掌握：
+ 情
+态动词 c a n、m u st 、h a v e t o 、sh o u l d和need的用法
+ 情
+态动词表示
+猜
+测的用法
+自我小测
+改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+1.  —
+Mu st  I  f inish  m y  w o r k  t o da y ?  —
+N o , y o u  m u st n' t .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  Y o u  do n' t  h a s t o  b o o k  t h e t ic k et  o f  t h e c o nc er t .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  Th e gir l  m u st  b e L il y , sh e h a s go ne t o  N ew  Y o r k .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  I t  w a s t o o  l a t e, sh e h a s t o  l ea v e.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  Ca n y o u  dr o v e t h e o l d c a r ?
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 情态动词 can、must、have to、should 和need 的
+用法
+1.  c a n 在一般
+现在时中表示
+能力，否
+定式为c a n no t 或c a n' t 。在
+过去
+时中用c o u l d，否
+定式为c o u l d no t  或c o u l dn' t 。
+I  c a n p l a y  t h e p ia no .  我会弹
+钢
+琴
+。
+I  c a n' t  f l y . 我不会飞
+。
+2.  m u st  在一般
+现在时中表示
+“必
+须
+”；在否
+定句中用m u st n' t ，
+表示
+“禁
+止
+”。
+I  m u st  go  t o  sc h o o l  f r o m  Mo nda y  t o  Fr ida y .  我周
+一至
+周
+五必
+须
+去
+上
+学。
+W e m u st n' t  sm o k e in t h e f o r est .  我们不能在森
+林
+里
+吸
+烟
+。
+ m u st  引
+导的一般
+疑
+问
+句，否
+定回答要用needn' t 或者
+do n' t
+h a v e t o 。
+Mu st  I  f inish  t h e w o r k  t o da y ?  我今
+天必
+须
+完
+成这项
+工作吗
+？
+肯
+定回答：Y es, y o u  m u st . 是的，你
+必
+须
+完
+成。
+否
+定回答：N o , y o u  needn' t .  / N o , y o u  do n' t  h a v e t o . 不，你
+不必
+。
+ m u st 没有一般
+过去
+时，在一般
+过去
+时中要用h a d t o 。
+3 .  h a v e t o  表示
+“不得不”，可以用于各种
+时态。
+I  l o st  m y  p en, so  I  h a d t o  b u y  a  new  o ne. 我的钢
+笔
+丢
+了，所
+以我不得不买
+一支
+新的。
+4.  sh o u l d或者
+sh o u l dn' t  表示
+提建
+议
+，“应该做”或者
+“不应该
+做”。
+W e sh o u l d do  so m et h ing f o r  p r o t ec t ing o u r  env ir o nm ent .  我
+们应该为保护
+环
+境
+做一些
+事
+情
+。
+W e sh o u l dn' t  p ic k  f l o w er s in t h e p a r k . 我们不应该在公园
+里
+摘
+花
+。
+5.  need 表示
+必
+要性。否
+定式为needn' t ，表示
+“不必
+”。
+W e needn' t  b u y  t h e t h ings w e' l l  no t  u se. 我们没必
+要买
+我们
+不会用到的东西
+。
+ need 也可用做实义
+动词，表示
+“需要”。
+W e need so m e w a t er . 我们需要一些
+水。
+考点梳理2 情态动词表示猜测的用法
+1.  m u st 表示
+对现在的肯
+定猜
+测。
+H e m u st  b e t h e f a m o u s f il m  st a r . 他
+一定是那
+位有名
+的电
+影
+明
+星
+。
+2.  c a n' t  表示
+对现在的否
+定猜
+测。
+Th is b o o k  c a n' t  b e m ine;  m y  b o o k  is in m y  sc h o o l  b a g.  这
+本书不可能是我的，我的书在我的书包里
+。
+3 .  m a y 表示
+对现在的可能的猜
+测，不确
+定答案
+是肯
+定还是否
+定。
+Th e CD  m a y  b e Ma r y ' s f a v o u r it e p r esent .  CD 也许
+是玛
+丽
+最喜
+欢
+的礼
+物
+。
+考点13 综合练习
+一、根
+据
+下列句子
+的意
+思，圈
+出
+粗
+体
+部分的正确
+答案
+。
+1.  Ka t e h a s b een w o r k ing f o r  10 h o u r s;  sh e must/can b e
+t ir ed.
+2.  I t  h a s b een r a ining f o r  sev er a l  da y s;  sh e must/can't
+b e enj o y ing h er sel f .
+3 .  A:  W h o  is k no c k ing a t  t h e do o r ?
+B :  I t  must/can't b e D a d;  h e h a s go ne t o  t h e gy m .
+4.  Th e sh o p  must/can't b e v er y  go o d;  t h er e is no  gu est
+in it .
+5.  L eo  is ex p er t  a t  singing;  h e must/may b e a  singer .
+6 .  Sa m  h a sn' t  t a k en f o o d f o r  t h r ee da y s;  h e must/can't
+b e h u ngr y  no w .
+二
+、请
+从括号
+中选出
+正确
+的词填
+空
+。
+1.  I  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h a d t o /m u st )  b u y  a  new  p en
+y est er da y .
+2.  —
+Ma y  I  b o r r o w  y o u r  p en?
+—
+O f  c o u r se y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c a n/m a y ) .
+3 .  Y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( sh o u l d/sh o u l dn' t )  dr iv e so  f a st .
+4.  Th e t a l ent ed b o y  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c o u l d/m a y )  w r it e
+p o em s w h en h e w a s sev en.
+5.  Y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( do n' t  need/needn' t )  get  a ny  su ga r
+o r  m il k  f o r  m e.
+6 .  Ca r s _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( m u st /m u st n' t )  st o p  w h en t h e
+t r a f f ic  l igh t  is r ed.
+7 .  —
+Mu st  I  c l ea n t h e r o o m  no w ?
+—
+N o , y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( needn' t /m u st n' t ) .
+8 .  Th a t  b o y  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( m u st  b e/c a n' t  b e)  To m ;  h e h a s
+go ne a b r o a d.
+9.  Th is q u est io n _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( m u st  b e/c a n' t  b e)
+dif f ic u l t ;  o u r  t ea c h er  c a n' t  w o r k  it  o u t .
+10.  Y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( m u st n' t  /needn' t )  f eed t h e t iger ;
+it ' s t o o  da nger o u s.
+考点14 被动语态
+关于被动语态，你需要掌握：
+ 被
+动语态的含义
+ 一般
+现在时的被
+动语态
+ 一般
+过去
+时的被
+动语态
+ 情
+态动词的被
+动语态
+自我小测
+改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+1.  Th e b o o k  w a s w r it e in 2000.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  Th e m o o n w a s v isit  b y  m a n.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  Co t t o n a r e gr o w n in t h e so u t h ea st  o f  Ch ina .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  H o w  m a ny  t r ees a r e p l a nt ed l a st  y ea r ?
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  Th e Su m m er  Pa l a c e is k no w  a l l  o v er  t h e w o r l d.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 被动语态的含义
+被
+动语态表示
+主语是动作的承
+受者
+。请
+比
+较
+：
+To m  u ses t h e r o o m  ev er y  da y .  （主动语态，主语是动作的执
+行
+者
+）
+Th e r o o m  is u sed ev er y  da y .  （被
+动语态，主语是动作的承
+受
+者
+）
+ 被
+动语态突出
+或者
+强调
+动作的承
+受者
+，而动作的执
+行者
+是
+谁
+，没有必
+要知道
+。
+考点巩固
+一、请
+判断下列句子
+是否
+是被
+动语态，如果是，请
+在Y es下面画
+“√
+”；如果不是，请
+在N o 下面画
+“√
+”。
+考点梳理2 一般现在时的被动语态
+考点梳理3 一般过去时的被动语态
+考点梳理4 情态动词的被动语态
+考点14 综合练习
+一、请
+从括号
+里
+选择正确
+的单词填
+空
+。
+1.  Th is h o u se _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b u il t /w a s b u il t )  20 y ea r s
+a go .
+2.  Th e du c k s _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( a r e f ed/f eed)  ev er y  da y .
+3 .  Th a t  f l o w er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w a t er /w a s w a t er ed)  t h is
+m o r ning.
+4.  Th is t a b l e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w a s c l ea ned/c l ea ned)
+y est er da y .
+5.  Th e im p o r t a nt  l et t er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w a s sent /sent )  t o
+Tim  l a st  m o nt h .
+6 .  Th e int er est ing st o r y  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( is o f t en
+t o l d/o f t en t el l )  t o  t h e k ids.
+7 .  Ric e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( is gr o w n/w a s gr o w n)  h er e l o ng
+a go .
+8 .  Engl ish  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( is l ea r nt /w a s l ea r nt )  b y  m a ny
+c h il dr en.
+9.  Th e G r ea t  W a l l  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( is v isit ed/w a s v isit ed)
+b y  l o t s o f  p eo p l e.
+10.  Th e m ist a k e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w a s c o r r ec t ed/c o r r ec t )
+y est er da y .
+二
+、请
+写出
+下列句子
+的否
+定句和一般
+疑
+问
+句。
+1.  Th e c inem a  w a s b u il t  in 2000.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  My  t eet h  a r e b r u sh ed ev er y  m o r ning.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  Th e m o b il e p h o ne is u sed b y  u s ev er y  da y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  Th e sc ienc e b o o k  w a s w r it t en l a st  y ea r .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  Th ese p ic t u r es w er e p a int ed b y  t h a t  y o u ng gir l .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点15 定语从句
+关于定语从句，你需要：
+ 掌握定语从句的含义
+，能找
+到定语从句中的先行词
+ 能根
+据
+定语从句中的先行词选择正确
+的关
+系代
+词
+自我小测
+改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+1.  I  b o u gh t  a  b o o k  w h o  is r ed.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  Th a t  is t h e m a n w h o m  is o u r  t ea c h er .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  Th e c a r  w h o se m y  f a t h er  b o u gh t  l a st  y ea r  is r ed.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  Th o se a r e t h e sh o es w h o  a r e v er y  dir t y .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  Th e w o m a n w h ic h  y o u  sa w  y est er da y  is m y  Engl ish
+t ea c h er .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 定语从句的含义
+定语从句：在复合句中修
+饰
+名
+词或者
+代
+词的从句。
+先行词：被
+定语从句修
+饰
+的名
+词或代
+词。
+关
+系代
+词：引
+导定语从句的关
+联
+词。
+Th a t  is t h e m a n（先行词） w h o （关
+系代
+词） I  m et
+y est er da y （定语从句）.  那
+位就是我昨
+天遇
+到的男
+士
+。
+考点梳理2 关系代词
+考点15 综合练习
+单项
+选择：请
+从下列四个选项
+中选出
+最佳
+选项
+。
+1.  Th e p eo p l e _ _ _ _ _ _ _ _ _ _ _ _ _ _  v isit ed t h e m u seu m  a r e
+G er m a ns.
+A.  h e
+B .  w h ic h
+C.  w h o
+D .  w h o m
+2.  Th e b o o k  _ _ _ _ _ _ _ _ _ _ _ _ _ _  I  b o u gh t  y est er da y  is c h ea p .
+A.  w h ic h
+B .  it
+C.  w h o
+D .  w h o m
+3 .  I  sa w  t h e m a n _ _ _ _ _ _ _ _ _ _ _ _ _ _  w a s a  t ea c h er .
+A.  w h ic h
+B .  h e
+C.  w h o
+D .  w h o m
+4.  Th a t ' s t h e c a r  _ _ _ _ _ _ _ _ _ _ _ _ _ _  I  w a nt  t o  b u y .
+A.  w h ic h
+B .  it
+C.  w h o
+D .  w h o m
+5.  Th e b o y s _ _ _ _ _ _ _ _ _ _ _ _ _ _  a r e p l a y ing ga m es a r e m y
+f r iends.
+A.  w h ic h
+B .  t h ey
+C.  w h o
+D .  w h o m
+D a y  9
+考点16 if 引导的真实条件状语从句
+关于if引导的真实条件状语从句，你需要掌握：
+ 真实条
+件
+状
+语从句的含义
+ 真实条
+件
+状
+语从句的结构
+自我小测
+改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+1.  I f  y o u  didn' t  k no w  t h e a nsw er , y o u  c a n a sk  m e.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  Pl ea se c a l l  t h is nu m b er  if  y o u  w il l  w a nt  t o  k no w  m o r e
+a b o u t  it .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  I f  y o u  st u died h a r d, y o u  w il l  p a ss t h e ex a m .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  W e st a y  a t  h o m e if  it  r a ins t o m o r r o w .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  U nl ess w e do n' t  p r o t ec t  t h e ea r t h , w e w il l  h a v e no
+p l a c e t o  l iv e.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 真实条件状语从句的含义
+真实条
+件
+状
+语从句表示
+将来有可能发
+生的动作或存
+在的状
+态。
+考点梳理2 真实条件状语从句的结构
+考点16 综合练习
+请
+用括号
+里
+单词的正确
+形式填
+空
+。
+1.  I f  y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b e)  t ir ed, y o u  c a n h a v e a  r est .
+2.  I f  it  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( r a in)  t o m o r r o w , w e c a n st a y  in
+t h e h o t el .
+3 .  I f  h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w a t er )  t h e f l o w er , it  w il l  die.
+4.  I  w il l  send h im  a  b ea u t if u l  p r esent  if  h e
+_ _ _ _ _ _ _ _ _ _ _ _ _ _  ( inv it e)  m e.
+5.  I f  y o u  get  u p  l a t e, y o u  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b e)  l a t e f o r
+sc h o o l .
+6 .  Pl ea se _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( l et )  m e k no w  if  y o u  do n' t  k no w
+h o w  t o  dea l  w it h  it .
+7 .  I f  h e w o r k s h a r d, h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( p a ss)  t h e t est .
+8 .  I f  h e is f r ee, h e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( h el p )  y o u .
+9.  I f  y o u  h a v e a  p a r t y , ev er y o ne _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c o m e) .
+10.  I f  y o u  f eel  sl eep y , _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( go )  t o  b ed.
+考点17 to do和doing
+关于to do 和 doing，你需要掌握：
+ 动词不定式（t o  do ）表目的
+ 后面常
+跟
+do ing的几类
+动词
+自我小测
+改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+1.  W e enj o y  w a t c h  f il m  v er y  m u c h .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  W o u l d y o u  m ind sh u t  t h e w indo w ?  I t ' s t o o  c o l d.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  I ' d l ik e b u y  so m e b o o k s.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  I  p r ef er  p l a y ing b a sk et b a l l  t o m o r r o w .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  St o p  t o  w a t c h  TV ;  y o u  h a v e w a t c h ed f o r  a  l o ng t im e.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 动词不定式（to do）表目的
+动词不定式（t o + 动词原
+形）常
+用来说明
+做某
+事
+的目的或者
+原
+因
+。
+I  w o r k ed h a r d t o  p a ss t h e f ina l  ex a m . 我努
+力学习以通过期末
+考试。
+考点梳理2 后面常跟doing 的几类动词
+1.  表示
+喜好的动词（词组）：l ik e、l o v e、h a t e、m ind、f eel
+l ik e、enj o y 等。
+I  enj o y  r ea ding v er y  m u c h . 我非
+常
+喜欢
+阅读。
+2.  表示
+行为的动词：k eep 、sp end、see等。
+My  f a t h er  sp ent  t w o  m o nt h s l ea r ning h o w  t o  u se c o m p u t er .
+我父
+亲
+花
+了两
+个月
+时间
+学习如何
+使用电
+脑
+。
+3 .  表示
+起止
+的动词：st a r t 、b egin、f inish 、st o p 等。
+L et ' s st o p  w a t c h ing TV  a nd r ea d so m e b o o k s. 咱
+们别看电
+视
+了，读些
+书吧
+。
+常
+见
+动词（词组）后接t o  do 还是do ing，列表如下：
+考点17 综合练习
+请
+用括号
+里
+单词的正确
+形式填
+空
+。
+1.  D o  y o u  enj o y  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( p l a y )  t h e v io l in?
+2.  I  w o u l d l ik e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( b u y )  so m e f o o d.
+3 .  Sh e dec ided _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( l o se)  w eigh t .
+4.  To m  r ef u ses _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( do )  h o u sew o r k .
+5.  I  do n' t  m ind _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( t r y )  so m e sea f o o d.
+6 .  Pl ea se r em em b er  _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( t a k e)  t h e u m b r el l a ;
+it ' s go ing t o  r a in.
+7 .  W e a l l  h o p e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( w in)  t h e m a t c h .
+8 .  Th e l it t l e b o y  disl ik e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( t a k e)  m edic ine.
+9.  H e p r et ended _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( r ea d)  w h en h is m o t h er
+c a m e in.
+10.  My  p a r ent s l o v e _ _ _ _ _ _ _ _ _ _ _ _ _ _  ( c o o k )  a t  h o m e.
+D a y  10
+考点18 简单句结构
+关于简单句结构，你需要掌握：
+英语中的几种
+简
+单句结构
+自我小测
+改错
+题：下列每个句子
+中都有一处
+错
+误
+，请
+找
+出
+并改正。
+1.  I  a m  p r ep a r e dinner .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  Th e r o o m  do es b ea u t if u l .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  L ist ening t o  m u sic  m a k es I  r el a x .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  H is f a v o u r it e sp o r t  is p l a y  f o o t b a l l .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  My  f a t h er  ga v e a  p r esent  m e.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点梳理
+考点梳理1 英语中的几种简单句结构
+考点18 综合练习
+请
+将下列单词组成句子
+。
+1.  t a u gh t 　
+　
+　
+t h e c h il dr en　
+　
+　
+Sh e　
+　
+　
+Engl ish
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+2.  so u nds　
+　
+　
+int er est ing　
+　
+　
+Th a t
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+3 .  a  c o u p l e o f  w eek s　
+　
+　
+f r ee　
+　
+　
+h a v e　
+　
+　
+I
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+4.  m a ny  h a p p y 　
+　
+　
+h o l ida y s　
+　
+　
+h a d　
+　
+　
+in
+Th a il a nd　
+　
+　
+W e
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+5.  l o st 　
+　
+　
+h er  w a y 　
+　
+　
+My  sist er 　
+　
+　
+in t h a t  st r a nge
+c it y
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+6 .  f o u nd　
+　
+　
+m y  b a g　
+　
+　
+I 　
+　
+　
+b r o k en
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _
+考点19 一般疑问句和特殊疑问句
+关于一般疑问句和特殊疑问句，你需要掌握：
+ 一般
+疑
+问
+句的结构
+ 特
+殊
+疑
+问
+句的结构
+自我小测
+请
+根
+据
+下面的图片
+和文字
+提示
+写出
+5个问
+题。
+Star Sweet Shop
+*  na m e/sh o p 　
+　
+　
+　
+?
+*  c h o c o l a t e　
+　
+　
+　
+?
+*  ex p ensiv e　
+　
+　
+　
+?
+*  a ddr ess　
+　
+　
+　
+?
+*  t el ep h o ne nu m b er 　
+　
+　
+　
+?
+1.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+2.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+3 .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+4.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+5.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+考点梳理
+考点梳理1 一般疑问句的结构
+b e动词/情
+态动词/助动词+ S+ 其他
+？
+1.  含有b e动词的一般
+疑
+问
+句结构：
+b e动词+ S+ 名
+词/代
+词/形容词/介
+词短
+语/动词现在分词（+ 其
+他
+）？
+I s h e a  t ea c h er ?  他
+是一位老
+师吗
+？
+Ar e t h ey  del ic io u s?  它
+们美
+味
+吗
+？
+W er e y o u  a t  sc h o o l  y est er da y ?  你
+昨
+天在学校吗
+？
+I s sh e w a t c h ing TV  no w ?  她
+现在正在看电
+视
+吗
+？
+2.  含有情
+态动词的一般
+疑
+问
+句结构：情
+态动词+ S+ 动词原
+形+ 其
+他
+？
+Ca n I  b u y  so m et h ing t o  dr ink ?  我能买
+一些
+喝
+的东西
+吗
+？
+3 .  含有助动词的一般
+疑
+问
+句结构：
+ 一般
+现在时的一般
+疑
+问
+句结构：D o /D o es+ S+ 动词原
+形+ 其他
+？
+D o  y o u  l ik e t o  c o m e w it h  u s?  你
+想
+和我们一起吗
+？
+D o es h e w a nt  t o  ea t  so m et h ing?  他
+想
+吃
+点东西
+吗
+？
+ 一般
+过去
+时的一般
+疑
+问
+句结构：D id+ S+ 动词原
+形+ 其他
+？
+D id y o u  f inish  y o u r  h o m ew o r k ?  你
+写完
+作业了吗
+？
+ 一般
+将来时的一般
+疑
+问
+句结构：W il l + S+ 动词原
+形+ 其他
+？
+W il l  y o u  c o m e t o m o r r o w ?  你
+明
+天会来吗
+？
+ 现在完
+成时的一般
+疑
+问
+句结构：H a v e/H a s+ S+ 动词过去
+分词
++ 其他
+？
+H a v e y o u  h a d b r ea k f a st ?  你
+已
+经吃
+过早
+饭
+了吗
+？
+4.  t h er e b e 句型的一般
+疑
+问
+句结构：b e动词+ t h er e+ 名
+词+ 其
+他
+？
+Ar e t h er e a ny  f o o d in t h e f r idge?  冰
+箱
+里
+有食
+物
+吗
+？
+考点梳理2 特殊疑问句的结构
+特
+殊
+疑
+问
+词+ 一般
+疑
+问
+句？
+1.  含有b e动词的特
+殊
+疑
+问
+句结构：特
+殊
+疑
+问
+词+ b e+ ( S+ ) 名
+词/代
+词/形容词/介
+词短
+语/动词现在分词（+ 其他
+）？
+W h a t ' s h is j o b ?  他
+做什
+么
+工作？
+W h er e w er e t h e b o y s y est er da y ?  男
+孩
+们昨
+天在哪
+儿？
+W h a t  a r e y o u  do ing no w ?  你
+现在正在做什
+么
+？
+2.  含有情
+态动词的特
+殊
+疑
+问
+句结构：特
+殊
+疑
+问
+词+ 情
+态动词+ S+ 动
+词原
+形+ 其他
+？
+H o w  l o ng c a n I  get  t h er e?  我多长时间
+能到那
+儿？
+3 .  含有助动词的特
+殊
+疑
+问
+句结构：
+ 一般
+现在时的特
+殊
+疑
+问
+句结构：特
+殊
+疑
+问
+词+ do /do es+ S+ 动词
+原
+形+ 其他
+？
+H o w  do es h e go  t o  sc h o o l  ev er y  da y ?  他
+每天怎
+么
+去
+学校？
+ 一般
+过去
+时的特
+殊
+疑
+问
+句结构：特
+殊
+疑
+问
+词+ did+ S+ 动词原
+形
++ 其他
+？
+W h en did y o u  f inish  y o u r  h o m ew o r k ?  你
+什
+么
+时候
+完
+成的作业？
+ 一般
+将来时的特
+殊
+疑
+问
+句结构：特
+殊
+疑
+问
+词+ w il l + S+ 动词原
+形+ 其他
+？
+H o w  m u c h  w il l  y o u  p a y ?  你
+会付
+多少钱
+？
+ 现在完
+成时的特
+殊
+疑
+问
+句结构：特
+殊
+疑
+问
+词+ h a v e/h a s+ S+ 动
+词过去
+分词+ 其他
+？
+W h a t  h a v e y o u  h a d f o r  b r ea k f a st ?  你
+早
+饭
+吃
+了什
+么
+？
+4.  t h er e b e句型的特
+殊
+疑
+问
+句结构：特
+殊
+疑
+问
+词+ b e+ t h er e+ 其
+他
+？
+W h a t  a r e t h er e o n t h e t a b l e?  桌
+子
+上
+有什
+么
+？
+考点19 综合练习
+请
+根
+据
+下面的图片
+和文字
+提示
+写出
+5个问
+题。
+ART SHOW
+*  a ddr ess　
+　
+　
+　
+?
+*  w h en/o p en　
+　
+　
+　
+?
+*  w h o se p ic t u r es　
+　
+　
+　
+?
+*  t ic k et 　
+　
+　
+　
+? ￡
+*  b u y /p ic t u r e　
+　
+　
+　
+?
+1.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+2.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+3 .
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+4.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+5.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _
+参考答案
+day 1
+考点1
+自我小测
+1.  A
+2.  A
+3 .  B
+4.  C
+5.  A
+6 .  a n 改为 a
+7 .  a  改为 a n
+8 .  a c t r ess 改为 a c t r esses
+9.  m u c h  改为m a ny
+10.  f ew  改为 l it t l e
+考点梳理1
+一 1.  B
+2.  A
+3 .  B
+4.  B
+5.  A
+6 .  B
+7 .  C
+8 .  A
+9.  A
+10.  A
+11.  C
+12.  A
+13 .  B
+14.  A
+15.  B
+16 .  A
+二
+续
+表
+考点梳理2
+1.  b a g
+2.  c u p
+3 .  l o a f
+4.  b a r
+5.  b o t t l e
+6 .  sl ic e
+7 .  j a r s
+8 .  p iec es
+9.  t ins
+考点梳理3
+1.  H o w  m a ny
+2.  H o w  m u c h
+3 .  H o w  m u c h
+4.  H o w  m a ny
+5.  H o w  m a ny
+6 .  H o w  m u c h
+7 .  H o w  m u c h
+8 .  H o w  m a ny
+9.  H o w  m a ny
+考点梳理4
+a :  u sef u l  b o o k
+r ed a p p l e
+b a b y
+b o x
+dino sa u r
+b l u e r u l er
+a n:  Engl ish  b o o k
+o r a nge
+egg
+a p p l e t r ee
+h o u r
+a nim a l
+a l l iga t o r
+o l d c a r
+u m b r el l a
+h o nest  b o y
+考点梳理5
+1.  p eo p l e 是可数名
+词的复数形式，不能用( a )  l it t l e 修
+饰
+，可
+以用( a )  f ew  修
+饰
+。
+2.  b a na na s 是可数名
+词的复数形式，不能用( a )  l it t l e 修
+饰
+，
+可以用( a )  f ew  修
+饰
+。
+3 .  t im e 是不可数名
+词，不能用( a )  f ew  修
+饰
+，可以用( a )
+l it t l e修
+饰
+。
+4.  m o ney  是不可数名
+词，不能用( a )  f ew  修
+饰
+，可以用( a )
+l it t l e修
+饰
+。
+考点1 综合练习
+一 1.  f eet
+2.  t o m a t o es
+3 .  sh eep
+4.  dish es
+5.  t o y s
+6 .  sh el v es
+7 .  c h il dr en
+8 .  f a m il ies
+9.  h er o es
+10.  m ic e
+11.  c o u nt r ies
+12.  c l a sses
+13 .  f ish
+14.  sa ndw ic h es
+15.  w o m en
+16 .  k niv es
+17 .  b o x es
+18 .  l ea v es
+19.  b o y s
+20.  J a p a nese
+21.  t eet h
+22.  f l ies
+23 .  w a t c h es
+24.  p h o t o s
+二
+ 1.  a
+2.  a
+3 .  a n
+4.  a
+5.  a n
+6 .  a n
+7 .  a n
+8 .  a n
+9.  a n
+10.  a n
+11.  a n
+12.  a n
+13 .  a n
+14.  a n
+15.  a
+三
+ 1.  a ny
+2.  a ny
+3 .  so m e（表建
+议
+）
+4.  so m e
+5.  a ny
+6 .  so m e
+7 .  so m e
+8 .  so m e（表请
+求）
+9.  so m e（表请
+求）
+10.  so m e
+考点2
+自我小测
+1.  D
+2.  A
+3 .  A
+4.  A
+5.  A
+6 .  is 改为 a r e
+7 .  so m e 改为 a ny
+8 .  a ny  改为 so m e
+9.  l ik es 改为l ik e
+10.  is 改为a r e
+考点梳理1
+1.  W e
+2.  h im
+3 .  H is
+4.  H er
+5.  t h em
+6 .  Th eir
+考点2 综合练习
+一 1.  m y
+2.  Th ey
+3 .  h im
+4.  m ine
+5.  h im sel f
+6 .  h er
+7 .  t h eir
+8 .  u s
+9.  h im sel f
+10.  o u r s
+二
+ 1.  a ny o ne/a ny b o dy
+2.  no t h ing
+3 .  So m eo ne
+4.  a ny w h er e
+5.  a ny b o dy /a ny o ne
+6 .  ev er y t h ing
+7 .  ev er y o ne
+day 2
+考点 3
+自我小测
+1.  D
+2.  A
+3 .  C
+4.  A
+5.  A
+6 .  h a r der 改为 h a r d
+7 .  l o ng 改为 l o ngest
+8 .  删
+除
+t h e
+9.  l a r ger 改为t h e l a r gest
+10.  t h a n 改为 a s
+考点梳理1
+1.  h ea v ier
+2.  h ea v ier
+3 .  h ea v iest
+4.  sm a l l er
+5.  sm a l l er
+6 .  sm a l l est
+考点3 综合练习
+一
+续
+表
+二
+ 1.  ea sy -ea sier -ea siest
+2.  l it t l e-l ess-l ea st
+3 .  o l d-o l der /el der -o l dest /el dest
+4.  w el l -b et t er -b est
+5.  c h ea p -c h ea p er -c h ea p est
+6 .  m u c h -m o r e-m o st
+7 .  h a p p y -h a p p ier -h a p p iest
+8 .  t h in-t h inner -t h innest
+9.  b a d-w o r se-w o r st
+10.  ex p ensiv e-m o r e ex p ensiv e-
+m o st  ex p ensiv e
+三
+ 1.  c h ea p er
+2.  m o st  int er est ing
+3 .  b u sier
+4.  t a l l est
+5.  r ic h er
+6 .  b et t er
+7 .  m o r e
+8 .  h ea v ier
+9.  l o ngest
+10.  m o r e dif f ic u l t
+四 1.  b ig
+2.  a s/so  t a l l  a s
+考点 4
+自我小测
+1.  A
+2.  B
+3 .  A
+4.  B
+5.  A
+6 .  o n 改为 in
+7 .  a t  改为 in
+8 .  o n 改为 in
+9.  in 改为 a t
+10.  in 改为 o n
+考点梳理1
+1.  o v er
+2.  u nder
+3 .  in
+4.  in f r o nt  o f
+5.  a c r o ss
+6 .  in
+7 .  u nder
+8 .  b et w een
+考点4 综合练习
+一 1.  a t
+2.  in
+3 .  a t
+4.  o n
+5.  o n
+6 .  a t
+二
+ 1.  o n
+2.  in
+3 .  a t
+4.  o n
+5.  in
+6 .  o n
+7 .  in
+8 .  a t
+day 3
+考点 5
+自我小测
+1.  A
+2.  B
+3 .  D
+4.  B
+5.  D
+6 .  w a s 改为 w er e
+7 .  a r e改为 is
+8 .  o r  改为 a nd
+9.  a nd改为 b u t
+10.  is 改为 a r e
+考点5 综合练习
+一 1.  e
+2.  d
+3 .  c
+4.  b
+5.  a
+二
+ 1.  o r
+2.  so
+3 .  B ec a u se
+4.  B o t h
+5.  N eit h er
+6 .  Eit h er
+7 .  a nd
+考点 6
+自我小测
+1.  t o o  y o u ng
+2.  o l d eno u gh
+3 .  b ig eno u gh
+4.  t o o  c o l d
+5.  t o o  p o o r
+考点6 综合练习
+1.  no t  t a l l  eno u gh
+2.  t o o  c o l d
+3 .  t o o  dif f ic u l t
+4.  no t  c h ea p  eno u gh
+5.  t o o ;  t o
+day 4
+考点 7
+自我小测
+1.  A
+2.  A
+3 .  A
+4.  D
+5.  B
+6 .  do n' t  改为 do esn' t
+7 .  r ea d改为 r ea ds
+8 .  t a k e 改为 t a k es
+9.  w a nt s改为 w a nt
+10.  m o v e 改为m o v es
+考点7 综合练习
+一
+二
+ 1.  dr ink -dr ink s
+2.  h a v e-h a s
+3 .  do -do es
+4.  w a sh -w a sh es
+5.  st a y -st a y s
+6 .  f l y -f l ies
+7 .  c a r r y -c a r r ies
+8 .  p a ss-p a sses
+9.  st u dy -st u dies
+10.  w a t c h -w a t c h es
+11.  gu ess-gu esses
+12.  r ea d-r ea ds
+13 .  st o p -st o p s
+14.  w o r r y -w o r r ies
+15.  go -go es
+16 .  sa y -sa y s
+17 .  f inish -f inish es
+18 .  r a in-r a ins
+19.  p l a y -p l a y s
+20.  get -get s
+21.  st a nd-st a nds
+22.  k no w -k no w s
+23 .  l iv e-l iv es
+24.  t ea c h -t ea c h es
+三
+ 1.  w a l k s
+2.  l ik e
+3 .  h a s
+4.  l o v es
+5.  m o v es
+6 .  b r u sh
+7 .  D o es
+8 .  do es
+9.  D o
+10.  do esn' t
+四 1.  否
+定句：Sh e do es no t  ( do esn' t )  c o m e f r o m  Ch ina .
+一般
+疑
+问
+句：D o es sh e c o m e f r o m  Ch ina ?
+2.  否
+定句：I  do  no t  ( do n' t )  enj o y  l ea r ning Engl ish .
+一般
+疑
+问
+句：D o  y o u  enj o y  l ea r ning Engl ish ?
+3 .  否
+定句：My  b est  f r iend do es no t  ( do esn' t )  c l ea n h is
+r o o m  ev er y  da y .
+一般
+疑
+问
+句：D o es y o u r  b est  f r iend c l ea n h is r o o m  ev er y
+da y ?
+4. 否
+定句：Th e b o y s do  no t  ( do n' t )  o f t en p l a y  f o o t b a l l
+t o get h er .
+一般
+疑
+问
+句：D o  t h e b o y s o f t en p l a y  f o o t b a l l  t o get h er ?
+5. 否
+定句：B o b  do es no t  ( do esn' t )  l iv e in a  sm a l l  c it y
+nea r  t h e sea .
+一般
+疑
+问
+句：D o es B o b  l iv e in a  sm a l l  c it y  nea r  t h e sea ?
+考点 8
+自我小测
+1.  A
+2.  A
+3 .  B
+4.  A
+5.  A
+6 .  do n' t  改为 didn' t
+7 .  r ea ds改为 r ea d
+8 .  D o 改为 D id
+9.  r ec eiv e改为 r ec eiv ed
+10.  l ea v es改为 l ef t
+考点梳理3
+1.  go  改为w ent
+2.  w a t c h es 改为w a t c h ed
+3 .  删
+除
+h a v e j u st
+4.  is改为w a s
+5.  c a n改为c o u l d
+考点8 综合练习
+一 1.  w o r k ed
+2.  p l a y ed
+3 .  t r ied
+4.  c o p ied
+5.  l iv ed
+6 .  st u died
+7 .  c a r r ied
+8 .  m o v ed
+9.  a sk ed
+10.  l o v ed
+11.  da nc ed
+12.  h el p ed
+二
+ 1.  l iv ed
+2.  h a d
+3 .  w o r k ed
+4.  da nc ed
+5.  didn' t
+6 .  w a s
+7 .  did
+8 .  l iv e
+9.  b u y
+10.  c l im b
+三
+ 1.  否
+定句：Th ey  did no t  ( didn' t )  b u il d t h e b r idge in 1990.
+一般
+疑
+问
+句：D id t h ey  b u il d t h e b r idge in 1990?
+2.  否
+定句：Sa l l y  did no t  ( didn' t )  w in a  p r iz e l a st  y ea r .
+一般
+疑
+问
+句：D id Sa l l y  w in a  p r iz e l a st  y ea r ?
+3 .  否
+定句：My  sist er  did no t  ( didn' t )  r ea d a  l o t  o f  st o r y
+b o o k s w h en sh e w a s t en.
+一般
+疑
+问
+句：D id y o u r  sist er  r ea d a  l o t  o f  st o r y  b o o k s
+w h en sh e w a s t en?
+4. 否
+定句：J o h n did no t  ( didn' t )  w a t c h  TV  y est er da y .
+一般
+疑
+问
+句：D id J o h n w a t c h  TV  y est er da y ?
+5. 否
+定句：W e did no t  ( didn' t )  p l a nt  m a ny  t r ees l a st  y ea r .
+一般
+疑
+问
+句：D id y o u  p l a nt  m a ny  t r ees l a st  y ea r ?
+考点 9
+自我小测
+1.  D
+2.  B
+3 .  A
+4.  C
+5.  B
+6 .  t ea c h  改为 t ea c h ing
+7 .  w a it 改为 w a it ing
+8 .  h a v e改为 a r e h a v ing
+9.  w a t c h 改为 w a t c h ing
+10.  c l im b 改为c l im b ing
+考点梳理2
+1.  a m
+2.  Ar e
+3 .  is
+4.  is
+5.  a r e
+6 .  a r e
+7 .  is
+8 .  a r e
+考点9 综合练习
+一 1.  c u t t ing
+2.  p u t t ing
+3 .  c h a t t ing
+4.  sk iing
+5.  t a k ing
+6 .  c o m ing
+7 .  r iding
+8 .  da nc ing
+9.  f ish ing
+10.  l o v ing
+11.  seeing
+12.  st o p p ing
+13 .  sw im m ing
+14.  go ing
+15.  sit t ing
+二
+ 1.  is singing
+2.  a r e dr ink ing
+3 .  a r e;  do ing
+4.  is r ea ding
+5.  is c l ea ning
+6 .  is h a v ing
+7 .  isn' t  p l a y ing
+8 .  is f l y ing
+9.  a r en' t  p l a y ing
+10.  I s;  p a int ing
+三
+ 1.  否
+定句：Th ey  a r e no t  ( a r en' t )  p l a y ing f o o t b a l l  no w .
+一般
+疑
+问
+句：Ar e t h ey  p l a y ing f o o t b a l l  no w ?
+2.  否
+定句： I t  is no t  ( isn' t )  r a ining.
+一般
+疑
+问
+句： I s it  r a ining?
+3 .  否
+定句：Th e t ea c h er  is no t  ( isn' t )  t el l ing a  st o r y .
+一般
+疑
+问
+句：I s t h e t ea c h er  t el l ing a  st o r y ?
+4. 否
+定句： L o o k , sh e is no t  ( isn' t )  dr a w ing a  p ic t u r e.
+一般
+疑
+问
+句： I s sh e dr a w ing a  p ic t u r e?
+5. 否
+定句：My  f r iend is no t  ( isn' t )  dr iv ing a t  t h e m o m ent .
+一般
+疑
+问
+句：I s m y  f r iend dr iv ing a t  t h e m o m ent ?
+day 5
+考点 10
+自我小测
+1.  t a l k  改为 t a l k ing
+2.  do 改为 do ing
+3 .  c o o k 改为c o o k ing
+4.  k no c k s改为k no c k ed
+5.  h el p s改为w a s h el p ing
+考点梳理3
+1.  w a s
+2.  w er en' t
+3 .  w a s
+4.  w er e
+5.  W er e
+6 .  w a sn' t
+7 .  w a s
+8 .  W a s
+考点10 综合练习
+一 1.  w a s t a l k ing
+2.  w a s c o o k ing
+3 .  w a s r ea ding
+4.  w a s p l a y ing
+5.  w a s r a ining
+6 .  w ent
+7 .  r u sh ed
+8 .  sa w
+9.  w a s seeing
+10.  w a s singing
+二
+ 1.  B
+2.  B
+3 .  A
+4.  C
+5.  A
+day 6
+考点 11
+自我小测
+1.  A
+2.  A
+3 .  D
+4.  A
+5.  C
+6 .  h a d 改为 h a v e
+7 .  v isit 改为 t o  v isit
+8 .  w a t c h 改为 t o  w a t c h
+9.  a  改为 b e a
+10.  f l ies改为f l y
+考点11 综合练习
+一 1.  A
+2.  A
+3 .  B
+4.  B
+5.  B
+6 .  A
+7 .  B
+8 .  A
+9.  B
+二
+ 1.  w il l  st a y
+2.  w il l  b e
+3 .  go
+4.  r a in
+5.  w il l
+6 .  w o n' t
+7 .  a r en' t  go ing t o
+8 .  W il l
+9.  Ar e
+10.  W il l
+三
+ 1.  否
+定句： I t  w il l  no t  ( w o n' t )  t a k e u s t w o  h o u r s t o
+f inish  t h is w o r k .
+一般
+疑
+问
+句：W il l  it  t a k e y o u  t w o  h o u r s t o  f inish  t h is
+w o r k ?
+2.  否
+定句： Sh e is no t  ( isn' t )  go ing t o  go  t r a v el ing.
+一般
+疑
+问
+句：I s sh e go ing t o  go  t r a v el ing?
+3 .  否
+定句：I  w il l  no t  ( w o n' t )  b e a  t ea c h er .
+一般
+疑
+问
+句：W il l  y o u  b e a  t ea c h er ?
+4. 否
+定句： O u r  w o r l d w il l  no t  ( w o n' t )  b e b et t er .
+一般
+疑
+问
+句： W il l  o u r  w o r l d b e b et t er ?
+5. 否
+定句：My  sist er  w il l  no t  ( w o n' t )  w r it e a  b o o k .
+一般
+疑
+问
+句：W il l  y o u r  sist er  w r it e a  b o o k ?
+考点 12
+自我小测
+1.  h a v e 改成 h a d
+2.  H a v e改成 H a s
+3 .  f o r 改成 sinc e
+4.  f o r  改成 sinc e（或去
+掉
+a go ）
+5.  go ne改成b een
+考点梳理3
+1.  sinc e
+2.  sinc e
+3 .  f o r
+4.  sinc e
+5.  f o r
+考点梳理4
+1.  go ne
+2.  b een
+3 .  go ne
+4.  b een
+5.  go ne
+6 .  b een
+考点12 综合练习
+一 1.  ea t -a t e-ea t en
+2.  dr ink -dr a nk -dr u nk
+3 .  c o m e-c a m e-c o m e
+4.  m a k e-m a de-m a de
+5.  sing-sa ng-su ng
+6 .  k eep -k ep t -k ep t
+7 .  f l y -f l ew -f l o w n
+8 .  l et -l et -l et
+9.  r u n-r a n-r u n
+10.  sp end-sp ent -sp ent
+11.  send-sent -sent
+12.  b u il d-b u il t -b u il t
+13 .  dr ea m -dr ea m t /dr ea m ed-dr ea m t /dr ea m ed
+14.  l ea r n-l ea r nt /l ea r ned-l ea r nt /l ea r ned
+15.  h ea r -h ea r d-h ea r d
+16 .  sw eep -sw ep t -sw ep t
+17 .  h u r t -h u r t -h u r t
+18 .  k eep -k ep t -k ep t
+19.  sl eep -sl ep t -sl ep t
+20.  t ea c h -t a u gh t -t a u gh t
+21.  c a t c h -c a u gh t -c a u gh t
+22.  t h ink -t h o u gh t -t h o u gh t
+23 .  b u y -b o u gh t -b o u gh t
+24.  b r ing-b r o u gh t -b r o u gh t
+二
+ 1.  h a s
+2.  h a v en' t
+3 .  b een
+4.  go ne
+5.  seen
+6 .  l iv ed
+7 .  H a s
+8 .  h a v e l ea r nt
+9.  h a v e
+10.  go ne
+三
+ 1.  否
+定句：I  h a v e no t  ( h a v en' t )  w o r k ed h er e f o r  t en y ea r s.
+一般
+疑
+问
+句：H a v e y o u  w o r k ed h er e f o r  t en y ea r s?
+2.  否
+定句：Sh e h a s no t  ( h a sn' t )  j u st  h a d b r ea k f a st .
+一般
+疑
+问
+句：H a s sh e j u st  h a d b r ea k f a st ?
+3 .  否
+定句：H e h a s no t  ( h a sn' t )  b een t o  Sh a ngh a i.
+一般
+疑
+问
+句：H a s h e b een t o  Sh a ngh a i?
+4. 否
+定句：I  h a v e no t  ( h a v en' t )  l o st  m y  k ey s.
+一般
+疑
+问
+句：H a v e y o u  l o st  y o u r  k ey s?
+5. 否
+定句：Su sa n h a s no t  ( h a sn' t )  b een a  t ea c h er  f o r  m a ny
+y ea r s.
+一般
+疑
+问
+句：H a s Su sa n b een a  t ea c h er  f o r  m a ny  y ea r s?
+day 7
+时态综合练习
+一 1.  C
+2.  A
+3 .  D
+4.  C
+5.  D
+6 .  B
+7 .  A
+8 .  A
+9.  B
+10.  B
+二
+ 1.  t ea c h es
+2.  didn' t  go /did no t  go
+3 .  h a s b een
+4.  w il l  c a l l
+5.  w a s singing
+6 .  is r u nning
+7 .  is go ing t o
+8 .  h a s go ne
+9.  ea t
+10.  go
+三
+ 1.  Sh e h a s no t /h a sn' t  b een a  do c t o r  f o r  f iv e y ea r s.
+2.  D o es y o u r  f a t h er  h a v e t w o  c a r s?
+3 .  W h en did y o u  r ea d a n int er est ing b o o k ?
+4.  W h a t  is t h e l it t l e b o y  do ing?
+5.  W e w er e no t  /w er en' t  c l ea ning t h e r o o m  a t  t h is t im e
+y est er da y .
+6 .  Ar e y o u  go ing t o  go  sh o p p ing?
+7 .  Y es, I  w il l .
+8 .  My  b r o t h er  do es no t /do esn' t  p l a y  b a sk et b a l l  o n
+Sa t u r da y s.
+9.  N o , I  h a v en' t .
+10.  W h a t  did t h ey  do  l a st  nigh t ?
+day 8
+考点 13
+自我小测
+1.  m u st n' t  改为 needn' t  或者
+do n' t  h a v e t o
+2.  h a s改为 h a v e
+3 .  m u st 改为 c a n' t
+4.  h a s 改为 h a d
+5.  dr o v e 改为dr iv e
+考点13 综合练习
+一 1.  m u st
+2.  c a n' t
+3 .  c a n' t
+4.  c a n' t
+5.  m a y
+6 .  m u st
+二
+ 1.  h a d t o
+2.  c a n
+3 .  sh o u l dn' t
+4.  c o u l d
+5.  needn' t
+6 .  m u st
+7 .  needn' t
+8 .  c a n' t  b e
+9.  m u st  b e
+10.  m u st n' t
+考点 14
+自我小测
+1.  w r it e 改为 w r it t en
+2.  v isit 改为 v isit ed
+3 .  a r e改为 is
+4.  a r e改为 w er e
+5.  k no w 改为k no w n
+考点梳理1
+3 .  N o
+4.  Y es
+5.  N o
+6 .  Y es
+7 .  Y es
+8 .  N o
+9.  N o
+10.  Y es
+考点14 综合练习
+一 1.  w a s b u il t
+2.  a r e f ed
+3 .  w a s w a t er ed
+4.  w a s c l ea ned
+5.  w a s sent
+6 .  is o f t en t o l d
+7 .  w a s gr o w n
+8 .  is l ea r nt
+9.  is v isit ed
+10.  w a s c o r r ec t ed
+二
+ 1.  否
+定句：Th e c inem a  w a s no t  ( w a sn' t )  b u il t  in 2000.
+一般
+疑
+问
+句：W a s t h e c inem a  b u il t  in 2000?
+2.  否
+定句：My  t eet h  a r e no t  ( a r en' t )  b r u sh ed ev er y
+m o r ning.
+一般
+疑
+问
+句：Ar e y o u r  t eet h  b r u sh ed ev er y  m o r ning?
+3 .  否
+定句：Th e m o b il e p h o ne is no t  ( isn' t )  u sed b y  u s
+ev er y  da y .
+一般
+疑
+问
+句：I s t h e m o b il e p h o ne u sed b y  y o u  ev er y  da y ?
+4. 否
+定句：Th e sc ienc e b o o k  w a s no t  ( w a sn' t )  w r it t en l a st
+y ea r .
+一般
+疑
+问
+句：W a s t h e sc ienc e b o o k  w r it t en l a st  y ea r ?
+5. 否
+定句：Th ese p ic t u r es w er e no t  ( w er en' t )  p a int ed b y
+t h a t  y o u ng gir l .
+一般
+疑
+问
+句：W er e t h ese p ic t u r es p a int ed b y  t h a t  y o u ng
+gir l ?
+考点 15
+自我小测
+1.  w h o  改为 w h ic h /t h a t
+2.  w h o m 改为 w h o /t h a t
+3 .  w h o se改为 w h ic h /t h a t /不填
+4.  w h o 改为 w h ic h /t h a t
+5.  w h ic h 改为w h o /w h o m /不填
+/t h a t
+考点15 综合练习
+1.  C
+2.  A
+3 .  C
+4.  A
+5.  C
+day 9
+考点 16
+自我小测
+1.  didn' t  改为 do n' t
+2. 删
+除
+w il l
+3 .  st u died改为 st u dy
+4.  st a y 改为 w il l  st a y
+5.  U nl ess改为I f
+考点16 综合练习
+1.  a r e
+2.  r a ins
+3 .  do esn' t  w a t er
+4.  inv it es
+5.  w il l  b e
+6 .  l et
+7 .  w il l /c a n p a ss
+8 .  w il l  h el p
+9.  w il l  c o m e
+10.  go
+考点 17
+自我小测
+1.  w a t c h  改为 w a t c h ing
+2.  sh u t 改为 sh u t t ing
+3 .  b u y 改为 t o  b u y
+4.  p l a y ing改为 t o  p l a y
+5.  t o  w a t c h  改为w a t c h ing
+考点17 综合练习
+1.  p l a y ing
+2.  t o  b u y
+3 .  t o  l o se
+4.  t o  do
+5.  t r y ing
+6 .  t o  t a k e
+7 .  t o  w in
+8 .  t a k ing
+9.  t o  r ea d
+10.  c o o k ing/t o  c o o k
+day 10
+考点 18
+自我小测
+1.  p r ep a r e 改为 p r ep a r ing
+2.  do es 改为 is
+3 .  I  改为 m e
+4.  p l a y 改为p l a y ing
+5.  m e改为 t o  m e
+考点18 综合练习
+1.  Sh e t a u gh t  t h e c h il dr en Engl ish .
+2.  Th a t  so u nds int er est ing.
+3 .  I  h a v e a  c o u p l e o f  w eek s f r ee.
+4.  W e h a d m a ny  h a p p y  h o l ida y s in Th a il a nd.
+5.  My  sist er  l o st  h er  w a y  in t h a t  st r a nge c it y .
+6 .  I  f o u nd m y  b a g b r o k en.
+考点 19
+自我小测
+1.  W h a t ' s t h e na m e o f  t h e sh o p ? /W h a t  na m e is t h e sh o p ?
+2.  Ca n I  b u y  a ny  c h o c o l a t e in t h e sh o p ? /I s t h er e a ny
+c h o c o l a t e in t h e sh o p ?
+3 .  I s it  ex p ensiv e?
+4.  W h er e is t h e sh o p ?
+5.  Ca n y o u  t el l  m e t h e t el ep h o ne nu m b er  o f  t h e sh o p ?
+考点19 综合练习
+1.  W h er e is t h e a r t  sh o w ?
+2.  W h en do es it  o p en?
+3 .  W h o se p ic t u r es c a n I  see?
+4.  H o w  m u c h  is t h e t ic k et ?
+5.  Ca n I  b u y  a ny  p ic t u r es?

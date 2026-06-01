@@ -1,0 +1,1831 @@
+    <!-- Course Selection Page -->
+    <div id="courseSelectionPage" class="page min-h-screen flex items-center justify-center p-4">
+        <div class="bg-white rounded-3xl shadow-2xl p-8 max-w-2xl w-full">
+            <h1 class="text-3xl font-bold bg-gradient-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent mb-2 text-center">选择目标课程</h1>
+            <p class="text-gray-600 text-center mb-8">选择你想要备考的剑桥英语课程</p>
+            <div class="grid grid-cols-2 gap-4">
+                <button onclick="selectCourse('ket')" class="card p-6 text-left border-2 border-transparent hover:border-indigo-500">
+                    <div class="w-16 h-16 bg-gradient-to-r from-red-500 to-orange-500 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-4">KET</div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">KET 入门课程</h3>
+                    <p class="text-gray-500 text-sm">适合英语初学者，A2水平</p>
+                </button>
+                <button onclick="selectCourse('pet')" class="card p-6 text-left border-2 border-transparent hover:border-indigo-500">
+                    <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-4">PET</div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">PET 中级课程</h3>
+                    <p class="text-gray-500 text-sm">适合有一定基础，B1水平</p>
+                </button>
+                <button onclick="selectCourse('cae')" class="card p-6 text-left border-2 border-transparent hover:border-indigo-500">
+                    <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-violet-500 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-4">CAE</div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">CAE 流利课程</h3>
+                    <p class="text-gray-500 text-sm">高级流利英语，B2水平</p>
+                </button>
+                <button onclick="selectCourse('cpe')" class="card p-6 text-left border-2 border-transparent hover:border-indigo-500">
+                    <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-rose-500 rounded-xl flex items-center justify-center text-white text-xl font-bold mb-4">CPE</div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">CPE 精通课�?/h3>
+                    <p class="text-gray-500 text-sm">最高级水平，C1水平</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Placement Test Page -->
+    <div id="placementTestPage" class="page min-h-screen p-4">
+        <div class="max-w-3xl mx-auto">
+            <div class="bg-white rounded-3xl shadow-2xl p-8">
+                <h1 class="text-2xl font-bold text-gray-800 mb-2 text-center"><span id="testCourseTitle">KET</span> 水平测试</h1>
+                <p class="text-gray-600 text-center mb-8">请完成以下测试（�?0题）</p>
+                <div class="mb-6">
+                    <div class="flex justify-between text-sm text-gray-500 mb-2">
+                        <span>进度</span>
+                        <span id="testProgress">1 / 10</span>
+                    </div>
+                    <div class="h-2 bg-gray-200 rounded-full overflow-hidden">
+                        <div id="testProgressBar" class="h-full bg-gradient-to-r from-indigo-500 to-purple-600 transition-all" style="width: 10%"></div>
+                    </div>
+                </div>
+                <div id="testQuestionContainer"></div>
+                <div id="testResult" class="hidden">
+                    <div class="text-center mb-6">
+                        <div class="text-6xl mb-4" id="resultEmoji">🎉</div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">测试完成�?/h2>
+                        <p class="text-gray-600 mb-4" id="resultText">你的得分是：8/10</p>
+                    </div>
+                    <div class="bg-gradient-to-r from-indigo-100 to-purple-100 rounded-xl p-6 mb-6">
+                        <h3 class="font-semibold text-indigo-800 mb-3">📊 测试结果分析</h3>
+                        <div id="resultAnalysis"></div>
+                    </div>
+                    <div class="bg-green-50 rounded-xl p-6 mb-6">
+                        <h3 class="font-semibold text-green-800 mb-3">🎯 学习建议</h3>
+                        <div id="studyRecommendations"></div>
+                    </div>
+                    <button onclick="startLearning()" class="btn-primary text-white font-semibold py-3 px-8 rounded-xl w-full">开始学�?/button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="appPage" class="page">
+        <div class="min-h-screen p-4">
+            <div class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-3xl p-8 mb-8">
+                <h2 class="text-3xl font-bold mb-2">欢迎回来�?span id="username">用户</span>�?/h2>
+                <p class="text-white/80">备考课程：<span id="selectedCourse">KET</span> | 水平�?span id="userLevel">初级</span></p>
+            </div>
+            <div class="grid grid-cols-1 gap-6 mb-8">
+                <button onclick="openModule('learningPath')" class="card bg-gradient-to-r from-yellow-400 to-orange-500 text-white rounded-3xl p-6 text-left w-full">
+                    <div class="flex items-center gap-4">
+                        <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center text-4xl">📚</div>
+                        <div class="flex-1">
+                            <h4 class="text-2xl font-bold mb-2">KET学习路径</h4>
+                            <p class="text-white/90">三阶段系统备考计划，从基础到冲�?/p>
+                        </div>
+                        <div class="text-4xl opacity-80">�?/div>
+                    </div>
+                </button>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-6">专项练习</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <button onclick="openModule('vocab')" class="card bg-white rounded-3xl p-6 text-left">
+                    <div class="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">📝</div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">单词记忆</h4>
+                    <p class="text-gray-500 text-sm">学习新词�?/p>
+                </button>
+                <button onclick="openModule('dictation')" class="card bg-white rounded-3xl p-6 text-left">
+                    <div class="w-12 h-12 bg-indigo-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">🎧</div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">单词听写</h4>
+                    <p class="text-gray-500 text-sm">听语音写单词</p>
+                </button>
+                <button onclick="openModule('translation')" class="card bg-white rounded-3xl p-6 text-left">
+                    <div class="w-12 h-12 bg-cyan-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">🌐</div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">单词翻译</h4>
+                    <p class="text-gray-500 text-sm">中英互译练习</p>
+                </button>
+                <button onclick="openModule('grammar')" class="card bg-white rounded-3xl p-6 text-left">
+                    <div class="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">✏️</div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">语法学习</h4>
+                    <p class="text-gray-500 text-sm">学习语法知识</p>
+                </button>
+                <button onclick="openModule('speaking')" class="card bg-white rounded-3xl p-6 text-left">
+                    <div class="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">🎤</div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">口语跟读</h4>
+                    <p class="text-gray-500 text-sm">练习口语发音</p>
+                </button>
+                <button onclick="openModule('listening')" class="card bg-white rounded-3xl p-6 text-left">
+                    <div class="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">🎵</div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">听力训练</h4>
+                    <p class="text-gray-500 text-sm">练习听力理解</p>
+                </button>
+                <button onclick="openModule('reading')" class="card bg-white rounded-3xl p-6 text-left">
+                    <div class="w-12 h-12 bg-pink-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">📄</div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">短文跟读</h4>
+                    <p class="text-gray-500 text-sm">阅读并跟�?/p>
+                </button>
+                <button onclick="openModule('writing')" class="card bg-white rounded-3xl p-6 text-left">
+                    <div class="w-12 h-12 bg-teal-500 rounded-xl flex items-center justify-center text-white text-xl mb-4">💡</div>
+                    <h4 class="text-lg font-semibold text-gray-800 mb-1">写作练习</h4>
+                    <p class="text-gray-500 text-sm">练习写作表达</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vocabulary Modal -->
+    <div id="vocabModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-3xl max-w-lg w-full">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-bold text-gray-800">单词记忆</h3>
+                    <button onclick="closeModal('vocabModal')" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-500 mb-2">进度 <span id="vocabProgress">1</span> / 10</p>
+                    <h4 id="vocabWord" class="text-4xl font-bold text-gray-800 mb-4"></h4>
+                    <div id="vocabDefinition" class="hidden space-y-4 mb-6">
+                        <p class="text-xl text-gray-700" id="vocabDefText"></p>
+                        <p class="text-gray-500 italic" id="vocabExample"></p>
+                    </div>
+                    <button id="showVocabBtn" onclick="showVocabDef()" class="btn-primary text-white font-semibold py-3 px-8 rounded-xl mb-4">查看释义</button>
+                    <div id="vocabBtns" class="hidden flex gap-4 justify-center">
+                        <button onclick="knowWord()" class="flex-1 py-3 px-6 bg-green-500 hover:bg-green-600 text-white rounded-xl font-semibold">�?认识</button>
+                        <button onclick="notKnowWord()" class="flex-1 py-3 px-6 bg-red-500 hover:bg-red-600 text-white rounded-xl font-semibold">�?不认�?/button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dictation Modal -->
+    <div id="dictationModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-3xl max-w-lg w-full">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-bold text-gray-800">单词听写</h3>
+                    <button onclick="closeModal('dictationModal')" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+                </div>
+                <div class="text-center">
+                    <p class="text-gray-500 mb-2">进度 <span id="dictProgress">1</span> / 20</p>
+                    <button onclick="playDictationWord()" class="flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white rounded-2xl font-semibold mx-auto mb-6">🔊 听单�?/button>
+                    <input id="dictAnswer" type="text" placeholder="输入你听到的单词..." class="w-full px-6 py-4 text-lg text-center border-2 border-gray-200 rounded-xl focus:border-indigo-500 outline-none mb-4">
+                    <div id="dictResult" class="hidden mb-4">
+                        <div id="dictAnswerBox" class="p-4 rounded-xl"></div>
+                    </div>
+                    <div id="dictCheckBtn">
+                        <button onclick="checkDictation()" class="btn-primary text-white font-semibold py-3 px-8 rounded-xl">检查答�?/button>
+                    </div>
+                    <div id="dictNextBtn" class="hidden">
+                        <button onclick="nextDictation()" class="btn-primary text-white font-semibold py-3 px-8 rounded-xl">下一�?/button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Translation Modal -->
+    <div id="translationModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-3xl max-w-lg w-full">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-bold text-gray-800">单词翻译</h3>
+                    <button onclick="closeModal('translationModal')" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+                </div>
+                <div class="text-center">
+                    <div class="flex justify-center gap-4 mb-4">
+                        <button onclick="setTranslateMode('en2zh')" id="en2zhBtn" class="px-6 py-2 bg-blue-500 text-white rounded-xl font-semibold">英→�?/button>
+                        <button onclick="setTranslateMode('zh2en')" id="zh2enBtn" class="px-6 py-2 bg-gray-200 text-gray-700 rounded-xl font-semibold">中→�?/button>
+                    </div>
+                    <p class="text-gray-500 mb-2">进度 <span id="transProgress">1</span> / 20</p>
+                    <h4 id="transWord" class="text-3xl font-bold text-gray-800 mb-6"></h4>
+                    <input id="transAnswer" type="text" placeholder="输入翻译..." class="w-full px-6 py-4 text-lg text-center border-2 border-gray-200 rounded-xl focus:border-indigo-500 outline-none mb-4">
+                    <div id="transResult" class="hidden mb-4">
+                        <div id="transAnswerBox" class="p-4 rounded-xl"></div>
+                    </div>
+                    <div id="transCheckBtn">
+                        <button onclick="checkTranslation()" class="btn-primary text-white font-semibold py-3 px-8 rounded-xl">检查答�?/button>
+                    </div>
+                    <div id="transNextBtn" class="hidden">
+                        <button onclick="nextTranslation()" class="btn-primary text-white font-semibold py-3 px-8 rounded-xl">下一�?/button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grammar Modal -->
+    <div id="grammarModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-3xl max-w-2xl w-full max-h-[80vh] overflow-y-auto">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h3 class="text-2xl font-bold text-gray-800" id="grammarTitle">语法学习</h3>
+                    <button onclick="closeModal('grammarModal')" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+                </div>
+                <div id="grammarLessonList" class="space-y-3 mb-6">
+                    <p class="text-gray-600 mb-4">请选择一个语法知识点进行学习�?/p>
+                </div>
+                <div id="grammarContent" class="text-gray-700 space-y-4 mb-6 hidden"></div>
+                <div id="grammarNav" class="hidden"></div>
+                <button onclick="startGrammarPractice()" id="grammarStartBtn" class="btn-primary w-full text-white font-semibold py-3 rounded-xl mt-4 hidden">开始练�?/button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grammar Practice Modal -->
+    <div id="grammarPracticeModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-3xl max-w-2xl w-full p-8">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-xl font-bold text-gray-800">语法练习</h3>
+                <button onclick="closeModal('grammarPracticeModal')" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+            </div>
+            <p class="text-gray-500 mb-4">�?<span id="grammarQNum">1</span> / <span id="grammarTotal">10</span> �?/p>
+            <div id="grammarQuestion" class="text-xl mb-6"></div>
+            <div id="grammarOptions" class="space-y-3 mb-6"></div>
+            <div id="grammarAnswer" class="hidden p-4 rounded-xl mb-6"></div>
+            <button onclick="nextGrammarQ()" id="grammarNextBtn" class="btn-primary w-full text-white font-semibold py-3 rounded-xl hidden">下一�?/button>
+        </div>
+    </div>
+
+    <!-- Speaking Modal -->
+    <div id="speakingModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-3xl max-w-2xl w-full p-8">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold text-gray-800">口语跟读</h3>
+                <button onclick="closeModal('speakingModal')" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+            </div>
+            <div class="text-center">
+                <p class="text-gray-500 mb-4">�?<span id="speakProgress">1</span> / 5 �?/p>
+                <h4 id="speakingText" class="text-2xl font-bold text-gray-800 mb-8 leading-relaxed"></h4>
+                <div class="flex items-center justify-center gap-4 mb-6">
+                    <button onclick="speakSentence()" class="flex items-center gap-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl font-semibold">🔊 听原�?/button>
+                    <button onclick="recordSpeaking()" class="flex items-center gap-2 px-6 py-3 bg-purple-500 hover:bg-purple-600 text-white rounded-xl font-semibold" id="speakBtn">🎤 开始录�?/button>
+                </div>
+                <div id="speakComplete" class="hidden">
+                    <div class="flex items-center justify-center gap-2 p-4 bg-green-50 rounded-xl mb-6">
+                        <span class="text-green-700 font-medium">�?录音成功�?/span>
+                    </div>
+                    <button onclick="nextSpeaking()" class="btn-primary text-white font-semibold py-3 px-8 rounded-xl">下一�?/button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Listening Modal -->
+    <div id="listeningModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-3xl max-w-2xl w-full p-8">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold text-gray-800">听力训练</h3>
+                <button onclick="closeModal('listeningModal')" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+            </div>
+            <div class="text-center">
+                <p class="text-gray-500 mb-4">�?<span id="listenProgress">1</span> / 5 �?/p>
+                <button onclick="playListening()" class="flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white rounded-2xl font-semibold mx-auto mb-4">�?播放音频</button>
+                <p class="text-gray-500 mb-4">提示�?span id="listeningHint"></span></p>
+                <input id="listeningAnswer" type="text" placeholder="请输入你听到的内�?.." class="w-full px-6 py-4 text-lg text-center border-2 border-gray-200 rounded-xl focus:border-indigo-500 outline-none mb-4">
+                <div id="listenCheckBtn">
+                    <button onclick="checkListening()" class="btn-primary text-white font-semibold py-3 px-8 rounded-xl">检查答�?/button>
+                </div>
+                <div id="listenResult" class="hidden mt-6">
+                    <div id="listeningAnswerBox" class="p-4 rounded-xl mb-4"></div>
+                    <button onclick="nextListening()" class="btn-primary text-white font-semibold py-3 px-8 rounded-xl">下一�?/button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reading Modal -->
+    <div id="readingModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-3xl max-w-3xl w-full p-8">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold text-gray-800">短文跟读</h3>
+                <button onclick="closeModal('readingModal')" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+            </div>
+            <div class="text-center">
+                <p class="text-gray-500 mb-4">句子 <span id="readingProgress">1</span> / 4</p>
+                <div class="text-2xl font-bold text-gray-800 mb-8 leading-relaxed" id="readingSentence"></div>
+                <div class="flex items-center justify-center gap-4 mb-6">
+                    <button onclick="speakReading()" class="flex items-center gap-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-xl font-semibold">🔊 听朗�?/button>
+                    <button onclick="recordReading()" class="flex items-center gap-2 px-6 py-3 bg-purple-500 hover:bg-purple-600 text-white rounded-xl font-semibold" id="readBtn">🎤 我来跟读</button>
+                </div>
+                <div id="readComplete" class="hidden mb-6">
+                    <div class="flex items-center justify-center gap-2 p-4 bg-green-50 rounded-xl">
+                        <span class="text-green-700 font-medium">�?跟读完成�?/span>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center gap-4 mb-6">
+                    <button onclick="prevReading()" class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-xl">◀ 上一�?/button>
+                    <button onclick="nextReading()" class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-xl">下一�?�?/button>
+                </div>
+            </div>
+            <div class="pt-4 border-t">
+                <p class="text-sm text-gray-500 text-center mb-4">全文</p>
+                <div class="bg-gray-50 rounded-xl p-4" id="fullReading"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Writing Modal -->
+    <div id="writingModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
+        <div class="bg-white rounded-3xl max-w-4xl w-full p-8">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold text-gray-800">写作练习</h3>
+                <button onclick="closeModal('writingModal')" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+            </div>
+            <div class="text-center mb-4">
+                <p class="text-gray-500">�?<span id="writeProgress">1</span> / 3 �?/p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="card bg-gray-50 rounded-2xl p-6">
+                    <div class="flex items-start gap-4 mb-4">
+                        <div class="p-3 bg-gradient-to-r from-teal-500 to-emerald-500 rounded-xl text-2xl">📄</div>
+                        <div class="text-left">
+                            <h4 class="text-lg font-semibold text-gray-800" id="writingTitle"></h4>
+                            <p class="text-gray-500 text-sm">�?<span id="writingWordCount">100</span> �?/p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 mb-4 text-left" id="writingDesc"></p>
+                    <div id="writingSample" class="hidden text-left mt-4 p-4 bg-blue-50 rounded-xl">
+                        <p class="text-sm text-blue-800 font-medium mb-2">💡 参考范�?/p>
+                        <p class="text-sm text-blue-700" id="writingSampleText"></p>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <div class="mb-4 flex justify-between items-center">
+                        <span class="text-gray-500"><span id="wordCount">0</span> �?/span>
+                    </div>
+                    <textarea id="writingText" placeholder="开始写�?.." class="w-full h-64 p-4 border-2 border-gray-200 rounded-xl resize-none focus:border-indigo-500 outline-none" oninput="updateWordCount()"></textarea>
+                    <div id="writingSubmitBtn" class="mt-4">
+                        <button onclick="submitWriting()" class="btn-primary w-full text-white font-semibold py-3 rounded-xl">提交作文</button>
+                    </div>
+                    <div id="writingResult" class="hidden mt-4 space-y-4">
+                        <div class="flex items-center gap-2 p-4 bg-green-50 rounded-xl">
+                            <span class="text-green-700 font-medium">�?提交成功�?/span>
+                        </div>
+                        <div class="p-4 bg-purple-50 rounded-xl text-left">
+                            <p class="text-purple-800 font-medium mb-2">💡 学习建议</p>
+                            <ul class="text-sm text-purple-700 space-y-1">
+                                <li>�?尝试使用更多不同的词�?/li>
+                                <li>�?检查时态是否正�?/li>
+                                <li>�?注意句子的连贯�?/li>
+                            </ul>
+                        </div>
+                        <button onclick="nextWriting()" class="btn-primary w-full text-white font-semibold py-3 rounded-xl">下一�?/button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Learning Path Modal -->
+    <div id="learningPathModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50 overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-5xl w-full my-8">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-8">
+                    <h3 class="text-3xl font-bold bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">KET 学习路径</h3>
+                    <button onclick="closeModal('learningPathModal')" class="text-gray-400 hover:text-gray-600 text-3xl">&times;</button>
+                </div>
+                
+                <!-- Stage Selector -->
+                <div class="flex gap-4 mb-8 border-b border-gray-200 pb-4">
+                    <button onclick="showStage(1)" id="stage1Btn" class="px-6 py-3 rounded-xl font-semibold bg-gradient-to-r from-green-400 to-emerald-500 text-white transition-all">
+                        第一阶段：夯实基础
+                    </button>
+                    <button onclick="showStage(2)" id="stage2Btn" class="px-6 py-3 rounded-xl font-semibold bg-gray-100 text-gray-600 hover:bg-gray-200 transition-all">
+                        第二阶段：强化突�?                    </button>
+                    <button onclick="showStage(3)" id="stage3Btn" class="px-6 py-3 rounded-xl font-semibold bg-gray-100 text-gray-600 hover:bg-gray-200 transition-all">
+                        第三阶段：冲刺模�?                    </button>
+                </div>
+
+                <!-- Stage 1 Content -->
+                <div id="stage1Content" class="space-y-6">
+                    <div class="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl flex items-center justify-center text-3xl text-white">🗓�?/div>
+                            <div>
+                                <h4 class="text-2xl font-bold text-gray-800">第一阶段：夯实基础</h4>
+                                <p class="text-gray-600">�?-3个月 · 目标：词�?00+，能听懂日常短对�?/p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <button onclick="startLearningTask('vocab')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-green-400 hover:bg-green-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-blue-200">📝</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">背单�?/h5>
+                                    <p class="text-sm text-gray-500">15-20分钟/�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?每天10-15个新�?+ 复习旧词</li>
+                                <li>�?�?生活场景分类�?</li>
+                                <li>�?学校生活、家庭活动等场景</li>
+                                <li>�?配合图片/例句记忆</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('grammar')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-green-400 hover:bg-green-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-purple-200">✏️</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">学语�?/h5>
+                                    <p class="text-sm text-gray-500">15分钟/�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?抓高频考点</li>
+                                <li>�?一般现在时、一般过去时</li>
+                                <li>�?将来时、形容词比较�?/li>
+                                <li>�?基础疑问句、简单从�?/li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('listening')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-green-400 hover:bg-green-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-orange-200">🎧</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">磨耳朵</h5>
+                                    <p class="text-sm text-gray-500">15-20分钟/�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?听慢速英语或英文动画�?/li>
+                                <li>�?重点�?�?做了什�?</li>
+                                <li>�?培养信息抓取能力</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('reading')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-green-400 hover:bg-green-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-pink-200">📄</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">泛读</h5>
+                                    <p class="text-sm text-gray-500">10-15分钟/�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?从分级读物入�?/li>
+                                <li>�?牛津�?-8级或书虫入门�?/li>
+                                <li>�?培养阅读语感</li>
+                            </ul>
+                        </button>
+                    </div>
+
+                    <div class="bg-yellow-50 border-2 border-yellow-200 rounded-2xl p-6">
+                        <h6 class="font-bold text-yellow-800 mb-3 flex items-center gap-2">
+                            <span class="text-xl">�?/span> 第一阶段目标
+                        </h6>
+                        <ul class="text-yellow-700 space-y-2">
+                            <li>�?词汇积累�?00+</li>
+                            <li>�?能听懂日常短对话</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Stage 2 Content -->
+                <div id="stage2Content" class="space-y-6 hidden">
+                    <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl p-6">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="w-16 h-16 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-2xl flex items-center justify-center text-3xl text-white">🚀</div>
+                            <div>
+                                <h4 class="text-2xl font-bold text-gray-800">第二阶段：强化突�?/h4>
+                                <p class="text-gray-600">�?-3个月 · 目标：词�?200-1500，完成KET基础题型</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <button onclick="startLearningTask('vocab')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-blue-400 hover:bg-blue-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-blue-200">📚</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">词汇巩固</h5>
+                                    <p class="text-sm text-gray-500">20分钟/�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?进入第二轮词汇记�?/li>
+                                <li>�?重点记忆真题高频�?/li>
+                                <li>�?固定搭配和同义替�?/li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('vocab')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-blue-400 hover:bg-blue-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-purple-200">📋</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">真题/模拟�?/h5>
+                                    <p class="text-sm text-gray-500">1�?�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?使用《Trainer剑桥KET官方模考�?/li>
+                                <li>�?逐步熟悉考试形式</li>
+                                <li>�?了解各类题型特点</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('listening')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-blue-400 hover:bg-blue-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-orange-200">🎵</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">精听练习</h5>
+                                    <p class="text-sm text-gray-500">2-3�?�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?使用真题听力原文</li>
+                                <li>�?盲听做题 �?看原文精�?�?不看原文再听</li>
+                                <li>�?逐句消化理解</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('reading')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-blue-400 hover:bg-blue-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-pink-200">📖</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">阅读技�?/h5>
+                                    <p class="text-sm text-gray-500">20分钟/�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?先看题目再读文本</li>
+                                <li>�?练习"快速定位信�?</li>
+                                <li>�?提高阅读速度和准确率</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('writing')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-blue-400 hover:bg-blue-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-green-200">✍️</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">写作入门</h5>
+                                    <p class="text-sm text-gray-500">1-2�?�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?从写便条、邮件开�?/li>
+                                <li>�?先背格式和固定句�?/li>
+                                <li>�?然后进行仿写练习</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('speaking')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-blue-400 hover:bg-blue-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-red-200">🎤</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">口语训练</h5>
+                                    <p class="text-sm text-gray-500">3�?周，15分钟</p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?练习自我介绍</li>
+                                <li>�?准备"My name is�?I like�?等模�?/li>
+                                <li>�?掌握基础问答</li>
+                            </ul>
+                        </button>
+                    </div>
+
+                    <div class="bg-blue-50 border-2 border-blue-200 rounded-2xl p-6">
+                        <h6 class="font-bold text-blue-800 mb-3 flex items-center gap-2">
+                            <span class="text-xl">�?/span> 第二阶段目标
+                        </h6>
+                        <ul class="text-blue-700 space-y-2">
+                            <li>�?词汇量突�?200-1500</li>
+                            <li>�?能完成KET基础的阅读和听力�?/li>
+                            <li>�?初步掌握写作和口语的基本句式</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Stage 3 Content -->
+                <div id="stage3Content" class="space-y-6 hidden">
+                    <div class="bg-gradient-to-r from-red-50 to-orange-50 rounded-2xl p-6">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="w-16 h-16 bg-gradient-to-r from-red-400 to-orange-500 rounded-2xl flex items-center justify-center text-3xl text-white">🏆</div>
+                            <div>
+                                <h4 class="text-2xl font-bold text-gray-800">第三阶段：冲刺模�?/h4>
+                                <p class="text-gray-600">考前2-3个月 · 目标：熟悉考试流程，从容应�?/p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <button onclick="startLearningTask('vocab')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-red-400 hover:bg-red-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-red-200">📝</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">全真模�?/h5>
+                                    <p class="text-sm text-gray-500">1-2�?�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?严格按考试时间完成</li>
+                                <li>�?阅读写作60分钟、听�?0分钟</li>
+                                <li>�?创造真实考场环境</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('grammar')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-red-400 hover:bg-red-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-purple-200">📊</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">错题分析</h5>
+                                    <p class="text-sm text-gray-500">每次模考后</p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?分析每道错题的原�?/li>
+                                <li>�?词汇不足、理解偏差还是粗�?/li>
+                                <li>�?针对性强化弱�?/li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('speaking')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-red-400 hover:bg-red-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-green-200">👥</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">口语搭档</h5>
+                                    <p class="text-sm text-gray-500">2�?�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?找一个口语练习伙�?/li>
+                                <li>�?用真题模拟双人对�?/li>
+                                <li>�?提高互动能力</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('vocab')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-red-400 hover:bg-red-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-yellow-200">📖</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">高频词汇复习</h5>
+                                    <p class="text-sm text-gray-500">15分钟/�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?重点复习错题中出现的单词</li>
+                                <li>�?高频固定搭配记忆</li>
+                                <li>�?查漏补缺</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('writing')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-red-400 hover:bg-red-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-pink-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-pink-200">✍️</div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">写作订正</h5>
+                                    <p class="text-sm text-gray-500">每次写作�?/p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?自己写完仔细订正拼写和语�?/li>
+                                <li>�?背几篇优秀范文</li>
+                                <li>�?模仿范文结构</li>
+                            </ul>
+                        </button>
+
+                        <button onclick="startLearningTask('vocab')" class="bg-white border-2 border-gray-100 rounded-2xl p-6 hover:border-red-400 hover:bg-red-50 transition-all text-left group">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center text-2xl group-hover:bg-cyan-200">�?/div>
+                                <div class="flex-1">
+                                    <h5 class="font-bold text-gray-800">考前冲刺</h5>
+                                    <p class="text-sm text-gray-500">每日</p>
+                                </div>
+                                <div class="text-2xl opacity-0 group-hover:opacity-100 transition-all">�?/div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li>�?使用最新官方真题模�?/li>
+                                <li>�?熟悉答题卡填�?/li>
+                                <li>�?掌握考试时间分配</li>
+                            </ul>
+                        </button>
+                    </div>
+
+                    <div class="bg-red-50 border-2 border-red-200 rounded-2xl p-6">
+                        <h6 class="font-bold text-red-800 mb-3 flex items-center gap-2">
+                            <span class="text-xl">�?/span> 第三阶段目标
+                        </h6>
+                        <ul class="text-red-700 space-y-2">
+                            <li>�?熟悉完整考试流程</li>
+                            <li>�?能从容应对限时压�?/li>
+                            <li>�?错题率明显下�?/li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function() {
+            document.querySelectorAll('.modal').forEach(function(modal) {
+                modal.style.display = 'none';
+                modal.classList.remove('active');
+            });
+        })();
+
+        let currentUser = null;
+        let selectedCourse = 'ket';
+        let userLevel = 'beginner';
+        let testIndex = 0;
+        let testScore = 0;
+        let wrongQuestions = [];
+        let vocabIndex = 0;
+        let dictationIndex = 0;
+        let transIndex = 0;
+        let translateMode = 'en2zh';
+        let grammarQIndex = 0;
+        let speakingIndex = 0;
+        let listeningIndex = 0;
+        let readingIndex = 0;
+        let writingIndex = 0;
+
+        const courseInfo = {
+            ket: { title: 'KET', level: 'A2', description: '入门�? },
+            pet: { title: 'PET', level: 'B1', description: '中级' },
+            cae: { title: 'CAE', level: 'B2', description: '中高�? },
+            cpe: { title: 'CPE', level: 'C1', description: '高级' }
+        };
+
+        const courseQuestions = {
+            ket: [
+                { q: "What ___ your name?", opts: ["is", "are", "am", "be"], ans: 0, category: "语法-系动�?, difficulty: "基础" },
+                { q: "I ___ from China.", opts: ["comes", "come", "coming", "came"], ans: 1, category: "语法-动词形式", difficulty: "基础" },
+                { q: "She ___ to school every day.", opts: ["go", "goes", "going", "gone"], ans: 1, category: "语法-第三人称单数", difficulty: "基础" },
+                { q: "This is ___ book.", opts: ["a", "an", "the", "some"], ans: 0, category: "语法-冠词", difficulty: "基础" },
+                { q: "Choose the correct synonym for 'happy':", opts: ["sad", "joyful", "angry", "tired"], ans: 1, category: "词汇-同义�?, difficulty: "基础" },
+                { q: "The word 'big' means:", opts: ["small", "large", "happy", "sad"], ans: 1, category: "词汇-词义", difficulty: "基础" },
+                { q: "Read: 'The cat is on the mat.' What does 'mat' mean?", opts: ["椅子", "垫子", "桌子", "�?], ans: 1, category: "阅读-词义理解", difficulty: "基础" },
+                { q: "Which sentence is correct?", opts: ["He go to school.", "He goes to school.", "He going to school.", "He went to school."], ans: 1, category: "语法-句子结构", difficulty: "基础" },
+                { q: "I ___ TV last night.", opts: ["watch", "watches", "watched", "watching"], ans: 2, category: "语法-过去�?, difficulty: "进阶" },
+                { q: "They ___ friends.", opts: ["is", "am", "are", "be"], ans: 2, category: "语法-系动�?, difficulty: "基础" }
+            ],
+            pet: [
+                { q: "They ___ here for 10 years.", opts: ["live", "lived", "have lived", "are living"], ans: 2, category: "语法-现在完成�?, difficulty: "进阶" },
+                { q: "If it rains, we ___ stay home.", opts: ["will", "would", "shall", "should"], ans: 0, category: "语法-条件�?, difficulty: "进阶" },
+                { q: "The book ___ by millions of people.", opts: ["reads", "read", "is read", "has read"], ans: 2, category: "语法-被动语�?, difficulty: "进阶" },
+                { q: "Choose the correct synonym for 'important':", opts: ["unimportant", "significant", "small", "easy"], ans: 1, category: "词汇-同义�?, difficulty: "进阶" },
+                { q: "The word 'comprehend' means:", opts: ["to see", "to understand", "to speak", "to write"], ans: 1, category: "词汇-词义", difficulty: "进阶" },
+                { q: "Read: 'She was exhausted after working all day.' What does 'exhausted' mean?", opts: ["happy", "tired", "excited", "angry"], ans: 1, category: "阅读-词义理解", difficulty: "进阶" },
+                { q: "He ___ to go to school.", opts: ["must", "should", "needs", "can"], ans: 2, category: "语法-情态动�?, difficulty: "进阶" },
+                { q: "Which word is an adjective?", opts: ["quickly", "happiness", "beautiful", "develop"], ans: 2, category: "语法-词�?, difficulty: "进阶" },
+                { q: "The opposite of 'increase' is:", opts: ["raise", "decrease", "expand", "grow"], ans: 1, category: "词汇-反义�?, difficulty: "进阶" },
+                { q: "I'm looking forward to ___ you.", opts: ["meet", "meeting", "met", "meets"], ans: 1, category: "语法-固定搭配", difficulty: "进阶" }
+            ],
+            cae: [
+                { q: "If I ___ you, I would study hard.", opts: ["am", "was", "were", "be"], ans: 2, category: "语法-虚拟语气", difficulty: "高级" },
+                { q: "Not only ___ good, but also it's cheap.", opts: ["it is", "is it", "does it", "it does"], ans: 1, category: "语法-倒装�?, difficulty: "高级" },
+                { q: "Rarely ___ such dedication.", opts: ["I see", "see I", "do I see", "I do see"], ans: 2, category: "语法-倒装�?, difficulty: "高级" },
+                { q: "The report suggests that he ___ guilty.", opts: ["be", "is", "was", "were"], ans: 0, category: "语法-虚拟语气", difficulty: "高级" },
+                { q: "By next year, I ___ my degree.", opts: ["will finish", "finish", "will have finished", "am finishing"], ans: 2, category: "语法-将来完成�?, difficulty: "高级" },
+                { q: "Choose the correct synonym for 'comprehensive':", opts: ["limited", "complete", "partial", "simple"], ans: 1, category: "词汇-同义�?, difficulty: "高级" },
+                { q: "The word 'phenomenon' means:", opts: ["a fact", "a problem", "a solution", "a question"], ans: 0, category: "词汇-词义", difficulty: "高级" },
+                { q: "Read: 'The phenomenon has significant implications.' What does 'implications' mean?", opts: ["causes", "effects", "solutions", "problems"], ans: 1, category: "阅读-词义理解", difficulty: "高级" },
+                { q: "This requires further ___.", opts: ["consider", "considering", "consideration", "considered"], ans: 2, category: "语法-词性转�?, difficulty: "高级" },
+                { q: "The results indicate a(n) ___ improvement.", opts: ["significantly", "significant", "signify", "significance"], ans: 1, category: "语法-词性转�?, difficulty: "高级" }
+            ],
+            cpe: [
+                { q: "Should you see him, ___ him to call me.", opts: ["tell", "telling", "to tell", "told"], ans: 0, category: "语法-条件句省�?, difficulty: "精�? },
+                { q: "Little ___ know the truth.", opts: ["do we", "we do", "we", "did we"], ans: 0, category: "语法-倒装�?, difficulty: "精�? },
+                { q: "Had I known, I ___ differently.", opts: ["would act", "would have acted", "act", "acted"], ans: 1, category: "语法-虚拟语气", difficulty: "精�? },
+                { q: "It is imperative that he ___ immediately.", opts: ["leave", "leaves", "left", "leaving"], ans: 0, category: "语法-虚拟语气", difficulty: "精�? },
+                { q: "The proposal met with ___ opposition.", opts: ["substantial", "substantially", "substance", "substantiate"], ans: 0, category: "词汇-词性转�?, difficulty: "精�? },
+                { q: "Choose the correct synonym for 'conscientious':", opts: ["careless", "diligent", "lazy", "indifferent"], ans: 1, category: "词汇-同义�?, difficulty: "精�? },
+                { q: "Read: 'His conscientious approach impressed everyone.' What does 'conscientious' mean?", opts: ["careless", "hardworking", "lazy", "rude"], ans: 1, category: "阅读-词义理解", difficulty: "精�? },
+                { q: "The research has ___ our understanding.", opts: ["enhance", "enhanced", "enhancing", "enhancement"], ans: 1, category: "语法-动词时�?, difficulty: "精�? },
+                { q: "___ as it may seem, there is evidence to support it.", opts: ["Strange", "Strangely", "Stranger", "Strangeness"], ans: 0, category: "语法-让步状语", difficulty: "精�? },
+                { q: "She insisted on ___ present.", opts: ["be", "being", "been", "is"], ans: 1, category: "语法-介词后动�?, difficulty: "精�? }
+            ]
+        };
+
+        const vocabData = {
+            ket: typeof ketVocabulary !== 'undefined' ? ketVocabulary : [
+                { word: "happy", definition: "开心的", example: "I am very happy today." },
+                { word: "sad", definition: "难过�?, example: "She feels sad." },
+                { word: "big", definition: "大的", example: "This is a big house." },
+                { word: "small", definition: "小的", example: "The cat is small." },
+                { word: "good", definition: "好的", example: "That's a good idea." },
+                { word: "bad", definition: "坏的", example: "The food tastes bad." },
+                { word: "hot", definition: "热的", example: "It's very hot today." },
+                { word: "cold", definition: "冷的", example: "Winter is cold." }
+            ],
+            pet: [
+                { word: "wonderful", definition: "精彩�?, example: "We had a wonderful time." },
+                { word: "beautiful", definition: "美丽�?, example: "The flower is beautiful." },
+                { word: "important", definition: "重要�?, example: "English is important." },
+                { word: "different", definition: "不同�?, example: "They are different." },
+                { word: "difficult", definition: "困难�?, example: "This question is difficult." },
+                { word: "experience", definition: "经历/经验", example: "It was a great experience." },
+                { word: "knowledge", definition: "知识", example: "Knowledge is power." },
+                { word: "continue", definition: "继续", example: "Let's continue learning." },
+                { word: "improve", definition: "提高", example: "I want to improve my English." },
+                { word: "remember", definition: "记得", example: "I can't remember his name." },
+                { word: "forget", definition: "忘记", example: "Don't forget your book." },
+                { word: "understand", definition: "理解", example: "I understand what you mean." },
+                { word: "learn", definition: "学习", example: "I want to learn English." },
+                { word: "teach", definition: "�?, example: "She teaches math at school." },
+                { word: "practice", definition: "练习", example: "Practice makes perfect." },
+                { word: "study", definition: "学习/研究", example: "I study English every day." },
+                { word: "work", definition: "工作", example: "He works in an office." },
+                { word: "play", definition: "�?演奏", example: "Children like to play." },
+                { word: "read", definition: "阅读", example: "I read books every night." },
+                { word: "write", definition: "写作", example: "She writes letters." }
+            ],
+            cae: [
+                { word: "sophisticated", definition: "复杂的，精密�?, example: "This is a sophisticated machine." },
+                { word: "substantial", definition: "大量的，实质�?, example: "There was a substantial improvement." },
+                { word: "comprehensive", definition: "全面�?, example: "This is a comprehensive report." },
+                { word: "significant", definition: "显著�?, example: "This is a significant change." },
+                { word: "demonstrate", definition: "展示，证�?, example: "He demonstrated his skill." },
+                { word: "phenomenon", definition: "现象", example: "This is an interesting phenomenon." },
+                { word: "perspective", definition: "观点，视�?, example: "Let's look from a different perspective." },
+                { word: "hypothesis", definition: "假设", example: "We need to test this hypothesis." },
+                { word: "infrastructure", definition: "基础设施", example: "The city's infrastructure is outdated." },
+                { word: "conscientious", definition: "认真负责�?, example: "She is a conscientious worker." },
+                { word: "analyze", definition: "分析", example: "We need to analyze the data." },
+                { word: "evaluate", definition: "评估", example: "Experts will evaluate the project." },
+                { word: "implement", definition: "实施", example: "We plan to implement the new system." },
+                { word: "optimize", definition: "优化", example: "We need to optimize the process." },
+                { word: "collaborate", definition: "合作", example: "We collaborate with other companies." },
+                { word: "communicate", definition: "沟�?, example: "Good communication is key." },
+                { word: "innovate", definition: "创新", example: "We need to innovate to succeed." },
+                { word: "adapt", definition: "适应", example: "Organizations must adapt to change." },
+                { word: "sustain", definition: "维持", example: "We need to sustain our efforts." },
+                { word: "transform", definition: "转变", example: "Technology can transform lives." }
+            ],
+            cpe: [
+                { word: "meticulous", definition: "一丝不苟的", example: "He is meticulous about details." },
+                { word: "paradigm", definition: "范式，模�?, example: "This represents a new paradigm." },
+                { word: "ubiquitous", definition: "无处不在�?, example: "Smartphones are ubiquitous." },
+                { word: "pragmatic", definition: "务实�?, example: "We need a pragmatic approach." },
+                { word: "resilient", definition: "有弹性的，能恢复�?, example: "She is a resilient person." },
+                { word: "scrutiny", definition: "仔细审查", example: "The plan came under scrutiny." },
+                { word: "ambiguous", definition: "模糊�?, example: "The message was ambiguous." },
+                { word: "unprecedented", definition: "史无前例�?, example: "This is an unprecedented event." },
+                { word: "comprehensive", definition: "全面�?, example: "We need a comprehensive solution." },
+                { word: "substantive", definition: "实质性的", example: "There was substantive progress." },
+                { word: "profound", definition: "深刻�?, example: "This has profound implications." },
+                { word: "fundamental", definition: "基本�?, example: "This is a fundamental principle." },
+                { word: "contemporary", definition: "当代�?, example: "Contemporary art is diverse." },
+                { word: "paradoxical", definition: "矛盾�?, example: "This is a paradoxical situation." },
+                { word: "spontaneous", definition: "自发�?, example: "There was a spontaneous reaction." },
+                { word: "coherent", definition: "连贯�?, example: "She gave a coherent explanation." },
+                { word: "redundant", definition: "冗余�?, example: "This information is redundant." },
+                { word: "predominant", definition: "主要�?, example: "The predominant color is blue." },
+                { word: "consequential", definition: "重要�?, example: "This was a consequential decision." },
+                { word: "meticulous", definition: "细致�?, example: "She is meticulous in her work." }
+            ]
+        };
+
+        const grammarLessons = {
+            ket: [
+                { title: "考点1 名词", content: "<p><strong>一、可数名词与不可数名�?/strong></p><p>可数名词有单复数形式，不可数名词没有复数形式�?/p><p><strong>可数名词�?/strong>apple, book, cat, student, tree</p><p><strong>不可数名词：</strong>water, milk, bread, rice, information</p><p><strong>二、名词变复数的规�?/strong></p><p>1. 一般加-s：book→books, cat→cats</p><p>2. 以s/x/sh/ch结尾�?es：box→boxes, watch→watches</p><p>3. 以辅�?y结尾，变y为i�?es：baby→babies, city→cities</p><p>4. 以元�?y结尾，加-s：boy→boys, day→days</p><p>5. 以f/fe结尾，变f为v�?ves：leaf→leaves, knife→knives</p><p><strong>三、不规则复数形式</strong></p><p>man→men, woman→women, child→children, foot→feet, tooth→teeth, mouse→mice, sheep→sheep, fish→fish</p><p><strong>四、how much和how many的用�?/strong></p><p>how many + 可数名词复数（提问数量）</p><p>how much + 不可数名词（提问数量或价格）</p><p><strong>五、a和an的用�?/strong></p><p>a + 辅音音素开头的单词：a book, a university</p><p>an + 元音音素开头的单词：an apple, an hour</p><p><strong>六、little/few的用�?/strong></p><p>little + 不可数名词（几乎没有，表否定�?/p><p>a little + 不可数名词（有一点，表肯定）</p><p>few + 可数名词复数（几乎没有，表否定）</p><p>a few + 可数名词复数（有一些，表肯定）</p><p><strong>七、some和any的用�?/strong></p><p>some用于肯定句：I have some apples.</p><p>any用于否定句和疑问句：Do you have any water?</p><p>some可用于表示请求的疑问句中：Could you give me some help?</p>" },
+                { title: "考点2 代词", content: "<p><strong>一、人称代�?/strong></p><p><strong>主格�?/strong>I, you, he, she, it, we, they</p><p><strong>宾格�?/strong>me, you, him, her, it, us, them</p><p>主格作主语，宾格作宾语�?/p><p>例：He likes me. / I like him.</p><p><strong>二、物主代�?/strong></p><p><strong>形容词性物主代词：</strong>my, your, his, her, its, our, their（后接名词）</p><p><strong>名词性物主代词：</strong>mine, yours, his, hers, its, ours, theirs（单独使用）</p><p>例：This is my book. / This book is mine.</p><p><strong>三、反身代�?/strong></p><p>myself, yourself, himself, herself, itself, ourselves, yourselves, themselves</p><p>例：She can dress herself. / I did it by myself.</p><p><strong>四、both和all</strong></p><p>both指两者都，谓语动词用复数：Both of them are students.</p><p>all指三者及以上都：All the students are here.</p><p><strong>五、either和neither</strong></p><p>either指两者中的任意一个：Either of us can go.</p><p>neither指两者都不：Neither answer is correct.</p><p><strong>六、each和every</strong></p><p>each强调个体，可用于两者或以上：Each of us has a dream.</p><p>every强调整体，通常用于三者或以上：Every student is here.</p><p><strong>七、no和none</strong></p><p>no = not any，可修饰可数和不可数名词：There is no water.</p><p>none指三者或以上都不，常与of连用：None of them came.</p><p><strong>八、合成代�?/strong></p><p>something, anything, nothing, everything</p><p>someone, anyone, no one, everyone</p>" },
+                { title: "考点3 形容�?, content: "<p><strong>一、形容词原级、比较级和最高级</strong></p><p><strong>原级�?/strong>表示事物的性质或特�?/p><p><strong>比较级：</strong>用于两者之间的比较，意为\"�?..\"</p><p><strong>最高级�?/strong>用于三者或以上的比较，意为\"最...\"</p><p><strong>二、比较级和最高级的规则变�?/strong></p><p>1. 一般情况加-er/-est：tall→taller→tallest</p><p>2. 以e结尾�?r/-st：nice→nicer→nicest</p><p>3. 辅音+y结尾，变y为i�?er/-est：happy→happier→happiest</p><p>4. 重读闭音节结尾且末尾只有一个辅音字母，双写�?er/-est：big→bigger→biggest</p><p>5. 多音节词在前面加more/most：beautiful→more beautiful→most beautiful</p><p><strong>三、不规则变化</strong></p><p>good→better→best</p><p>bad→worse→worst</p><p>many/much→more→most</p><p>little→less→least</p><p>far→farther/further→farthest/furthest</p><p><strong>四、比较级和最高级的用�?/strong></p><p>比较级：主语 + be动词 + 比较�?+ than + 比较对象</p><p>最高级：主�?+ be动词 + the + 最高级 + in/of + 范围</p><p>例：She is taller than me. / He is the tallest in our class.</p><p><strong>五、as...as的用�?/strong></p><p>as + 形容�?副词原级 + as：表示\"�?..一样\"</p><p>not as/so...as：表示\"不如...\"</p><p>例：He is as tall as his father. / This book is not as interesting as that one.</p>" },
+                { title: "考点4 介词", content: "<p><strong>一、方位介�?/strong></p><p><strong>on�?/strong>�?..上面（接触表面）</p><p>例：The book is on the table.</p><p><strong>in�?/strong>�?..里面</p><p>例：She is in the room.</p><p><strong>under�?/strong>�?..下面（不接触�?/p><p>例：The cat is under the chair.</p><p><strong>over�?/strong>�?..正上方（不接触）</p><p>例：The plane is flying over the city.</p><p><strong>above�?/strong>�?..上方（不一定是正上方）</p><p><strong>below�?/strong>�?..下方（不一定是正下方）</p><p><strong>in front of�?/strong>�?..前面</p><p><strong>behind�?/strong>�?..后面</p><p><strong>next to/beside�?/strong>�?..旁边</p><p><strong>between�?/strong>在两者之�?/p><p><strong>among�?/strong>在三者或以上之间</p><p><strong>二、时间介�?/strong></p><p><strong>at�?/strong>用于具体时刻、节日、年�?/p><p>例：at 8 o'clock, at Christmas, at the age of 10</p><p><strong>in�?/strong>用于年、月、季节、上�?下午/晚上</p><p>例：in 2024, in January, in winter, in the morning</p><p><strong>on�?/strong>用于具体日期、星�?/p><p>例：on June 1st, on Monday, on the weekend</p><p><strong>三、常用介词短�?/strong></p><p>look at, listen to, wait for, ask for, think about, depend on</p><p>be good at, be interested in, be afraid of, be famous for</p>" },
+                { title: "考点5 连词", content: "<p><strong>一、并列连�?/strong></p><p><strong>and�?/strong>和，表示顺承或并�?/p><p>例：I like coffee and tea.</p><p><strong>both...and...�?/strong>两者都</p><p>例：Both Tom and Jerry are my friends.</p><p><strong>not only...but also...�?/strong>不仅...而且...</p><p>例：She is not only clever but also kind.</p><p><strong>二、转折连�?/strong></p><p><strong>but�?/strong>但是，表示转�?/p><p>例：I like him, but I can't trust him.</p><p><strong>however�?/strong>然而，表示轻微转折</p><p><strong>although/though�?/strong>虽然...但是...</p><p>例：Although it was raining, we still went out.</p><p><strong>三、因果连�?/strong></p><p><strong>because�?/strong>因为（引导原因从句）</p><p>例：I was late because I missed the bus.</p><p><strong>so�?/strong>所以（引导结果�?/p><p>例：It was raining, so we stayed home.</p><p><strong>because...so...�?/strong>不能同时使用，选择其一</p><p><strong>四、选择连词</strong></p><p><strong>or�?/strong>或者，否则</p><p>例：Would you like tea or coffee? / Hurry up, or you'll be late.</p><p><strong>either...or...�?/strong>或�?..或�?..</p><p>例：Either you come or I go.</p><p><strong>neither...nor...�?/strong>既不...也不...</p><p>例：Neither Tom nor Jerry came to the party.</p>" },
+                { title: "考点6 程度副词enough和too", content: "<p><strong>一、enough的用�?/strong></p><p><strong>位置�?/strong>形容�?副词之后</p><p><strong>结构�?/strong>主语 + be动词 + 形容�?+ enough (+ for sb + to do)</p><p>例：This book is easy enough for me to read.</p><p>否定：not + 形容�?+ enough = 形容词比较级</p><p>例：This room is not big enough. = This room is smaller.</p><p><strong>二、too的用�?/strong></p><p><strong>位置�?/strong>形容�?副词之前</p><p><strong>结构�?/strong>主语 + be动词 + too + 形容�?副词 (+ to do)</p><p>例：This box is too heavy to carry.</p><p>too...to... = �?..而不�?..</p><p><strong>三、enough和too的转�?/strong></p><p>too + 形容�?+ to do = not + 形容词比较级 + enough + to do</p><p>例：He is too young to go to school.</p><p>= He is not old enough to go to school.</p><p><strong>四、注意：</strong></p><p>enough可以修饰名词，放在名词前面：I have enough money.</p><p>too可以表示\"也\"：I like coffee, too.</p>" },
+                { title: "考点7 一般现在时", content: "<p><strong>一、定�?/strong></p><p>表示经常性、习惯性的动作或存在的状态，以及客观真理�?/p><p><strong>二、结�?/strong></p><p><strong>肯定句：</strong>主语 + 动词原形/第三人称单数形式</p><p><strong>否定句：</strong>主语 + don't/doesn't + 动词原形</p><p><strong>疑问句：</strong>Do/Does + 主语 + 动词原形?</p><p><strong>三、第三人称单数变化规�?/strong></p><p>1. 一般加-s：plays, reads, wants</p><p>2. 以s/x/sh/ch/o结尾�?es：watches, goes, fixes</p><p>3. 辅音+y结尾，变y为i�?es：studies, flies</p><p>4. 不规则变化：have→has</p><p><strong>四、常用时间状�?/strong></p><p>always, usually, often, sometimes, seldom, rarely, never</p><p>every day/week/month/year, in the morning</p><p><strong>五、用�?/strong></p><p>1. 经常性动作：I drink milk every morning.</p><p>2. 习惯性动作：She walks to school.</p><p>3. 客观真理：The earth moves around the sun.</p><p>4. 能力/性格：He speaks English well.</p>" },
+                { title: "考点8 一般过去时", content: "<p><strong>一、定�?/strong></p><p>表示过去某个时间发生的动作或存在的状态�?/p><p><strong>二、结�?/strong></p><p><strong>肯定句：</strong>主语 + 动词过去�?/p><p><strong>否定句：</strong>主语 + didn't + 动词原形</p><p><strong>疑问句：</strong>Did + 主语 + 动词原形?</p><p><strong>三、动词过去式变化规则</strong></p><p>1. 一般加-ed：played, visited</p><p>2. 以e结尾�?d：liked, lived</p><p>3. 辅音+y结尾，变y为i�?ed：studied, tried</p><p>4. 重读闭音节结尾且末尾只有一个辅音字母，双写�?ed：stopped, planned</p><p><strong>四、不规则动词</strong></p><p>go→went, see→saw, eat→ate, drink→drank, take→took, come→came, make→made, have→had, is→was, are→were</p><p><strong>五、常用时间状�?/strong></p><p>yesterday, last week/month/year, ago, just now, in 2020, then</p><p><strong>六、be动词的过去式</strong></p><p>am/is→was, are→were</p><p>否定：was not = wasn't, were not = weren't</p><p>疑问：Was/Were + 主语 + ...?</p>" },
+                { title: "考点9 现在进行�?, content: "<p><strong>一、定�?/strong></p><p>表示说话时正在发生的动作，或当前阶段正在进行的动作�?/p><p><strong>二、结�?/strong></p><p>主语 + am/is/are + 动词-ing</p><p><strong>三、现在分词变化规�?/strong></p><p>1. 一般加-ing：playing, reading</p><p>2. 以不发音e结尾，去e�?ing：making, taking</p><p>3. 重读闭音节结尾且末尾只有一个辅音字母，双写�?ing：running, swimming, getting</p><p>4. 以ie结尾，变ie为y�?ing：dying, lying</p><p><strong>四、常用时间状�?/strong></p><p>now, right now, at the moment, listen!, look!</p><p><strong>五、用�?/strong></p><p>1. 说话时正在发生：I am reading a book now.</p><p>2. 当前阶段持续：She is staying with her grandparents these days.</p><p>3. 近期计划（与come, go, leave等连用）：We are going to Beijing next week.</p><p><strong>六、注意：</strong></p><p>并非所有动词都能用进行时，如see, hear, know, like, want等表示状态或感官的动词通常不用进行时�?/p>" },
+                { title: "考点10 过去进行�?, content: "<p><strong>一、定�?/strong></p><p>表示过去某个时刻或时间段正在发生的动作�?/p><p><strong>二、结�?/strong></p><p>主语 + was/were + 动词-ing</p><p><strong>三、was和were的用�?/strong></p><p>was用于第一人称单数(I)和第三人称单�?he/she/it)</p><p>were用于第一人称复数(we)、第二人�?you)和第三人称复�?they)</p><p><strong>四、常用时间状�?/strong></p><p>at that time, at this time yesterday, when, while</p><p>例：I was sleeping at 10 o'clock last night.</p><p><strong>五、when和while的区�?/strong></p><p>when：可接短暂性动词或延续性动�?/p><p>while：只能接延续性动词，通常用过去进行时</p><p>例：When I came home, my mother was cooking dinner.</p><p>While I was reading, the phone rang.</p><p><strong>六、用�?/strong></p><p>1. 过去某时刻正在发生：I was watching TV at 8 last night.</p><p>2. 两个过去的动作同时进行：While he was studying, she was sleeping.</p><p>3. 过去计划即将发生：I was leaving the next day.</p>" },
+                { title: "考点11 一般将来时", content: "<p><strong>一、定�?/strong></p><p>表示将来要发生的动作或存在的状态�?/p><p><strong>二、两种结�?/strong></p><p><strong>结构1：will + 动词原形</strong></p><p>1. 临时决定：I'll call you later.</p><p>2. 预测：It will rain tomorrow.</p><p>3. 意愿/承诺：I will help you.</p><p><strong>结构2：be going to + 动词原形</strong></p><p>1. 已计划好的事：We are going to have a party next week.</p><p>2. 明显的征兆：Look at the clouds! It's going to rain.</p><p><strong>三、否定句和疑问句</strong></p><p>will: won't = will not</p><p>be going to: am/is/are + not + going to</p><p><strong>四、常用时间状�?/strong></p><p>tomorrow, next week/month/year, in the future, soon</p><p><strong>五、主将从现原�?/strong></p><p>在条件状语从句和时间状语从句中，用一般现在时代替一般将来时�?/p><p>例：If it rains tomorrow, we will stay home.</p><p>I'll call you when I arrive.</p>" },
+                { title: "考点12 现在完成�?, content: "<p><strong>一、定�?/strong></p><p>表示过去发生的动作对现在造成的影响，或过去开始一直持续到现在的动作�?/p><p><strong>二、结�?/strong></p><p>主语 + have/has + 过去分词</p><p>have用于第一人称、第二人称和第三人称复数</p><p>has用于第三人称单数</p><p><strong>三、过去分词变化规�?/strong></p><p>规则动词：与过去式相同，�?ed</p><p>不规则动词需单独记忆</p><p><strong>四、常与现在完成时连用的时间状�?/strong></p><p>already, yet, just, ever, never（用于不确定/经验�?/p><p>since + 时间�? for + 时间段（用于持续�?/p><p>例：I have finished my homework already.</p><p>I have lived here for five years.</p><p><strong>五、have been to �?have gone to</strong></p><p>have been to: 去过（已回来�?/p><p>have gone to: 去了（未回来�?/p><p>例：I have been to Beijing twice.（去过北京两次）</p><p>He has gone to Shanghai.（他去上海了，还没回来）</p>" },
+                { title: "考点13 情态动�?, content: "<p><strong>一、can和could</strong></p><p><strong>can�?/strong>能力/请求许可</p><p>例：I can swim. / Can I help you?</p><p><strong>could�?/strong>过去能力/更礼貌的请求</p><p>例：She could speak English when she was five.</p><p>Could you please open the door?</p><p><strong>二、must和have to</strong></p><p><strong>must�?/strong>必须（主观）</p><p><strong>mustn't�?/strong>禁止</p><p><strong>have to�?/strong>不得不（客观�?/p><p>例：You must finish your homework.</p><p>You mustn't smoke here.</p><p>I had to work late yesterday.</p><p>must的一般疑问句否定回答用needn't或don't have to</p><p><strong>三、should和shouldn't</strong></p><p>should: 建议/应该</p><p>shouldn't: 不应�?/p><p>例：You should see a doctor.</p><p>You shouldn't be late.</p><p><strong>四、情态动词表示猜�?/strong></p><p>must be: 一定是（肯定猜测）</p><p>can't be: 不可能是（否定猜测）</p><p>may/could be: 可能是（不确定）</p><p>例：He must be at home; his car is there.</p>" },
+                { title: "考点14 被动语�?, content: "<p><strong>一、定�?/strong></p><p>当强调动作的承受者时，使用被动语态�?/p><p><strong>二、结�?/strong></p><p>主语 + be + 过去分词 (+ by + 动作执行�?</p><p><strong>三、各时态的被动语�?/strong></p><p><strong>一般现在时�?/strong>am/is/are + 过去分词</p><p>The book is read by students.</p><p><strong>一般过去时�?/strong>was/were + 过去分词</p><p>The book was written by the author.</p><p><strong>一般将来时�?/strong>will be + 过去分词</p><p>The book will be published next month.</p><p><strong>情态动词：</strong>情态动�?+ be + 过去分词</p><p>The book can be found in the library.</p><p><strong>四、用�?/strong></p><p>1. 不知道动作执行者：The window was broken.</p><p>2. 强调动作承受者：The book was written by him.</p><p>3. 动作执行者不重要：English is spoken in many countries.</p><p><strong>五、主动变被动的步�?/strong></p><p>1. 把宾语变主语</p><p>2. 把动词变成be + 过去分词</p><p>3. 把主语变成by的宾�?/p>" },
+                { title: "考点15 定语从句", content: "<p><strong>一、定�?/strong></p><p>在复合句中修饰名词或代词的从句叫做定语从句。被修饰的名词叫先行词�?/p><p><strong>二、关系代�?/strong></p><p><strong>who�?/strong>指人，在从句中作主语或宾�?/p><p>The man who is standing there is my teacher.</p><p><strong>whom�?/strong>指人，在从句中作宾语（可省略�?/p><p>The man (whom) I saw yesterday is my teacher.</p><p><strong>which�?/strong>指物，在从句中作主语或宾�?/p><p>The book which is on the desk is mine.</p><p><strong>that�?/strong>指人或物，在从句中作主语或宾�?/p><p>The book that belongs to me is new.</p><p><strong>三、关系代词的使用规则</strong></p><p>1. 先行词是\"人\"，用who/that</p><p>2. 先行词是\"物\"，用which/that</p><p>3. 先行词前有最高级、序数词、the only等修饰时，用that</p><p>4. 先行词是\"�?物\"时，用that</p><p><strong>四、关系副�?/strong></p><p>when（时间）+ where（地点）+ why（原因）</p><p>This is the day when I was born.</p><p>This is the place where we met.</p>" },
+                { title: "考点16 if引导的真实条件状语从�?, content: "<p><strong>一、定�?/strong></p><p>if引导的条件状语从句表示真实的、可能发生的事情�?/p><p><strong>二、主将从现原�?/strong></p><p>条件状语从句用一般现在时，主句用一般将来时�?/p><p>例：If it rains tomorrow, we will stay home.</p><p><strong>三、结�?/strong></p><p><strong>肯定句：</strong>If + 一般现在时，主�?+ will + 动词原形</p><p><strong>否定句：</strong>If + 一般现在时，主�?+ won't + 动词原形</p><p><strong>疑问句：</strong>If + 一般现在时，will + 主语 + 动词原形?</p><p><strong>四、if从句的其他时�?/strong></p><p>如果if从句描述的是真理或规律，仍用一般现在时�?/p><p>If you heat ice, it melts.</p><p><strong>五、unless</strong></p><p>unless = if not，除�?/p><p>例：You will fail unless you work hard.</p><p>= You will fail if you don't work hard.</p><p><strong>六、注意：</strong></p><p>主句也可用be going to表示计划，用情态动词表示建�?可能�?/p>" },
+                { title: "考点17 to do和doing", content: "<p><strong>一、动词不定式（to do�?/strong></p><p>动词不定式在句中可以作多种成分：</p><p>1. <strong>作主语：</strong>To learn English is important.</p><p>2. <strong>作表语：</strong>My dream is to be a teacher.</p><p>3. <strong>作宾语：</strong>I want to learn English.</p><p>4. <strong>作宾语补足语�?/strong>She asked me to wait here.</p><p>5. <strong>作状语（表目的）�?/strong>I study hard to pass the exam.</p><p>6. <strong>作定语：</strong>I have a lot of homework to do.</p><p><strong>二、后接动名词(doing)的动�?/strong></p><p>1. <strong>表示喜好�?/strong>enjoy, like, love, hate, mind, prefer</p><p>例：I enjoy reading books.</p><p>2. <strong>表示起止�?/strong>start, begin, stop, finish</p><p>例：Let's finish doing our homework.</p><p>3. <strong>表示行为�?/strong>keep, practice, suggest</p><p>例：She keeps practicing speaking English.</p><p><strong>三、两者皆可的动词</strong></p><p>start, begin, continue后接to do或doing意思相同：</p><p>She started to cry. = She started crying.</p><p><strong>四、常见固定搭�?/strong></p><p>remember to do: 记得要做（未做）</p><p>remember doing: 记得做过（已做）</p><p>forget to do: 忘记要做（未做）</p><p>forget doing: 忘记做过（已做）</p>" },
+                { title: "考点18 简单句结构", content: "<p><strong>一、五种基本句�?/strong></p><p><strong>1. 主语 + 系动�?+ 表语（S + V + P�?/strong></p><p>系动词：be, become, look, feel, taste, smell, sound�?/p><p>例：She is a teacher. / The food tastes delicious.</p><p><strong>2. 主语 + 不及物动词（S + V�?/strong></p><p>例：Birds fly. / The sun rises.</p><p><strong>3. 主语 + 及物动词 + 宾语（S + V + O�?/strong></p><p>例：I read books. / She loves music.</p><p><strong>4. 主语 + 及物动词 + 间接宾语 + 直接宾语（S + V + IO + DO�?/strong></p><p>例：She gave me a book. / My mother bought me a dress.</p><p><strong>5. 主语 + 及物动词 + 宾语 + 宾语补足语（S + V + O + OC�?/strong></p><p>例：We call him Tom. / The news made her happy.</p><p><strong>二、There be句型</strong></p><p>表示\"某处有某�?某人\"</p><p>There is + 单数名词/不可数名�?/p><p>There are + 复数名词</p><p>例：There is a book on the desk.</p><p>There are many students in the classroom.</p><p><strong>三、祈使句</strong></p><p>表示命令、请求、建�?/p><p>肯定：Open the door.</p><p>否定：Don't be late.</p><p>Let型：Let's go home.</p>" },
+                { title: "考点19 一般疑问句和特殊疑问句", content: "<p><strong>一、一般疑问句（Yes/No Questions�?/strong></p><p>用Yes或No回答的疑问句�?/p><p><strong>结构�?/strong></p><p>1. <strong>be动词�?/strong>Be动词 + 主语 + ...?</p><p>Is she a student? Yes, she is. / No, she isn't.</p><p>2. <strong>情态动词：</strong>情态动�?+ 主语 + 动词原形 + ...?</p><p>Can you swim? Yes, I can. / No, I can't.</p><p>3. <strong>助动�?动词�?/strong>Do/Does/Did + 主语 + 动词原形 + ...?</p><p>Do you like English? Yes, I do. / No, I don't.</p><p><strong>二、特殊疑问句（Wh- Questions�?/strong></p><p>用疑问词开头的疑问句，不能用Yes/No回答�?/p><p><strong>常用疑问词：</strong></p><p>What - 什么：What is your name?</p><p>Who - 谁：Who is your teacher?</p><p>Where - 哪里：Where do you live?</p><p>When - 什么时候：When will you come?</p><p>Why - 为什么：Why are you late?</p><p>How - 怎么样：How are you?</p><p>Which - 哪一个：Which one do you like?</p><p>Whose - 谁的：Whose book is this?</p><p>How many - 多少（可数）：How many books do you have?</p><p>How much - 多少（不可数�?多少钱：How much water is there? / How much is this pen?</p><p><strong>三、特殊疑问句的结�?/strong></p><p>疑问�?+ 一般疑问句?</p><p>What is your name?</p><p>Where did you go yesterday?</p><p>How many apples did you buy?</p>" }
+            ],
+            pet: { title: "现在完成�?(Present Perfect)", content: "<p><strong>用法�?/strong>表示过去发生的动作对现在造成的影响�?/p><p><strong>构成�?/strong>have/has + 过去分词</p><p><strong>常用时间状语�?/strong>already, yet, just, ever, never, since, for</p><p><strong>例句�?/strong></p><ul><li>I have finished my homework.</li><li>She has been to Beijing.</li><li>We haven't seen him.</li></ul>" },
+            cae: { title: "虚拟语气 (Subjunctive)", content: "<p><strong>用法�?/strong>表示与事实相反的情况或建议、要求等�?/p><p><strong>构成�?/strong>if条件句中用过去式，主句用would+动词原形</p><p><strong>例句�?/strong></p><ul><li>If I were you, I would study harder.</li><li>It is important that he be here.</li><li>She suggested that we leave early.</li></ul>" },
+            cpe: { title: "倒装�?(Inversion)", content: "<p><strong>用法�?/strong>为了强调或语法要求将助动�?情态动词提前�?/p><p><strong>常见结构�?/strong>否定副词开头、only+状语开头、条件句省略if�?/p><p><strong>例句�?/strong></p><ul><li>Rarely have I seen such beauty.</li><li>Only then did I understand.</li><li>Had I known, I would have come.</li></ul>" }
+        };
+
+        const grammarQuestions = {
+            ket: [
+                [
+                    { q: "There are many ___ on the table.", opts: ["book", "books", "book's", "bookes"], ans: 1, exp: "many修饰可数名词复数，用books�? },
+                    { q: "I would like some ___ please.", opts: ["water", "waters", "water's", "a water"], ans: 0, exp: "water是不可数名词，用原形�? },
+                    { q: "How ___ students are there in your class?", opts: ["much", "many", "few", "little"], ans: 1, exp: "students是可数名词复数，用many�? },
+                    { q: "There is not ___ milk left.", opts: ["many", "much", "few", "some"], ans: 1, exp: "milk是不可数名词，用much�? },
+                    { q: "This is ___ apple.", opts: ["a", "an", "the", "some"], ans: 1, exp: "apple元音开头，用an�? },
+                    { q: "I have very ___ time, so I can help you.", opts: ["few", "a few", "little", "little of"], ans: 2, exp: "a little表示肯定，有一点时间�? },
+                    { q: "There are only ___ eggs left.", opts: ["few", "a few", "little", "a little"], ans: 0, exp: "few表示否定，几乎没有鸡蛋了�? },
+                    { q: "Do you have ___ brothers?", opts: ["some", "any", "much", "many"], ans: 1, exp: "疑问句用any�? },
+                    { q: "I bought ___ apples at the market.", opts: ["a", "an", "some", "any"], ans: 2, exp: "some用于肯定句�? },
+                    { q: "There aren't ___ cookies in the box.", opts: ["some", "any", "many", "much"], ans: 1, exp: "否定句用any�? }
+                ],
+                [
+                    { q: "___ and ___ are coming to the party.", opts: ["He, she", "She, he", "Him, her", "She, I"], ans: 0, exp: "主语位置用人称代词主格�? },
+                    { q: "The teacher likes ___ very much.", opts: ["we", "us", "our", "ours"], ans: 1, exp: "likes是动词，后接宾格us�? },
+                    { q: "This is ___ book.", opts: ["I", "me", "my", "mine"], ans: 2, exp: "my是形容词性物主代词，后接名词�? },
+                    { q: "The books are ___. They belong to us.", opts: ["our", "ours", "we", "us"], ans: 1, exp: "ours是名词性物主代词，单独使用�? },
+                    { q: "I did the homework by ___.", opts: ["I", "me", "my", "myself"], ans: 3, exp: "by oneself是固定用法，用反身代词�? },
+                    { q: "___ of the two answers is correct.", opts: ["Both", "All", "Either", "Every"], ans: 2, exp: "either指两者中的任意一个�? },
+                    { q: "___ students passed the exam.", opts: ["Both", "All", "Either", "None"], ans: 1, exp: "all指三者及以上都�? },
+                    { q: "___ of them came to the meeting.", opts: ["No", "None", "Not", "Nothing"], ans: 1, exp: "none指三者或以上都不�? },
+                    { q: "There is ___ in the room.", opts: ["something", "anything", "nothing", "someone"], ans: 2, exp: "nothing表示什么都没有�? },
+                    { q: "I bought a pen, but ___ wrote.", opts: ["someone", "anyone", "no one", "everyone"], ans: 2, exp: "no one表示没有人，谓语是单数�? }
+                ],
+                [
+                    { q: "Tom is taller than ___.", opts: ["her", "she", "her's", "hers"], ans: 0, exp: "than是介词，后接人称代词宾格�? },
+                    { q: "He is the ___ student in our class.", opts: ["tall", "taller", "tallest", "more tall"], ans: 2, exp: "最高级前加the，表示三者及以上最..." },
+                    { q: "This book is ___ than that one.", opts: ["interesting", "more interesting", "most interesting", "interestinger"], ans: 1, exp: "多音节词比较级用more�? },
+                    { q: "She is ___ girl in our class.", opts: ["pretty", "prettier", "prettiest", "more pretty"], ans: 2, exp: "pretty最高级用prettiest�? },
+                    { q: "The weather today is ___ than yesterday.", opts: ["bad", "worse", "worst", "more bad"], ans: 1, exp: "bad的比较级是不规则变化worse�? },
+                    { q: "My mother is a ___ cook than my father.", opts: ["good", "better", "best", "well"], ans: 1, exp: "good的比较级是better，用于两者比较�? },
+                    { q: "He runs ___ than I do.", opts: ["fast", "faster", "fastest", "more fast"], ans: 1, exp: "fast的比较级是faster�? },
+                    { q: "This is the ___ film I have ever seen.", opts: ["interesting", "more interesting", "most interesting", "interestingest"], ans: 1, exp: "最高级前有the most，表示最..." },
+                    { q: "Her English is ___ now than before.", opts: ["good", "better", "best", "well"], ans: 1, exp: "than表示比较，用比较级�? },
+                    { q: "Tom is as ___ as Jerry.", opts: ["tall", "taller", "tallest", "more tall"], ans: 0, exp: "as...as用原级，表示一样�? }
+                ],
+                [
+                    { q: "The book is ___ the table.", opts: ["in", "on", "at", "under"], ans: 1, exp: "在桌面上用on�? },
+                    { q: "She lives ___ Beijing.", opts: ["in", "on", "at", "to"], ans: 0, exp: "在大城市用in�? },
+                    { q: "We will meet ___ 8 o'clock.", opts: ["in", "on", "at", "for"], ans: 2, exp: "具体时刻用at�? },
+                    { q: "The cat is hiding ___ the sofa.", opts: ["in", "on", "at", "under"], ans: 3, exp: "在沙发下面用under�? },
+                    { q: "My birthday is ___ July.", opts: ["in", "on", "at", "for"], ans: 0, exp: "在月份前用in�? },
+                    { q: "There is a picture ___ the wall.", opts: ["in", "on", "at", "under"], ans: 1, exp: "在墙上用on�? },
+                    { q: "The school is ___ the park.", opts: ["in front of", "in the front of", "at front of", "front of"], ans: 0, exp: "�?..前面（外部）用in front of�? },
+                    { q: "She sat ___ the two trees.", opts: ["between", "among", "in", "on"], ans: 0, exp: "between用于两者之间�? },
+                    { q: "I was born ___ 1999.", opts: ["in", "on", "at", "since"], ans: 0, exp: "在年份前用in�? },
+                    { q: "He is standing ___ the door.", opts: ["next to", "in the front of", "in front of", "between"], ans: 0, exp: "next to表示在旁边�? }
+                ],
+                [
+                    { q: "She is clever ___ kind.", opts: ["and", "but", "or", "because"], ans: 0, exp: "and表示并列，连接两个形容词�? },
+                    { q: "I wanted to go, ___ I was too tired.", opts: ["and", "but", "or", "so"], ans: 1, exp: "but表示转折�? },
+                    { q: "___ it was raining, we still went out.", opts: ["Although", "And", "Or", "So"], ans: 0, exp: "although表示虽然，引导让步状语从句�? },
+                    { q: "He didn't come ___ he was sick.", opts: ["because", "but", "and", "or"], ans: 0, exp: "because表示因为，引导原因从句�? },
+                    { q: "Study hard, ___ you will fail the exam.", opts: ["and", "but", "or", "so"], ans: 3, exp: "so表示所以，引导结果�? },
+                    { q: "You can ___ call me ___ send an email.", opts: ["either, or", "both, and", "neither, nor", "and, or"], ans: 0, exp: "either...or...表示或�?..或�?.." },
+                    { q: "___ Tom ___ Jerry passed the test.", opts: ["Either, or", "Both, and", "Neither, nor", "And, or"], ans: 1, exp: "both...and...表示两者都�? },
+                    { q: "___ Tom ___ Jerry came to the party.", opts: ["Either, or", "Both, and", "Neither, nor", "And, or"], ans: 2, exp: "neither...nor...表示两者都不�? },
+                    { q: "You must study hard, ___ you will regret.", opts: ["and", "but", "or", "so"], ans: 2, exp: "or表示否则�? },
+                    { q: "He is ___ rich ___ famous.", opts: ["either, or", "both, and", "neither, nor", "so, that"], ans: 1, exp: "both...and...表示�?..�?.." }
+                ],
+                [
+                    { q: "This book is ___ for me to read.", opts: ["enough easy", "easy enough", "too easy", "very enough"], ans: 1, exp: "enough放在形容�?副词后面�? },
+                    { q: "He is ___ young to go to school.", opts: ["enough", "too", "very", "so"], ans: 1, exp: "too...to表示�?..而不�?.." },
+                    { q: "The box is ___ heavy to carry.", opts: ["enough", "too", "very", "so"], ans: 1, exp: "too...to表示太重而不能搬�? },
+                    { q: "She is not ___ to understand.", opts: ["old enough", "too old", "very old", "so old"], ans: 0, exp: "not old enough表示不够大�? },
+                    { q: "I have ___ money to buy this.", opts: ["enough", "too", "very", "much too"], ans: 0, exp: "enough修饰名词，放在名词前面�? },
+                    { q: "This problem is ___ difficult.", opts: ["enough", "too", "very", "much too"], ans: 3, exp: "much too修饰形容�?副词，表示太过�? },
+                    { q: "He is ___ tired to walk any further.", opts: ["enough", "too", "very", "so"], ans: 1, exp: "too...to表示�?..而不�?.." },
+                    { q: "The room is ___ big ___ for us to have a party.", opts: ["too, to", "enough, to", "very, to", "so, that"], ans: 1, exp: "enough...to表示足够...可以..." },
+                    { q: "It's ___ late to go out now.", opts: ["enough", "too", "very", "much too"], ans: 1, exp: "too...to表示�?..而不�?.." },
+                    { q: "She speaks English ___ well.", opts: ["enough", "too", "very too", "so much"], ans: 0, exp: "enough修饰副词，放在后面�? }
+                ],
+                [
+                    { q: "Tommy often ___ his bicycle to school.", opts: ["ride", "rides", "riding", "rode"], ans: 1, exp: "often是一般现在时标志，第三人称单数加s�? },
+                    { q: "My parents ___ television every evening.", opts: ["watch", "watches", "watching", "watched"], ans: 0, exp: "every evening是一般现在时标志，主语是复数�? },
+                    { q: "Does she ___ Chinese food?", opts: ["liking", "likes", "like", "liked"], ans: 2, exp: "疑问句中助动词Does提前，动词用原形�? },
+                    { q: "They ___ football on weekends.", opts: ["play", "plays", "playing", "played"], ans: 0, exp: "on weekends是一般现在时标志，主语是复数�? },
+                    { q: "What time ___ your classes ___?", opts: ["do, start", "does, start", "do, starts", "does, starts"], ans: 0, exp: "疑问句用Do，动词用原形�? },
+                    { q: "He ___ not like apples.", opts: ["do", "does", "is", "are"], ans: 1, exp: "第三人称单数否定用does not�? },
+                    { q: "___ your mother usually cook dinner at home?", opts: ["Do", "Does", "Is", "Are"], ans: 1, exp: "第三人称单数疑问句用Does�? },
+                    { q: "She ___ her teeth every morning.", opts: ["brush", "brushes", "brushing", "brushed"], ans: 1, exp: "every morning是一般现在时标志，brush变brushes�? },
+                    { q: "We ___ fast food very often.", opts: ["not eat", "doesn't eat", "don't eat", "not eating"], ans: 2, exp: "第一人称复数否定用don't�? },
+                    { q: "The Earth ___ around the Sun.", opts: ["revolve", "revolves", "revolving", "revolved"], ans: 1, exp: "客观真理用一般现在时，第三人称单数�? },
+                    { q: "Mr. Smith ___ a science teacher.", opts: ["is", "are", "was", "were"], ans: 0, exp: "表示身份，一般现在时be动词�? },
+                    { q: "He ___ in a high school.", opts: ["work", "works", "worked", "working"], ans: 1, exp: "表示工作状态，一般现在时�? },
+                    { q: "Peter and Mary usually ___ to the cinema on Fridays.", opts: ["go", "goes", "going", "gone"], ans: 0, exp: "复数主语，动词用原形�? },
+                    { q: "They ___ watching action movies.", opts: ["like", "likes", "liked", "liking"], ans: 0, exp: "like是表示喜好的动词，用一般现在时�? },
+                    { q: "Does your brother ___ the piano?", opts: ["play", "plays", "played", "playing"], ans: 0, exp: "疑问句中动词用原形�? },
+                    { q: "___ she like chocolate?", opts: ["Do", "Does", "Is", "Are"], ans: 1, exp: "第三人称单数疑问句用Does�? },
+                    { q: "How often ___ you ___ your family?", opts: ["do, visit", "does, visit", "are, visiting", "did, visit"], ans: 0, exp: "how often用一般现在时�? },
+                    { q: "He ___ up at 6 o'clock every day.", opts: ["get", "gets", "got", "getting"], ans: 1, exp: "every day用一般现在时�? },
+                    { q: "My sister ___ English very well.", opts: ["speak", "speaks", "spoke", "speaking"], ans: 1, exp: "表示能力，用一般现在时�? },
+                    { q: "The library ___ at 9 AM.", opts: ["open", "opens", "opened", "opening"], ans: 1, exp: "表示常规开放时间，用一般现在时�? }
+                ],
+                [
+                    { q: "They ___ soccer in the park yesterday.", opts: ["play", "plays", "played", "playing"], ans: 2, exp: "yesterday表示过去，用played�? },
+                    { q: "She ___ to the meeting last week.", opts: ["don't go", "didn't went", "didn't go", "doesn't go"], ans: 2, exp: "一般过去时否定用didn't + 动词原形�? },
+                    { q: "___ he ___ his project on time?", opts: ["Did, finish", "Does, finished", "Was, finish", "Did, finished"], ans: 0, exp: "一般过去时疑问句用Did + 动词原形�? },
+                    { q: "I ___ a movie with my friends last Friday.", opts: ["see", "sees", "saw", "seen"], ans: 2, exp: "last Friday表示过去，用saw�? },
+                    { q: "They ___ very excited about the trip last month.", opts: ["is", "are", "was", "were"], ans: 3, exp: "be动词过去式，复数主语用were�? },
+                    { q: "He ___ a letter to his friend last night.", opts: ["write", "wrote", "writes", "written"], ans: 1, exp: "write的过去式是wrote�? },
+                    { q: "They ___ the museum last Sunday.", opts: ["don't visit", "didn't visited", "didn't visit", "doesn't visit"], ans: 2, exp: "didn't + 动词原形�? },
+                    { q: "He ___ a new car last month.", opts: ["buy", "bought", "buys", "buying"], ans: 1, exp: "buy的过去式是bought�? },
+                    { q: "We ___ him at the party last night.", opts: ["not see", "didn't saw", "didn't see", "don't see"], ans: 2, exp: "didn't + 动词原形see�? },
+                    { q: "___ you ___ that book last summer?", opts: ["Did, read", "Do, read", "Are, reading", "Have, read"], ans: 0, exp: "一般过去时疑问句用Did�? },
+                    { q: "She ___ a cake for her mother's birthday yesterday.", opts: ["make", "makes", "made", "making"], ans: 2, exp: "make的过去式是made�? },
+                    { q: "They ___ to the beach last weekend.", opts: ["go", "goes", "went", "going"], ans: 2, exp: "go的过去式是went�? },
+                    { q: "He ___ to the party last night.", opts: ["don't went", "didn't go", "doesn't go", "didn't went"], ans: 1, exp: "didn't + 动词原形�? },
+                    { q: "They ___ very tired after the trip yesterday.", opts: ["was", "were", "are", "is"], ans: 1, exp: "复数主语用were�? },
+                    { q: "___ she ___ the doctor last week?", opts: ["Did, see", "Does, see", "Is, seeing", "Has, seen"], ans: 0, exp: "一般过去时疑问句�? },
+                    { q: "We ___ the movie yesterday.", opts: ["doesn't watch", "didn't watch", "don't watch", "didn't watched"], ans: 1, exp: "didn't + 动词原形�? },
+                    { q: "The children ___ in the garden yesterday evening.", opts: ["play", "played", "plays", "playing"], ans: 1, exp: "yesterday evening用一般过去时�? },
+                    { q: "She ___ the gift and ___ it.", opts: ["opened, liked", "open, like", "opens, likes", "opening, liking"], ans: 0, exp: "两个动作都用过去式�? },
+                    { q: "Last week, we ___ to the museum.", opts: ["go", "went", "goes", "going"], ans: 1, exp: "last week用一般过去时�? },
+                    { q: "He ___ his homework and then ___ to bed.", opts: ["did, went", "do, go", "does, goes", "doing, going"], ans: 0, exp: "两个动作都用过去式�? }
+                ],
+                [
+                    { q: "Look! The children ___ in the garden.", opts: ["play", "plays", "played", "are playing"], ans: 3, exp: "Look!是现在进行时标志词�? },
+                    { q: "The teacher ___ the new lesson to the class right now.", opts: ["explain", "explains", "is explaining", "explained"], ans: 2, exp: "right now用现在进行时�? },
+                    { q: "My sister usually ___ to bed early, but she ___ a novel now.", opts: ["go, reads", "goes, is reading", "is going, reads", "went, read"], ans: 1, exp: "usually用一般现在时，now用现在进行时�? },
+                    { q: "Look out of the window! It ___.", opts: ["snow", "snows", "is snowing", "snowed"], ans: 2, exp: "Look!用现在进行时�? },
+                    { q: "The children ___ in the street. They ___ in the school playground.", opts: ["aren't playing, are playing", "don't play, play", "didn't play, played", "won't play, will play"], ans: 0, exp: "现在进行时的肯定和否定�? },
+                    { q: "They ___ to the music while they ___ in the garden.", opts: ["listen, work", "are listening, are working", "listened, worked", "will listen, will work"], ans: 1, exp: "while连接两个现在进行时�? },
+                    { q: "She ___ a letter at the moment.", opts: ["writes", "wrote", "is writing", "write"], ans: 2, exp: "at the moment用现在进行时�? },
+                    { q: "Listen! Someone ___ at the door.", opts: ["knocks", "knocked", "is knocking", "knock"], ans: 2, exp: "Listen!用现在进行时�? },
+                    { q: "What ___ you ___ now?", opts: ["are, doing", "do, do", "did, do", "will, do"], ans: 0, exp: "now用现在进行时�? },
+                    { q: "He ___ TV now.", opts: ["isn't watching", "doesn't watch", "didn't watch", "won't watch"], ans: 0, exp: "now用现在进行时否定�? },
+                    { q: "We ___ a test in the morning.", opts: ["have", "are having", "had", "will have"], ans: 1, exp: "当前正在进行�? },
+                    { q: "The students ___ carefully to the teacher.", opts: ["listen", "are listening", "listened", "will listen"], ans: 1, exp: "正在听的动作�? },
+                    { q: "It's 7 o'clock. I ___ dinner.", opts: ["have", "am having", "had", "will have"], ans: 1, exp: "具体时间用现在进行时�? },
+                    { q: "They ___ football this afternoon.", opts: ["play", "are playing", "played", "will play"], ans: 1, exp: "当前阶段正在进行�? },
+                    { q: "She ___ her homework right now.", opts: ["does", "is doing", "did", "will do"], ans: 1, exp: "right now用现在进行时�? },
+                    { q: "The baby ___ because she's hungry.", opts: ["cries", "is crying", "cried", "will cry"], ans: 1, exp: "正在哭的动作�? },
+                    { q: "We ___ a party this weekend.", opts: ["have", "are having", "had", "will have"], ans: 1, exp: "表示近期计划�? },
+                    { q: "I ___ a book at the moment.", opts: ["read", "am reading", "read", "will read"], ans: 1, exp: "at the moment用现在进行时�? },
+                    { q: "The birds ___ in the trees.", opts: ["sing", "are singing", "sang", "will sing"], ans: 1, exp: "正在唱歌的动作�? },
+                    { q: "___ you ___ me?", opts: ["Are, calling", "Do, call", "Did, call", "Will, call"], ans: 0, exp: "现在进行时疑问句�? }
+                ],
+                [
+                    { q: "She ___ a book when I called her last night.", opts: ["reads", "read", "was reading", "is reading"], ans: 2, exp: "when引导的从句表示瞬间动作，主句用过去进行时�? },
+                    { q: "They ___ dinner when the lights went out.", opts: ["were having", "have", "had", "have had"], ans: 0, exp: "过去进行时表示过去某时正在进行�? },
+                    { q: "He ___ his homework at 7 o'clock yesterday evening.", opts: ["did", "was doing", "does", "is doing"], ans: 1, exp: "具体时间用过去进行时�? },
+                    { q: "We ___ a movie when you called us.", opts: ["watched", "were watching", "watch", "are watching"], ans: 1, exp: "过去进行时表示过去正在发生�? },
+                    { q: "The children ___ in the park when it started to rain.", opts: ["played", "were playing", "play", "are playing"], ans: 1, exp: "when引导的从句用一般过去时，主句用过去进行时�? },
+                    { q: "She ___ a letter when her friend arrived.", opts: ["wrote", "was writing", "writes", "is writing"], ans: 1, exp: "arrived是瞬间动作，write用过去进行时�? },
+                    { q: "They ___ soccer when it rained.", opts: ["played", "were playing", "play", "are playing"], ans: 1, exp: "rained是瞬间动作，play用过去进行时�? },
+                    { q: "She ___ a book when her mother came home.", opts: ["was reading", "read", "reads", "is reading"], ans: 0, exp: "came是瞬间动作，read用过去进行时�? },
+                    { q: "I ___ at the library when you called me.", opts: ["study", "studied", "was studying", "am studying"], ans: 2, exp: "called是瞬间动作，study用过去进行时�? },
+                    { q: "She ___ dinner when the phone rang.", opts: ["cooks", "cooked", "was cooking", "is cooking"], ans: 2, exp: "rang是瞬间动作，cook用过去进行时�? },
+                    { q: "They ___ the fence when we arrived.", opts: ["paint", "painted", "were painting", "are painting"], ans: 2, exp: "arrived是瞬间动作，paint用过去进行时�? },
+                    { q: "He ___ a report when his friend came over.", opts: ["writes", "wrote", "was writing", "is writing"], ans: 2, exp: "came是瞬间动作，write用过去进行时�? },
+                    { q: "We ___ in the park when it started to snow.", opts: ["walk", "walked", "were walking", "are walking"], ans: 2, exp: "started是瞬间动作，walk用过去进行时�? },
+                    { q: "___ they ___ the meeting?", opts: ["Were, having", "Did, have", "Are, having", "Will, have"], ans: 0, exp: "过去进行时疑问句用Were + 动词ing�? },
+                    { q: "What ___ you ___ at 9 PM yesterday?", opts: ["were, doing", "did, do", "are, doing", "will, do"], ans: 0, exp: "具体时间用过去进行时�? },
+                    { q: "The birds ___ in the trees when we passed by.", opts: ["sang", "were singing", "sing", "are singing"], ans: 1, exp: "passed是瞬间动作，sing用过去进行时�? },
+                    { q: "I ___ to music while I ___ my homework.", opts: ["listened, did", "was listening, was doing", "listen, do", "am listening, am doing"], ans: 1, exp: "while连接两个过去进行时�? },
+                    { q: "The students ___ when the teacher entered.", opts: ["talk", "talked", "were talking", "are talking"], ans: 2, exp: "entered是瞬间动作，talk用过去进行时�? },
+                    { q: "It ___ heavily when I left home.", opts: ["rain", "rained", "was raining", "is raining"], ans: 2, exp: "left是瞬间动作，rain用过去进行时�? },
+                    { q: "We ___ to the beach yesterday, but the weather was bad.", opts: ["were going", "went", "go", "are going"], ans: 0, exp: "过去进行时表示过去计划中的动作�? }
+                ],
+                [
+                    { q: "She ___ to the cinema next Saturday.", opts: ["go", "went", "will go", "goes"], ans: 2, exp: "next Saturday表示将来，用will�? },
+                    { q: "They ___ the meeting tomorrow.", opts: ["don't attend", "won't attend", "didn't attend", "doesn't attend"], ans: 1, exp: "tomorrow表示将来，否定用won't�? },
+                    { q: "___ you ___ your homework soon?", opts: ["Will, finish", "Do, finish", "Are, finishing", "Did, finish"], ans: 0, exp: "soon表示将来，疑问句用Will�? },
+                    { q: "I ___ him at the station later.", opts: ["meet", "will meet", "met", "meeting"], ans: 1, exp: "later表示将来，用will�? },
+                    { q: "We ___ to Japan next month.", opts: ["travel", "will travel", "travelled", "travelling"], ans: 1, exp: "next month表示将来�? },
+                    { q: "They ___ going to have a picnic this weekend.", opts: ["is", "are", "am", "be"], ans: 1, exp: "be going to结构，复数主语用are�? },
+                    { q: "She ___ going to watch TV tonight.", opts: ["don't be", "isn't", "aren't", "won't be"], ans: 1, exp: "be going to否定，单数主语用isn't�? },
+                    { q: "Look at the sky! It ___ rain.", opts: ["will", "is going to", "goes to", "going to"], ans: 1, exp: "根据征兆判断用be going to�? },
+                    { q: "I think I ___ study abroad in the future.", opts: ["will", "am going to", "go to", "going to"], ans: 0, exp: "表示个人意愿用will�? },
+                    { q: "___ they ___ us?", opts: ["Will, help", "Do, help", "Are, help", "Did, help"], ans: 0, exp: "一般将来时疑问句�? },
+                    { q: "I ___ my grandparents next weekend.", opts: ["will visit", "visit", "visited", "visiting"], ans: 0, exp: "next weekend表示将来�? },
+                    { q: "She ___ the club tomorrow.", opts: ["won't join", "don't join", "didn't join", "doesn't join"], ans: 0, exp: "tomorrow表示将来，否定用won't�? },
+                    { q: "___ you ___ me later?", opts: ["Will, call", "Do, call", "Are, call", "Did, call"], ans: 0, exp: "later表示将来�? },
+                    { q: "They ___ the project in two days.", opts: ["will start", "start", "started", "starting"], ans: 0, exp: "in two days表示将来�? },
+                    { q: "He ___ for Paris soon.", opts: ["will leave", "leaves", "left", "leaving"], ans: 0, exp: "soon表示将来�? },
+                    { q: "We ___ a new car next year.", opts: ["will buy", "buy", "bought", "buying"], ans: 0, exp: "next year表示将来�? },
+                    { q: "The concert ___ at 8 PM tomorrow.", opts: ["will start", "starts", "started", "starting"], ans: 0, exp: "具体时间用将来时�? },
+                    { q: "They ___ back next month.", opts: ["will come", "come", "came", "coming"], ans: 0, exp: "next month表示将来�? },
+                    { q: "I ___ tell you the news later.", opts: ["will", "am going to", "go to", "going to"], ans: 0, exp: "表示临时决定用will�? },
+                    { q: "There ___ a party next week.", opts: ["will be", "is", "was", "are"], ans: 0, exp: "There will be是固定结构�? }
+                ],
+                [
+                    { q: "I ___ my homework since I got home.", opts: ["finish", "finished", "have finished", "was finishing"], ans: 2, exp: "since表示过去开始持续到现在，用现在完成时�? },
+                    { q: "They ___ the project since last week.", opts: ["completed", "have completed", "had completed", "were completing"], ans: 1, exp: "since + 过去时间，用现在完成时�? },
+                    { q: "She ___ her keys in the office just now.", opts: ["left", "has left", "is leaving", "was leaving"], ans: 1, exp: "just now用现在完成时�? },
+                    { q: "We ___ to the museum twice since the beginning of this year.", opts: ["go", "went", "have gone", "are going"], ans: 2, exp: "twice表示经历，用现在完成时�? },
+                    { q: "The children ___ their lunch by the time you arrived.", opts: ["eat", "ate", "have eaten", "are eating"], ans: 2, exp: "by + 时间，用现在完成时�? },
+                    { q: "She ___ a new novel recently.", opts: ["wrote", "has written", "is writing", "was writing"], ans: 1, exp: "recently用现在完成时�? },
+                    { q: "I ___ my homework, so I can go out to play now.", opts: ["finished", "have finished", "finish", "will finish"], ans: 1, exp: "so表示现在的结果，用现在完成时�? },
+                    { q: "They ___ the project since last week.", opts: ["completed", "have completed", "had completed", "were completing"], ans: 1, exp: "since + 时间，用现在完成时�? },
+                    { q: "She ___ her keys in the office this morning.", opts: ["left", "has left", "is leaving", "was leaving"], ans: 1, exp: "this morning用现在完成时�? },
+                    { q: "She ___ to London for a month.", opts: ["went", "has been", "goes", "is going"], ans: 1, exp: "have been to表示去过，have gone to表示去了�? },
+                    { q: "I have already ___ my homework.", opts: ["finish", "finishes", "finished", "finishing"], ans: 2, exp: "already用于现在完成时肯定句�? },
+                    { q: "She ___ in the city since she graduated from college.", opts: ["lives", "lived", "has lived", "is living"], ans: 2, exp: "since + 时间点，用现在完成时�? },
+                    { q: "He ___ to play the guitar since he was a child.", opts: ["learns", "learned", "has learned", "is learning"], ans: 2, exp: "since + 从句，用现在完成时�? },
+                    { q: "We ___ a lot since we got our new car.", opts: ["travel", "traveled", "have traveled", "are traveling"], ans: 2, exp: "since + 过去时间，用现在完成时�? },
+                    { q: "The company ___ its business globally in the past decade.", opts: ["expands", "expanded", "has expanded", "is expanding"], ans: 2, exp: "in the past decade用现在完成时�? },
+                    { q: "They ___ their grandparents yet since they moved to a new city.", opts: ["didn't visit", "haven't visited", "don't visit", "won't visit"], ans: 1, exp: "yet用于现在完成时否定句�? },
+                    { q: "Have you ___ this movie before?", opts: ["ever seen", "never saw", "always seen", "often see"], ans: 0, exp: "ever用于现在完成时疑问句�? },
+                    { q: "I ___ never ___ to Paris.", opts: ["have, been", "had, gone", "was, going", "will, be"], ans: 0, exp: "never用于现在完成时�? },
+                    { q: "She ___ the letter, but she hasn't sent it yet.", opts: ["has written", "wrote", "writes", "will write"], ans: 0, exp: "but表示现在的情况，用现在完成时�? },
+                    { q: "How long ___ you ___ here?", opts: ["have, been", "did, live", "are, living", "will, live"], ans: 0, exp: "how long提问持续时间，用现在完成时�? }
+                ],
+                [
+                    { q: "I ___ swim when I was five.", opts: ["can", "could", "must", "should"], ans: 1, exp: "could表示过去的能力�? },
+                    { q: "___ you please open the door?", opts: ["Can", "Could", "Must", "Should"], ans: 1, exp: "could用于更礼貌的请求�? },
+                    { q: "You ___ study hard if you want to pass.", opts: ["can", "could", "must", "might"], ans: 2, exp: "must表示必须�? },
+                    { q: "You ___ smoke in the library.", opts: ["must", "mustn't", "can", "could"], ans: 1, exp: "mustn't表示禁止/不允许�? },
+                    { q: "You ___ see a doctor. You look pale.", opts: ["should", "shouldn't", "can", "could"], ans: 0, exp: "should表示建议/应该�? },
+                    { q: "You ___ be late for school.", opts: ["should", "shouldn't", "can", "could"], ans: 1, exp: "shouldn't表示不应该�? },
+                    { q: "He ___ be at home. His car is outside.", opts: ["must", "can't", "might", "couldn't"], ans: 0, exp: "must表示肯定猜测�? },
+                    { q: "This ___ be true. It's impossible.", opts: ["must", "can't", "might", "could"], ans: 1, exp: "can't表示否定猜测/不可能�? },
+                    { q: "___ I use your phone?", opts: ["Can", "Must", "Should", "Will"], ans: 0, exp: "can用于请求许可�? },
+                    { q: "You don't have to go. You ___ stay.", opts: ["must", "mustn't", "can", "could"], ans: 2, exp: "can表示允许/可以�? }
+                ],
+                [
+                    { q: "The book ___ by millions of people.", opts: ["is read", "reads", "reading", "read"], ans: 0, exp: "一般现在时被动语态is read�? },
+                    { q: "English ___ in many countries.", opts: ["speaks", "is spoken", "speak", "spoke"], ans: 1, exp: "被动语态be+过去分词�? },
+                    { q: "The letter ___ yesterday.", opts: ["sent", "was sent", "is sent", "has sent"], ans: 1, exp: "一般过去时被动语态was sent�? },
+                    { q: "The house ___ by my grandfather.", opts: ["built", "was built", "is built", "has built"], ans: 1, exp: "被动语态was built�? },
+                    { q: "Many languages ___ in the world.", opts: ["speak", "speaks", "are spoken", "is spoken"], ans: 2, exp: "复数主语用are spoken�? },
+                    { q: "This song ___ by my favorite singer.", opts: ["writes", "is written", "was written", "writes"], ans: 2, exp: "一般过去时被动语态was written�? },
+                    { q: "The food ___ by my mother.", opts: ["makes", "is made", "made", "making"], ans: 1, exp: "一般现在时被动语态is made�? },
+                    { q: "The homework ___ now.", opts: ["does", "is done", "done", "was done"], ans: 1, exp: "现在进行时被动is being done，这里用is done�? },
+                    { q: "These computers ___ in China.", opts: ["make", "makes", "are made", "made"], ans: 2, exp: "被动语态are made�? },
+                    { q: "The windows ___ by the boy.", opts: ["broke", "were broken", "is broken", "are breaking"], ans: 1, exp: "被动语态were broken�? }
+                ],
+                [
+                    { q: "The man ___ is talking to Mary is my uncle.", opts: ["which", "who", "whom", "whose"], ans: 1, exp: "指人用who/that�? },
+                    { q: "The book ___ I bought yesterday is interesting.", opts: ["which", "who", "whom", "where"], ans: 0, exp: "指物用which/that�? },
+                    { q: "The girl ___ sings well is my sister.", opts: ["which", "who", "whom", "whose"], ans: 1, exp: "主语从句中指人用who�? },
+                    { q: "I like the dress ___ she is wearing.", opts: ["which", "who", "whom", "whose"], ans: 0, exp: "宾语从句中指物用which/that�? },
+                    { q: "The teacher ___ we met yesterday is very kind.", opts: ["which", "who", "whom", "whose"], ans: 2, exp: "whom指人，作宾语，可省略�? },
+                    { q: "This is the house ___ I was born.", opts: ["which", "who", "that", "where"], ans: 3, exp: "where表示地点�? },
+                    { q: "I'll never forget the day ___ we first met.", opts: ["which", "who", "that", "when"], ans: 3, exp: "when表示时间�? },
+                    { q: "Do you know the reason ___ he was late?", opts: ["which", "who", "that", "why"], ans: 3, exp: "why表示原因�? },
+                    { q: "The books ___ are on the table are mine.", opts: ["which", "who", "whom", "where"], ans: 0, exp: "指物用which/that�? },
+                    { q: "The student ___ homework I checked is absent.", opts: ["which", "who", "whose", "that"], ans: 2, exp: "whose表示所有格�? }
+                ],
+                [
+                    { q: "If it ___ tomorrow, we will stay home.", opts: ["rains", "will rain", "rained", "is raining"], ans: 0, exp: "条件状语从句用一般现在时表将来�? },
+                    { q: "If she ___ time, she will help us.", opts: ["has", "will have", "had", "is having"], ans: 0, exp: "条件状语从句用一般现在时�? },
+                    { q: "If you ___ hard, you will succeed.", opts: ["work", "will work", "worked", "are working"], ans: 0, exp: "条件状语从句主将从现�? },
+                    { q: "___ you ___ him, call me.", opts: ["Will, see", "Do, see", "If, see", "Are, seeing"], ans: 0, exp: "主句用will表示将来�? },
+                    { q: "If it rains, we won't go out. It means ___.", opts: ["we will go out", "we won't go out", "we go out", "we are going out"], ans: 1, exp: "条件句的否定�? },
+                    { q: "If you don't study, you ___ fail.", opts: ["will", "won't", "would", "could"], ans: 1, exp: "won't表示否定的将来结果�? },
+                    { q: "You will fail ___ you study harder.", opts: ["if", "unless", "when", "before"], ans: 1, exp: "unless = if not，除非�? },
+                    { q: "If you heat ice, it ___.", opts: ["will melt", "melts", "melted", "is melting"], ans: 1, exp: "真理用一般现在时�? },
+                    { q: "___ it rains tomorrow, I will bring an umbrella.", opts: ["If", "When", "Unless", "Before"], ans: 0, exp: "if引导条件状语从句�? },
+                    { q: "What will you do if it ___?", opts: ["rains", "will rain", "rained", "is raining"], ans: 0, exp: "条件从句用一般现在时表将来�? }
+                ],
+                [
+                    { q: "I want ___ to the cinema.", opts: ["go", "to go", "going", "went"], ans: 1, exp: "want to do是固定搭配�? },
+                    { q: "She enjoys ___ books.", opts: ["read", "to read", "reading", "reads"], ans: 2, exp: "enjoy后接动名词reading�? },
+                    { q: "Remember ___ off the lights before you leave.", opts: ["turn", "to turn", "turning", "turned"], ans: 1, exp: "remember to do表示记得要做�? },
+                    { q: "He suggested ___ a party.", opts: ["have", "to have", "having", "has"], ans: 2, exp: "suggest后接动名词�? },
+                    { q: "I stopped ___ because I was tired.", opts: ["walk", "to walk", "walking", "walked"], ans: 2, exp: "stop doing表示停止正在做的事�? },
+                    { q: "She asked me ___ her.", opts: ["help", "to help", "helping", "helped"], ans: 1, exp: "ask sb to do是固定搭配�? },
+                    { q: "I like ___ but I hate ___.", opts: ["swim, swim", "swimming, swimming", "to swim, swimming", "swim, to swim"], ans: 2, exp: "like to do/hate to do表示具体某次�? },
+                    { q: "He kept ___ despite the difficulties.", opts: ["try", "to try", "trying", "tried"], ans: 2, exp: "keep后接动名词trying�? },
+                    { q: "___ English is important.", opts: ["Learn", "To learn", "Learning", "Learns"], ans: 1, exp: "不定式作主语�? },
+                    { q: "It's easy ___ this question.", opts: ["answer", "to answer", "answering", "answered"], ans: 1, exp: "It's + adj + to do是固定句型�? }
+                ],
+                [
+                    { q: "The sky ___ blue.", opts: ["is", "are", "be", "being"], ans: 0, exp: "主系表结构，S+V+P�? },
+                    { q: "Birds ___ in the sky.", opts: ["fly", "flies", "is flying", "are flying"], ans: 0, exp: "主谓结构，S+V�? },
+                    { q: "She ___ her mother every day.", opts: ["helps", "help", "is helping", "are helping"], ans: 0, exp: "主谓宾结构，S+V+O�? },
+                    { q: "My father gave ___ a new watch.", opts: ["I", "me", "my", "mine"], ans: 1, exp: "主谓宾宾结构，双宾语me和a new watch�? },
+                    { q: "We call him ___.", opts: ["Tom", "I", "me", "my"], ans: 0, exp: "主谓宾宾补结构，Tom是宾语补足语�? },
+                    { q: "There ___ a book on the table.", opts: ["is", "are", "be", "being"], ans: 0, exp: "There be句型，a book是单数用is�? },
+                    { q: "There ___ many students in the classroom.", opts: ["is", "are", "be", "being"], ans: 1, exp: "There be句型，many students是复数用are�? },
+                    { q: "___ the door, please.", opts: ["Open", "Opened", "Opening", "Opens"], ans: 0, exp: "祈使句用动词原形�? },
+                    { q: "___ be late again!", opts: ["Don't", "Not", "No", "Doesn't"], ans: 0, exp: "祈使句否定用Don't + 动词原形�? },
+                    { q: "The news made her ___.", opts: ["happy", "happily", "happier", "happiest"], ans: 0, exp: "宾语+宾补结构，happy是形容词作补足语�? }
+                ],
+                [
+                    { q: "___ you a student?", opts: ["Are", "Is", "Do", "Does"], ans: 0, exp: "be动词一般疑问句Are you�? },
+                    { q: "___ she ___ English?", opts: ["Does, speak", "Do, speak", "Is, speaking", "Are, speaking"], ans: 0, exp: "实义动词一般疑问句Does she�? },
+                    { q: "___ you ___ the movie?", opts: ["Have, seen", "Did, see", "Do, see", "Does, see"], ans: 0, exp: "现在完成时一般疑问句Have you�? },
+                    { q: "Can you swim? Yes, ___.", opts: ["I can", "you can", "I can't", "you can't"], ans: 0, exp: "一般疑问句回答Yes，主�?情态动词�? },
+                    { q: "Did he come? No, ___.", opts: ["he didn't", "he did", "he doesn't", "he won't"], ans: 0, exp: "一般疑问句否定回答No，主�?didn't�? },
+                    { q: "___ is your name?", opts: ["Who", "What", "Where", "When"], ans: 1, exp: "What is your name?问姓名�? },
+                    { q: "___ did you go yesterday?", opts: ["What", "Who", "Where", "Why"], ans: 2, exp: "Where问地点�? },
+                    { q: "___ did you do that?", opts: ["What", "Who", "Where", "Why"], ans: 3, exp: "Why问原因�? },
+                    { q: "___ time is it?", opts: ["What", "Who", "Where", "When"], ans: 0, exp: "What time问时间�? },
+                    { q: "___ are you doing this for?", opts: ["What", "Who", "Whom", "Why"], ans: 3, exp: "Why问原因�? }
+                ]
+            ],
+            pet: [
+                { q: "I ___ TV last night.", opts: ["watch", "watches", "watched", "watching"], ans: 2, exp: "last night表示过去，用过去时�? },
+                { q: "If it rains, we ___ stay home.", opts: ["will", "would", "shall", "should"], ans: 0, exp: "条件句，主将从现�? },
+                { q: "The book ___ by millions.", opts: ["reads", "read", "is read", "has read"], ans: 2, exp: "被动语态�? },
+                { q: "I ___ here for 5 years.", opts: ["live", "lived", "have lived", "am living"], ans: 2, exp: "for+时间段，用现在完成时�? },
+                { q: "She ___ to London before.", opts: ["has been", "was", "is", "had been"], ans: 0, exp: "before表示经历，用现在完成时�? },
+                { q: "He ___ his homework when I arrived.", opts: ["did", "does", "was doing", "has done"], ans: 2, exp: "过去进行时，表示过去某时正在做�? },
+                { q: "The meeting ___ at 3 pm tomorrow.", opts: ["starts", "will start", "is starting", "started"], ans: 0, exp: "时间表用一般现在时表将来�? },
+                { q: "I ___ to go to the party.", opts: ["want", "wants", "wanted", "wanting"], ans: 0, exp: "主语是I，动词用原形�? },
+                { q: "She ___ English very well.", opts: ["speak", "speaks", "spoke", "speaking"], ans: 1, exp: "第三人称单数动词加s�? },
+                { q: "They ___ lunch when we came.", opts: ["have", "had", "were having", "have had"], ans: 2, exp: "过去进行时，表示过去某时正在做�? }
+            ],
+            cae: [
+                { q: "If I ___ you, I would study hard.", opts: ["am", "was", "were", "be"], ans: 2, exp: "虚拟语气用were�? },
+                { q: "Not only ___ good, but also cheap.", opts: ["it is", "is it", "does it", "it does"], ans: 1, exp: "否定词开头倒装�? },
+                { q: "It's time you ___ home.", opts: ["go", "to go", "going", "went"], ans: 3, exp: "It's time后用过去时�? },
+                { q: "By next year, I ___ my degree.", opts: ["will finish", "finish", "will have finished", "am finishing"], ans: 2, exp: "将来完成时，表示将来某时已完成�? },
+                { q: "The report suggests that he ___ present.", opts: ["be", "is", "was", "were"], ans: 0, exp: "suggest后用虚拟语气�? },
+                { q: "Rarely ___ such dedication.", opts: ["I see", "see I", "do I see", "I do see"], ans: 2, exp: "否定副词开头倒装�? },
+                { q: "This requires further ___.", opts: ["consider", "considering", "consideration", "considered"], ans: 2, exp: "further后接名词�? },
+                { q: "He insisted on ___ the meeting.", opts: ["attend", "attending", "attended", "attends"], ans: 1, exp: "on是介词，后接动名词�? },
+                { q: "The results indicate a(n) ___ improvement.", opts: ["significantly", "significant", "signify", "significance"], ans: 1, exp: "形容词修饰名词�? },
+                { q: "___ as it may seem, I believe it's true.", opts: ["Strange", "Strangely", "Stranger", "Strangeness"], ans: 0, exp: "让步状语用形容词�? }
+            ],
+            cpe: [
+                { q: "Should you see him, ___ him to call me.", opts: ["tell", "telling", "to tell", "told"], ans: 0, exp: "条件句省略if，动词用原形�? },
+                { q: "Little ___ know the truth.", opts: ["do we", "we do", "we", "did we"], ans: 0, exp: "否定副词开头，句子倒装�? },
+                { q: "Had I known, I ___ differently.", opts: ["would act", "would have acted", "act", "acted"], ans: 1, exp: "虚拟条件句省略if，用完成时态�? },
+                { q: "It is imperative that he ___ immediately.", opts: ["leave", "leaves", "left", "leaving"], ans: 0, exp: "imperative后用虚拟语气�? },
+                { q: "Under no circumstances ___ compromise.", opts: ["we should", "should we", "we can", "can we"], ans: 1, exp: "否定短语开头倒装�? },
+                { q: "The proposal met with ___ opposition.", opts: ["substantial", "substantially", "substance", "substantiate"], ans: 0, exp: "形容词修饰名词�? },
+                { q: "She denied ___ the money.", opts: ["steal", "stealing", "stole", "stolen"], ans: 1, exp: "deny后接动名词�? },
+                { q: "___ the circumstances, we did well.", opts: ["Consider", "Considering", "Considered", "To consider"], ans: 1, exp: "介词短语开头�? },
+                { q: "The research has ___ our understanding.", opts: ["enhance", "enhanced", "enhancing", "enhancement"], ans: 1, exp: "现在完成时，用过去分词�? },
+                { q: "Should you ___ any problems, contact me.", opts: ["have", "has", "had", "having"], ans: 0, exp: "条件句省略if，动词用原形�? }
+            ]
+        };
+
+        const speakingSentences = {
+            ket: ["Hello! How are you?", "My name is John.", "I like apples.", "Thank you very much.", "Nice to meet you."],
+            pet: ["I'm looking forward to meeting you.", "Could you please repeat that?", "What time is it now?", "Where have you been?", "How was your weekend?"],
+            cae: ["I appreciate your assistance with this matter.", "The results indicate a significant improvement.", "Could you elaborate on that point?", "I'm confident we can resolve this issue.", "This requires further consideration."],
+            cpe: ["Should you have any questions, please do not hesitate to contact me.", "Under no circumstances should we compromise on quality.", "Rarely have I encountered such dedication.", "Little did I realize the implications of my decision.", "It is imperative that we address this immediately."]
+        };
+
+        const listeningData = {
+            ket: [
+                { answer: "hello", hint: "问候语", audioText: "hello" },
+                { answer: "goodbye", hint: "告别�?, audioText: "goodbye" },
+                { answer: "thank you", hint: "感谢", audioText: "thank you" },
+                { answer: "I love you", hint: "表达�?, audioText: "I love you" },
+                { answer: "nice to meet you", hint: "初次见面", audioText: "nice to meet you" }
+            ],
+            pet: [
+                { answer: "I love reading", hint: "爱好", audioText: "I love reading" },
+                { answer: "It's a beautiful day", hint: "天气", audioText: "It's a beautiful day" },
+                { answer: "What time is it", hint: "时间", audioText: "What time is it" },
+                { answer: "I'm so happy today", hint: "心情", audioText: "I'm so happy today" },
+                { answer: "Can you help me", hint: "请求帮助", audioText: "Can you help me" }
+            ],
+            cae: [
+                { answer: "The conference starts at nine", hint: "会议时间", audioText: "The conference starts at nine" },
+                { answer: "I appreciate your feedback", hint: "感谢反馈", audioText: "I appreciate your feedback" },
+                { answer: "Could you clarify that point", hint: "请求解释", audioText: "Could you clarify that point" },
+                { answer: "This requires immediate attention", hint: "紧急事�?, audioText: "This requires immediate attention" },
+                { answer: "Let's schedule a meeting", hint: "安排会议", audioText: "Let's schedule a meeting" }
+            ],
+            cpe: [
+                { answer: "Under no circumstances should we proceed", hint: "强调否定", audioText: "Under no circumstances should we proceed" },
+                { answer: "I would appreciate your prompt response", hint: "请求回复", audioText: "I would appreciate your prompt response" },
+                { answer: "The implications are far-reaching", hint: "影响深远", audioText: "The implications are far-reaching" },
+                { answer: "This represents a paradigm shift", hint: "模式转变", audioText: "This represents a paradigm shift" },
+                { answer: "We need a comprehensive approach", hint: "全面方法", audioText: "We need a comprehensive approach" }
+            ]
+        };
+
+        const readingTexts = {
+            ket: ["The sun is shining brightly.", "Birds are singing in the trees.", "Children are playing in the park.", "Everyone is happy today."],
+            pet: ["The morning sun rose gently over the quiet village.", "Birds chirped happily as they flew from tree to tree.", "Children laughed and played games in the green park.", "It was a perfect day for everyone to enjoy."],
+            cae: ["The golden morning sun rose gently over the tranquil countryside village.", "Colorful birds chirped melodiously as they flitted between ancient oak trees.", "Groups of children laughed joyfully while playing various games in the lush green park.", "With its clear blue skies and warm sunshine, it was truly an idyllic day for everyone to savor."],
+            cpe: ["The resplendent morning sun ascended gracefully over the serene pastoral village.", "Vibrantly plumaged birds trilled melodiously as they fluttered between venerable oak trees.", "Groups of exuberant children laughed joyously while engaging in various games within the luxuriant green park.", "With its cerulean skies and balmy sunshine, it was unequivocally an idyllic day for everyone to relish."]
+        };
+
+        const writingTopics = {
+            ket: [
+                { title: "My Day", desc: "Write about your daily routine. What do you do in the morning?", wordCount: 50, sample: "I wake up at 7 AM. I eat breakfast. Then I go to school. I like my school." },
+                { title: "My Family", desc: "Tell about your family members. How many people are there?", wordCount: 50, sample: "I have a small family. My parents and I live together. We love each other." },
+                { title: "My Favorite Food", desc: "What is your favorite food? Why do you like it?", wordCount: 50, sample: "My favorite food is pizza. It is very delicious. I eat it every week." }
+            ],
+            pet: [
+                { title: "My Weekend", desc: "Describe what you usually do on weekends. Who do you spend time with?", wordCount: 100, sample: "On weekends, I usually wake up late. I like to read books and watch movies. Sometimes I go shopping with my friends. It's very relaxing." },
+                { title: "My Hobbies", desc: "What are your hobbies? Why do you enjoy them?", wordCount: 100, sample: "I have many hobbies. I like reading, painting, and playing sports. These activities make me happy and relaxed. I try to do them every week." },
+                { title: "My School", desc: "Tell about your school and classes. What do you like about it?", wordCount: 100, sample: "My school is big and beautiful. I have many friends there. We study math, English, and science every day. I like my English teacher very much." }
+            ],
+            cae: [
+                { title: "My Future Plans", desc: "What do you want to do in the future? Why?", wordCount: 150, sample: "In the future, I want to become a software engineer. I am interested in technology and programming. I plan to study computer science at university and work in a tech company." },
+                { title: "The Importance of Learning English", desc: "Why is learning English important for you? How will it help your future?", wordCount: 150, sample: "Learning English is very important in today's world. It helps me communicate with people from different countries and access more information. It also opens up more opportunities for my future career." },
+                { title: "A Memorable Trip", desc: "Describe a trip that was special to you. What made it unforgettable?", wordCount: 150, sample: "Last summer, I traveled to Beijing with my family. We visited the Great Wall and the Forbidden City. It was an amazing experience that I will never forget. The history and culture of Beijing impressed me deeply." }
+            ],
+            cpe: [
+                { title: "The Impact of Technology", desc: "Discuss how technology has changed our daily lives.", wordCount: 200, sample: "Technology has profoundly transformed every aspect of modern life. From communication to work to entertainment, digital innovations have revolutionized how we interact with the world. While technology offers numerous benefits, it also presents challenges that require careful consideration." },
+                { title: "Globalization and Culture", desc: "How does globalization affect cultural identity?", wordCount: 200, sample: "Globalization has created unprecedented opportunities for cultural exchange. While this interconnectedness enriches societies, it also raises important questions about preserving cultural heritage. Striking a balance between global integration and cultural preservation is essential in today's interconnected world." },
+                { title: "Environmental Sustainability", desc: "What can individuals do to promote environmental sustainability?", wordCount: 200, sample: "Environmental sustainability is one of the most pressing issues of our time. Individuals play a crucial role through conscious consumption, conservation practices, and advocacy. Every small action contributes to creating a more sustainable future for generations to come." }
+            ]
+        };
+
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.getElementById(pageId).classList.add('active');
+        }
+
+        function showLogin() { showPage('loginPage'); }
+        function showRegister() { showPage('registerPage'); }
+
+        function login() {
+            const email = document.getElementById('loginEmail').value;
+            if (email) {
+                currentUser = { username: email.split('@')[0], email: email };
+                showPage('appPage');
+                updateUserInfo();
+            }
+        }
+
+        function register() {
+            const username = document.getElementById('regUsername').value;
+            const email = document.getElementById('regEmail').value;
+            if (username && email) {
+                currentUser = { username: username, email: email };
+                showPage('appPage');
+                updateUserInfo();
+            }
+        }
+
+        function selectCourse(course) {
+            selectedCourse = course;
+            testIndex = 0;
+            testScore = 0;
+            wrongQuestions = [];
+            document.getElementById('testCourseTitle').textContent = courseInfo[course].title;
+            showPage('placementTestPage');
+            renderTestQ();
+        }
+
+        function renderTestQ() {
+            const questions = courseQuestions[selectedCourse];
+            if (testIndex >= questions.length) {
+                showTestResult();
+                return;
+            }
+            const q = questions[testIndex];
+            document.getElementById('testProgress').textContent = `${testIndex + 1} / ${questions.length}`;
+            document.getElementById('testProgressBar').style.width = `${((testIndex + 1) / questions.length) * 100}%`;
+            document.getElementById('testQuestionContainer').innerHTML = `<h3 class="text-xl font-semibold text-gray-800 mb-4">${q.q}</h3><div class="space-y-3">${q.opts.map((opt, i) => `<button onclick="answerTest(${i})" class="w-full text-left p-4 rounded-xl border-2 border-gray-200 hover:border-indigo-500 hover:bg-indigo-50 transition-all">${opt}</button>`).join('')}</div>`;
+            document.getElementById('testResult').classList.add('hidden');
+        }
+
+        function answerTest(ans) {
+            const questions = courseQuestions[selectedCourse];
+            const q = questions[testIndex];
+            if (ans !== q.ans) {
+                wrongQuestions.push(q);
+            } else {
+                testScore++;
+            }
+            testIndex++;
+            renderTestQ();
+        }
+
+        function showTestResult() {
+            const questions = courseQuestions[selectedCourse];
+            document.getElementById('testQuestionContainer').classList.add('hidden');
+            document.getElementById('testResult').classList.remove('hidden');
+            document.getElementById('resultText').textContent = `你的得分是：${testScore}/${questions.length}`;
+            
+            const scorePercent = (testScore / questions.length) * 100;
+            let levelText, emoji, message;
+            
+            if (scorePercent >= 80) {
+                userLevel = 'advanced';
+                levelText = '优秀';
+                emoji = '🎓';
+                message = '你的水平已经达到该课程的要求�?;
+            } else if (scorePercent >= 60) {
+                userLevel = 'intermediate';
+                levelText = '良好';
+                emoji = '📚';
+                message = '你已经掌握了大部分内容，继续加油�?;
+            } else if (scorePercent >= 40) {
+                userLevel = 'beginner';
+                levelText = '需要加�?;
+                emoji = '🌱';
+                message = '建议重点复习基础知识�?;
+            } else {
+                userLevel = 'beginner';
+                levelText = '需努力';
+                emoji = '💪';
+                message = '建议从基础开始系统学习�?;
+            }
+            
+            document.getElementById('resultEmoji').textContent = emoji;
+            
+            let analysis = `<p class="text-gray-700 mb-2">你在 <strong>${levelText}</strong> 水平�?{message}</p>`;
+            if (wrongQuestions.length > 0) {
+                analysis += `<p class="text-gray-700 mb-3">本次测试中，你在以下方面需要加强：</p><ul class="space-y-2">`;
+                const categories = [...new Set(wrongQuestions.map(q => q.category))];
+                categories.forEach(cat => {
+                    analysis += `<li class="text-gray-700">�?${cat}</li>`;
+                });
+                analysis += `</ul>`;
+            }
+            document.getElementById('resultAnalysis').innerHTML = analysis;
+            
+            let recommendations = '';
+            if (wrongQuestions.length > 0) {
+                recommendations += `<p class="text-green-800 mb-3">针对你的薄弱环节，建议：</p><ul class="space-y-2">`;
+                const categories = [...new Set(wrongQuestions.map(q => q.category))];
+                categories.forEach(cat => {
+                    if (cat.includes('语法')) {
+                        recommendations += `<li class="text-green-700">�?加强语法学习，重点练�?{cat.replace('语法-', '')}</li>`;
+                    } else if (cat.includes('词汇')) {
+                        recommendations += `<li class="text-green-700">�?多背单词，注�?{cat.replace('词汇-', '')}</li>`;
+                    } else if (cat.includes('阅读')) {
+                        recommendations += `<li class="text-green-700">�?增加阅读练习，提高阅读理解能�?/li>`;
+                    }
+                });
+                recommendations += `</ul>`;
+            }
+            recommendations += `<p class="text-green-800 mt-3">我们会根据你的测试结果，为你提供个性化的学习内容�?/p>`;
+            document.getElementById('studyRecommendations').innerHTML = recommendations;
+        }
+
+        function startLearning() {
+            showPage('appPage');
+            updateUserInfo();
+        }
+
+        function updateUserInfo() {
+            if (currentUser) {
+                document.getElementById('username').textContent = currentUser.username;
+                document.getElementById('selectedCourse').textContent = courseInfo[selectedCourse].title;
+                const levelText = userLevel === 'beginner' ? '初级' : userLevel === 'intermediate' ? '中级' : '高级';
+                document.getElementById('userLevel').textContent = levelText;
+            }
+        }
+
+        function openModule(module) {
+            if (module === 'vocab') { vocabIndex = 0; updateVocab(); }
+            else if (module === 'dictation') { dictationIndex = 0; updateDictation(); }
+            else if (module === 'translation') { transIndex = 0; translateMode = 'en2zh'; updateTranslation(); }
+            else if (module === 'grammar') { initGrammar(); }
+            else if (module === 'speaking') { speakingIndex = 0; updateSpeaking(); }
+            else if (module === 'listening') { listeningIndex = 0; updateListening(); }
+            else if (module === 'reading') { readingIndex = 0; updateReading(); }
+            else if (module === 'writing') { writingIndex = 0; updateWriting(); }
+            const modal = document.getElementById(module + 'Modal');
+            modal.style.display = 'flex';
+            modal.classList.add('active');
+        }
+
+        function closeModal(modalId) {
+            const modal = document.getElementById(modalId);
+            modal.classList.remove('active');
+            setTimeout(function() {
+                if (!modal.classList.contains('active')) {
+                    modal.style.display = 'none';
+                }
+            }, 300);
+        }
+
+        function updateVocab() {
+            const words = vocabData[selectedCourse];
+            const word = words[vocabIndex];
+            document.getElementById('vocabProgress').textContent = vocabIndex + 1;
+            document.getElementById('vocabWord').textContent = word.word;
+            document.getElementById('vocabDefText').textContent = word.definition;
+            document.getElementById('vocabExample').textContent = word.example;
+            document.getElementById('vocabDefinition').classList.add('hidden');
+            document.getElementById('vocabBtns').classList.add('hidden');
+            document.getElementById('showVocabBtn').classList.remove('hidden');
+        }
+
+        function showVocabDef() {
+            document.getElementById('vocabDefinition').classList.remove('hidden');
+            document.getElementById('vocabBtns').classList.remove('hidden');
+            document.getElementById('showVocabBtn').classList.add('hidden');
+        }
+
+        function knowWord() { vocabIndex = (vocabIndex + 1) % vocabData[selectedCourse].length; updateVocab(); }
+        function notKnowWord() { vocabIndex = (vocabIndex + 1) % vocabData[selectedCourse].length; updateVocab(); }
+
+        let currentGrammarLesson = 0;
+
+        function initGrammar() {
+            document.getElementById('grammarTitle').textContent = '语法学习';
+            document.getElementById('grammarContent').classList.add('hidden');
+            document.getElementById('grammarNav').classList.add('hidden');
+            document.getElementById('grammarStartBtn').classList.add('hidden');
+            
+            const lessons = grammarLessons[selectedCourse];
+            if (Array.isArray(lessons)) {
+                let listHtml = '<p class="text-gray-600 mb-4">请选择一个语法知识点进行学习�?/p>';
+                lessons.forEach((lesson, index) => {
+                    listHtml += `
+                        <button onclick="selectGrammarLesson(${index})" class="w-full text-left p-4 bg-gray-50 hover:bg-blue-50 rounded-xl border-2 border-transparent hover:border-blue-300 transition-all">
+                            <span class="text-blue-600 font-semibold">${index + 1}. ${lesson.title}</span>
+                        </button>
+                    `;
+                });
+                document.getElementById('grammarLessonList').innerHTML = listHtml;
+            } else {
+                document.getElementById('grammarLessonList').innerHTML = '';
+                document.getElementById('grammarContent').classList.remove('hidden');
+                document.getElementById('grammarStartBtn').classList.remove('hidden');
+                document.getElementById('grammarContent').innerHTML = lessons.content;
+            }
+        }
+
+        function selectGrammarLesson(index) {
+            currentGrammarLesson = index;
+            const lessons = grammarLessons[selectedCourse];
+            const lesson = lessons[index];
+            
+            document.getElementById('grammarLessonList').innerHTML = '';
+            document.getElementById('grammarContent').classList.remove('hidden');
+            document.getElementById('grammarStartBtn').classList.remove('hidden');
+            
+            document.getElementById('grammarTitle').textContent = lesson.title;
+            document.getElementById('grammarContent').innerHTML = lesson.content;
+        }
+
+        function startGrammarPractice() {
+            closeModal('grammarModal');
+            grammarQIndex = 0;
+            const modal = document.getElementById('grammarPracticeModal');
+            modal.style.display = 'flex';
+            modal.classList.add('active');
+            renderGrammarQ();
+        }
+
+        function renderGrammarQ() {
+            const courseQs = grammarQuestions[selectedCourse];
+            const qs = Array.isArray(courseQs) ? courseQs[currentGrammarLesson] : courseQs;
+            const q = qs[grammarQIndex];
+            const total = qs.length;
+            document.getElementById('grammarQNum').textContent = grammarQIndex + 1;
+            document.getElementById('grammarTotal').textContent = total;
+            document.getElementById('grammarQuestion').textContent = q.q;
+            document.getElementById('grammarOptions').innerHTML = q.opts.map((opt, i) => `<button onclick="answerGrammar(${i})" class="w-full text-left p-4 rounded-xl border-2 border-gray-200 hover:border-indigo-500 transition-all" id="grammarOpt${i}">${opt}</button>`).join('');
+            document.getElementById('grammarAnswer').classList.add('hidden');
+            document.getElementById('grammarNextBtn').classList.add('hidden');
+        }
+
+        function answerGrammar(ans) {
+            const courseQs = grammarQuestions[selectedCourse];
+            const qs = Array.isArray(courseQs) ? courseQs[currentGrammarLesson] : courseQs;
+            const q = qs[grammarQIndex];
+            document.getElementById(`grammarOpt${q.ans}`).classList.add('answer-correct');
+            if (ans !== q.ans) document.getElementById(`grammarOpt${ans}`).classList.add('answer-wrong');
+            document.getElementById('grammarAnswer').innerHTML = `<div class="${ans === q.ans ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'} p-4"><p class="font-semibold">${ans === q.ans ? '�?正确�? : '�?错误'}</p><p>${q.exp}</p></div>`;
+            document.getElementById('grammarAnswer').classList.remove('hidden');
+            document.getElementById('grammarNextBtn').classList.remove('hidden');
+        }
+
+        function nextGrammarQ() {
+            grammarQIndex++;
+            if (grammarQIndex >= grammarQuestions[selectedCourse].length) closeModal('grammarPracticeModal');
+            else renderGrammarQ();
+        }
+
+        function updateSpeaking() {
+            const sentences = speakingSentences[selectedCourse];
+            const sentence = sentences[speakingIndex];
+            document.getElementById('speakProgress').textContent = speakingIndex + 1;
+            document.getElementById('speakingText').textContent = sentence;
+            document.getElementById('speakComplete').classList.add('hidden');
+        }
+
+        function speakSentence() {
+            const text = document.getElementById('speakingText').textContent;
+            speakText(text, 'en-US');
+        }
+
+        function recordSpeaking() {
+            const btn = document.getElementById('speakBtn');
+            if (btn.textContent.includes('开�?)) {
+                btn.textContent = '🎤 录音�?..';
+                setTimeout(() => {
+                    btn.textContent = '🎤 开始录�?;
+                    document.getElementById('speakComplete').classList.remove('hidden');
+                }, 2000);
+            }
+        }
+
+        function nextSpeaking() {
+            speakingIndex++;
+            if (speakingIndex >= speakingSentences[selectedCourse].length) speakingIndex = 0;
+            updateSpeaking();
+        }
+
+        function updateListening() {
+            const items = listeningData[selectedCourse];
+            const item = items[listeningIndex];
+            document.getElementById('listenProgress').textContent = listeningIndex + 1;
+            document.getElementById('listeningHint').textContent = item.hint;
+            document.getElementById('listeningAnswer').value = '';
+            document.getElementById('listenResult').classList.add('hidden');
+            document.getElementById('listenCheckBtn').classList.remove('hidden');
+        }
+
+        function playListening() {
+            const items = listeningData[selectedCourse];
+            const item = items[listeningIndex];
+            speakText(item.audioText, 'en-US');
+        }
+
+        function checkListening() {
+            const items = listeningData[selectedCourse];
+            const item = items[listeningIndex];
+            const userAnswer = document.getElementById('listeningAnswer').value.trim().toLowerCase();
+            const correct = userAnswer === item.answer.toLowerCase();
+            
+            const answerBox = document.getElementById('listeningAnswerBox');
+            answerBox.innerHTML = `<div class="${correct ? 'bg-green-100' : 'bg-red-100'} p-4 rounded-xl">
+                <p class="font-semibold ${correct ? 'text-green-700' : 'text-red-700'}">${correct ? '�?正确�? : '�?错误'}</p>
+                <p class="text-gray-700 mt-2">正确答案�?{item.answer}</p>
+                ${!correct ? `<p class="text-gray-600 mt-1">你的答案�?{userAnswer || '(�?'}</p>` : ''}
+            </div>`;
+            
+            document.getElementById('listenCheckBtn').classList.add('hidden');
+            document.getElementById('listenResult').classList.remove('hidden');
+        }
+
+        function nextListening() {
+            listeningIndex++;
+            if (listeningIndex >= listeningData[selectedCourse].length) listeningIndex = 0;
+            updateListening();
+        }
+
+        function updateReading() {
+            const texts = readingTexts[selectedCourse];
+            const sentences = texts[readingIndex].split('.');
+            const currentSentence = sentences[0].trim() + '.';
+            const fullText = texts[texts.length > 1 ? texts.length - 1 : 0] || texts[0];
+            
+            document.getElementById('readingProgress').textContent = readingIndex + 1;
+            document.getElementById('readingSentence').textContent = currentSentence;
+            document.getElementById('fullReading').textContent = fullText;
+            document.getElementById('readComplete').classList.add('hidden');
+        }
+
+        function speakReading() {
+            const text = document.getElementById('readingSentence').textContent;
+            speakText(text, 'en-US');
+        }
+
+        function recordReading() {
+            const btn = document.getElementById('readBtn');
+            if (btn.textContent.includes('跟读')) {
+                btn.textContent = '🎤 录音�?..';
+                setTimeout(() => {
+                    btn.textContent = '🎤 我来跟读';
+                    document.getElementById('readComplete').classList.remove('hidden');
+                }, 2000);
+            }
+        }
+
+        function prevReading() {
+            readingIndex--;
+            if (readingIndex < 0) readingIndex = readingTexts[selectedCourse].length - 1;
+            updateReading();
+        }
+
+        function nextReading() {
+            readingIndex++;
+            if (readingIndex >= readingTexts[selectedCourse].length) readingIndex = 0;
+            updateReading();
+        }
+
+        function updateWriting() {
+            const topics = writingTopics[selectedCourse];
+            const topic = topics[writingIndex];
+            document.getElementById('writeProgress').textContent = writingIndex + 1;
+            document.getElementById('writingTitle').textContent = topic.title;
+            document.getElementById('writingWordCount').textContent = topic.wordCount;
+            document.getElementById('writingDesc').textContent = topic.desc;
+            document.getElementById('writingText').value = '';
+            document.getElementById('wordCount').textContent = '0';
+            document.getElementById('writingResult').classList.add('hidden');
+            document.getElementById('writingSubmitBtn').classList.remove('hidden');
+        }
+
+        function updateWordCount() {
+            const text = document.getElementById('writingText').value.trim();
+            const count = text ? text.split(/\s+/).length : 0;
+            document.getElementById('wordCount').textContent = count;
+        }
+
+        function submitWriting() {
+            const text = document.getElementById('writingText').value.trim();
+            if (text.length < 10) {
+                alert('请至少写10个单�?);
+                return;
+            }
+            document.getElementById('writingSubmitBtn').classList.add('hidden');
+            document.getElementById('writingResult').classList.remove('hidden');
+        }
+
+        function nextWriting() {
+            writingIndex++;
+            if (writingIndex >= writingTopics[selectedCourse].length) writingIndex = 0;
+            updateWriting();
+        }
+
+        function updateDictation() {
+            const words = vocabData[selectedCourse];
+            const word = words[dictationIndex];
+            document.getElementById('dictProgress').textContent = dictationIndex + 1;
+            document.getElementById('dictAnswer').value = '';
+            document.getElementById('dictResult').classList.add('hidden');
+            document.getElementById('dictCheckBtn').classList.remove('hidden');
+            document.getElementById('dictNextBtn').classList.add('hidden');
+        }
+
+        function playDictationWord() {
+            const words = vocabData[selectedCourse];
+            const word = words[dictationIndex];
+            speakText(word.word, 'en-US');
+        }
+
+        function checkDictation() {
+            const words = vocabData[selectedCourse];
+            const word = words[dictationIndex];
+            const userAnswer = document.getElementById('dictAnswer').value.trim().toLowerCase();
+            const correct = userAnswer === word.word.toLowerCase();
+            
+            const answerBox = document.getElementById('dictAnswerBox');
+            answerBox.innerHTML = `<div class="${correct ? 'bg-green-100' : 'bg-red-100'} p-4 rounded-xl">
+                <p class="font-semibold ${correct ? 'text-green-700' : 'text-red-700'}">${correct ? '�?正确�? : '�?错误'}</p>
+                <p class="text-gray-700 mt-2">正确答案�?{word.word}</p>
+                <p class="text-gray-600 mt-1">释义�?{word.definition}</p>
+            </div>`;
+            
+            document.getElementById('dictCheckBtn').classList.add('hidden');
+            document.getElementById('dictResult').classList.remove('hidden');
+            document.getElementById('dictNextBtn').classList.remove('hidden');
+        }
+
+        function nextDictation() {
+            dictationIndex++;
+            if (dictationIndex >= vocabData[selectedCourse].length) dictationIndex = 0;
+            updateDictation();
+        }
+
+        function setTranslateMode(mode) {
+            translateMode = mode;
+            document.getElementById('en2zhBtn').className = mode === 'en2zh' ? 'px-6 py-2 bg-blue-500 text-white rounded-xl font-semibold' : 'px-6 py-2 bg-gray-200 text-gray-700 rounded-xl font-semibold';
+            document.getElementById('zh2enBtn').className = mode === 'zh2en' ? 'px-6 py-2 bg-blue-500 text-white rounded-xl font-semibold' : 'px-6 py-2 bg-gray-200 text-gray-700 rounded-xl font-semibold';
+            updateTranslation();
+        }
+
+        function updateTranslation() {
+            const words = vocabData[selectedCourse];
+            const word = words[transIndex];
+            document.getElementById('transProgress').textContent = transIndex + 1;
+            document.getElementById('transWord').textContent = translateMode === 'en2zh' ? word.word : word.definition;
+            document.getElementById('transAnswer').value = '';
+            document.getElementById('transResult').classList.add('hidden');
+            document.getElementById('transCheckBtn').classList.remove('hidden');
+            document.getElementById('transNextBtn').classList.add('hidden');
+        }
+
+        function checkTranslation() {
+            const words = vocabData[selectedCourse];
+            const word = words[transIndex];
+            const userAnswer = document.getElementById('transAnswer').value.trim();
+            const correctAnswer = translateMode === 'en2zh' ? word.definition : word.word;
+            const correct = userAnswer === correctAnswer;
+            
+            const answerBox = document.getElementById('transAnswerBox');
+            answerBox.innerHTML = `<div class="${correct ? 'bg-green-100' : 'bg-red-100'} p-4 rounded-xl">
+                <p class="font-semibold ${correct ? 'text-green-700' : 'text-red-700'}">${correct ? '�?正确�? : '�?错误'}</p>
+                <p class="text-gray-700 mt-2">正确答案�?{correctAnswer}</p>
+            </div>`;
+            
+            document.getElementById('transCheckBtn').classList.add('hidden');
+            document.getElementById('transResult').classList.remove('hidden');
+            document.getElementById('transNextBtn').classList.remove('hidden');
+        }
+
+        function nextTranslation() {
+            transIndex++;
+            if (transIndex >= vocabData[selectedCourse].length) transIndex = 0;
+            updateTranslation();
+        }
+
+        function speakText(text, lang) {
+            window.speechSynthesis.cancel();
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = lang;
+            utterance.rate = 0.8;
+            window.speechSynthesis.speak(utterance);
+        }
+
+        window.speechSynthesis.onvoiceschanged = function() {
+            const voices = window.speechSynthesis.getVoices();
+            const englishVoice = voices.find(v => v.lang.startsWith('en-') && v.name.includes('Google')) || 
+                                voices.find(v => v.lang.startsWith('en-US')) ||
+                                voices.find(v => v.lang.startsWith('en-'));
+            if (englishVoice) {
+                window.englishVoice = englishVoice;
+            }
+        };
+
+        function showStage(stage) {
+            // Hide all content
+            document.getElementById('stage1Content').classList.add('hidden');
+            document.getElementById('stage2Content').classList.add('hidden');
+            document.getElementById('stage3Content').classList.add('hidden');
+            

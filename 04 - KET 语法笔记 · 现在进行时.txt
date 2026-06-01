@@ -1,0 +1,55 @@
+KET语法知识点-现在进行时
+概念：表示正在进行的动作或状态，或者在现在某个时间段内正在进行的动作。
+结构：① 肯定句：主语 + be 动词 + 动词 ing
+② 否定句：主语 + be 动词 + not + 动词 ing
+③ 疑问句：Be 动词 + 主语 + 动词 ing
+Be动词用法：① I（我）用 am，you（你）用 are
+② is 连着 he（他）she（她）it（它）
+③ 单数名词用 is，复数名词都用 are
+考试技巧	时间提示词
+一找时标	now（现在）	at the moment（此时此刻）
+right now（现在）
+二定时态	listen（听）	It's + 时间（It's seven）
+三变动词	动词变化规则：进行时好记，be + 动词 ing
+ing 有规律，直去双改心中记
+\boxed{\surd} 直接加：一般动词直接加 ing，cook \rightarrow cooking
+\boxed{\surd} 去 e 加：哑 e 结尾去 e 加 ing，dance \rightarrow dancing
+\boxed{\surd} 双写加：词尾重读闭音节，双写再加 ing，sit \rightarrow sitting
+\boxed{\surd} 改写加：遇到 ie 在词尾，改 ie 为 y 再加 ing，lie \rightarrow lying
+KET	现在进行时·练一练
+核心考点：	动词变化规律	时间状语的搭配
+一、写出下面动词的	ing	形式
+walk _	talk _	move _	drive _
+run _	swim _	die _	lie _
+carry _	study _	have _	play _
+write _	set _	sit _	go _
+fly _	shop _	ride _	chat _
+二、单句填空题
+1. The teacher _(explain) the new lesson to the class right now.
+2. My sister usually _(go) to bed early, but she _(read) a novel now.
+3. Look out of the window! It _(snow).
+4. The children _(not, play) in the street. They _(play) in the school playground.
+5. They _(listen) to the music while they _(work) in the garden.
+KET现在进行时·练一练
+三、把下面的句子改写为进行时态
+1. My brother plays football in the park.
+2. She goes to the cinema tonight.
+3. They walk to school every day.
+4. We have a test in the morning.
+5. The teacher explains the lesson to us.
+现在进行时练一练·参考答案
+一、动词ing改写
+walking talking moving driving
+running swimming dying lying
+carrying studying having playing
+writing setting sitting going
+flying shopping riding chatting
+二、填空题
+(1) is explaining (2) goes; is reading (3) is snowing
+(4) aren't playing; are playing (5) are listening; are working
+三、改写题
+1. My brother is playing football in the park.
+2. She is going to the cinema tonight.
+3. They are walking to school.
+4. We are having a test in the morning.
+5. The teacher is explaining the lesson to us.
